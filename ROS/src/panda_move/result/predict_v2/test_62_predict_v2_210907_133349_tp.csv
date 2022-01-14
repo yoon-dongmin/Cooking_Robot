@@ -1,0 +1,7 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/pan -> Place/pan/stove/cookware -> PickUp/bacon -> PutOn/bacon/pan/None -> Activate/stove/bacon,True,1.6378250122070312,1415
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.2965738773345947,325
+3,{'spread_on_garlic_bread1': 'relish'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/garlic_bread1/relish,True,0.04056096076965332,36
+4,{'ham_is_on': 'garlic_bread1'},3, -> Place/relish_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/garlic_bread1/None,True,0.055168867111206055,63
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.029520034790039062,28
+6,{'cheese_is_on': 'turkey'},0,,False,12.871434926986694,11565

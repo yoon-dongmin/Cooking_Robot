@@ -1,0 +1,17 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.077760934829712,1145
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,1.3654778003692627,1382
+3,{'mayonnaise_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/mayonnaise_bottle -> Pour/mayonnaise_bottle/bowl/mayonnaise,True,0.018373966217041016,19
+4,{'chopped_onion': True},5, -> Place/mayonnaise_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,12.5938880443573,12362
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0026900768280029297,3
+6,{'sugar_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/sugar_bottle -> Pour/sugar_bottle/bowl/sugar,True,0.03336310386657715,32
+7,{'pepper_is_in': 'bowl'},3, -> Place/sugar_bottle/table/ing_bottle -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.08169198036193848,98
+8,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.09365105628967285,96
+9,{'spread_on_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/bread1/spreader,True,0.10379600524902344,82
+10,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.004161834716796875,4
+11,{'tuna_spread_is_on': 'bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/bread1/scooper,True,0.015031099319458008,17
+12,{'chopped_lettuce': True},5, -> Place/scooper/table/tool -> PickUp/lettuce -> Place/lettuce/cutting_board/ingredient -> PickUp/knife -> Chop/lettuce/knife,True,0.5438261032104492,616
+13,{'lettuce_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_lettuce/tuna_spread/scooper,True,0.08494400978088379,78
+14,{'spread_on_lettuce': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_lettuce/salt,True,0.10225105285644531,110
+15,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/chopped_lettuce/sandwich,True,0.38993382453918457,295
+16,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,4.737095832824707,3360

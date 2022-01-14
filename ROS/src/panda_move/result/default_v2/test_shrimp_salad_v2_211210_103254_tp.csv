@@ -1,0 +1,17 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'olive_oil_is_in': 'bowl'},2, -> PickUp/olive_oil_bottle -> Pour/olive_oil_bottle/bowl/olive_oil,True,0.03265714645385742,45
+2,{'lemon_juice_is_in': 'bowl'},3, -> Place/olive_oil_bottle/table/ing_bottle -> PickUp/lemon_juice_bottle -> Pour/lemon_juice_bottle/bowl/lemon_juice,True,0.10932111740112305,142
+3,{'chopped_cilantro': True},5, -> Place/lemon_juice_bottle/table/ing_bottle -> PickUp/cilantro -> Place/cilantro/cutting_board/ingredient -> PickUp/knife -> Chop/cilantro/knife,True,11.014552116394043,12711
+4,{'cilantro_is_in': 'bowl'},1, -> Scrape/chopped_cilantro/bowl/knife,True,0.0026330947875976562,3
+5,{'chopped_shrimp': True},5, -> Place/knife/table/tool -> PickUp/shrimp -> Place/shrimp/cutting_board/ingredient -> PickUp/knife -> Chop/shrimp/knife,True,0.5989558696746826,754
+6,{'shrimp_is_in': 'bowl'},1, -> Scrape/chopped_shrimp/bowl/knife,True,0.0005362033843994141,2
+7,{'chopped_mango': True},5, -> Place/knife/table/tool -> PickUp/mango -> Place/mango/cutting_board/ingredient -> PickUp/knife -> Chop/mango/knife,True,1.6427810192108154,1930
+8,{'mango_is_in': 'bowl'},1, -> Scrape/chopped_mango/bowl/knife,True,0.0009739398956298828,2
+9,{'chopped_scallion': True},5, -> Place/knife/table/tool -> PickUp/scallion -> Place/scallion/cutting_board/ingredient -> PickUp/knife -> Chop/scallion/knife,True,1.932023048400879,2183
+10,{'scallion_is_in': 'bowl'},1, -> Scrape/chopped_scallion/bowl/knife,True,0.0006101131439208984,2
+11,{'chopped_banana': True},5, -> Place/knife/table/tool -> PickUp/banana -> Place/banana/cutting_board/ingredient -> PickUp/knife -> Chop/banana/knife,True,0.8446500301361084,961
+12,{'banana_is_in': 'bowl'},1, -> Scrape/chopped_banana/bowl/knife,True,0.002223968505859375,3
+13,{'walnut_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/walnut -> PutOn/walnut/bowl/None,True,0.027443885803222656,34
+14,{'black_pepper_is_in': 'bowl'},2, -> PickUp/black_pepper_bottle -> Pour/black_pepper_bottle/bowl/black_pepper,True,0.03837299346923828,54
+15,{'salt_is_in': 'bowl'},3, -> Place/black_pepper_bottle/table/ing_bottle -> PickUp/salt_bottle -> Pour/salt_bottle/bowl/salt,True,0.05302691459655762,80
+16,{'exist_salad': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/salad/spatula,True,0.1789100170135498,235

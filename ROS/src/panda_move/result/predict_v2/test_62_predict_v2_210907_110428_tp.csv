@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/bacon -> PutOn/bacon/pan/None -> PickUp/pan -> Place/pan/stove/cookware -> Activate/stove/bacon,True,1.6989409923553467,1797
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.8332569599151611,569
+3,{'spread_on_garlic_bread1': 'relish'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/garlic_bread1/relish,True,0.030752182006835938,30
+4,{'ham_is_on': 'garlic_bread1'},3, -> Place/relish_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/garlic_bread1/None,True,0.08604788780212402,110
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.015221118927001953,27
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.03446793556213379,27
+7,{'spread_on_garlic_bread2': 'relish'},2, -> PickUp/relish_bottle -> Pour/relish_bottle/garlic_bread2/relish,True,0.03487992286682129,22
+8,{'garlic_bread2_is_on': 'cheese'},3, -> Place/relish_bottle/table/ing_bottle -> PickUp/garlic_bread2 -> PutOn/garlic_bread2/cheese/None,True,0.07753396034240723,107
+9,{'bacon_is_on': 'garlic_bread2'},2, -> PickUp/bacon -> PutOn/bacon/garlic_bread2/None,True,0.021235942840576172,26
+10,{'escarole_is_on': 'bacon'},2, -> PickUp/escarole -> PutOn/escarole/bacon/None,True,0.03150606155395508,39
+11,{'tomato_is_on': 'escarole'},2, -> PickUp/scooper -> Scoop/chopped_tomato/escarole/scooper,True,0.022418975830078125,19
+12,{'exist_sandwich': True},0,,False,4.625773906707764,3624

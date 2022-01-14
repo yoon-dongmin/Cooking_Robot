@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,0.7239799499511719,876
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,0.9471330642700195,1248
+3,{'chili_sauce_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/bowl/chili_sauce,True,0.024814128875732422,31
+4,{'chopped_onion': True},5, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,3.632794141769409,4085
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0006041526794433594,2
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.026594877243041992,40
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.10968303680419922,127
+8,{'spread_on_garlic_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/garlic_bread1/spreader,True,0.02939009666442871,29
+9,{'spread_on_garlic_bread2': 'butter'},1, -> Spread/butter/garlic_bread2/spreader,True,0.0008590221405029297,2
+10,{'tuna_spread_is_on': 'garlic_bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/garlic_bread1/scooper,True,0.015480995178222656,19
+11,{'chopped_lettuce': True},5, -> Place/scooper/table/tool -> PickUp/lettuce -> Place/lettuce/cutting_board/ingredient -> PickUp/knife -> Chop/lettuce/knife,True,0.6736178398132324,711
+12,{'lettuce_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_lettuce/tuna_spread/scooper,True,0.07190799713134766,81
+13,{'spread_on_lettuce': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_lettuce/salt,True,0.09153103828430176,114
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/garlic_bread2 -> PutOn/garlic_bread2/chopped_lettuce/sandwich,True,0.20780515670776367,173
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,1.1035659313201904,836

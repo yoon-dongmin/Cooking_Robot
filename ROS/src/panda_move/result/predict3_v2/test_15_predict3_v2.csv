@@ -1,0 +1,17 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'olive_oil_is_in': 'bowl'},2, -> PickUp/olive_oil_bottle -> Pour/olive_oil_bottle/bowl/olive_oil,True,0.009684085845947266,17
+2,{'lemon_juice_is_in': 'bowl'},3, -> Place/olive_oil_bottle/table/ing_bottle -> PickUp/lemon_juice_bottle -> Pour/lemon_juice_bottle/bowl/lemon_juice,True,0.060086965560913086,102
+3,{'chopped_oregano': True},5, -> Place/lemon_juice_bottle/table/ing_bottle -> PickUp/oregano -> Place/oregano/cutting_board/ingredient -> PickUp/knife -> Chop/oregano/knife,True,1.7327518463134766,2248
+4,{'oregano_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_oregano/bowl/knife,True,1.2707798480987549,1701
+5,{'chopped_shrimp': True},5, -> Place/knife/table/tool -> PickUp/shrimp -> Place/shrimp/cutting_board/ingredient -> PickUp/knife -> Chop/shrimp/knife,True,1.4156289100646973,1810
+6,{'shrimp_is_in': 'bowl'},1, -> Scrape/chopped_shrimp/bowl/knife,True,0.001828908920288086,3
+7,{'chopped_scallion': True},5, -> Place/knife/table/tool -> PickUp/scallion -> Place/scallion/cutting_board/ingredient -> PickUp/knife -> Chop/scallion/knife,True,0.3045389652252197,447
+8,{'scallion_is_in': 'bowl'},1, -> Scrape/chopped_scallion/bowl/knife,True,0.002696990966796875,4
+9,{'chopped_avocado': True},5, -> Place/knife/table/tool -> PickUp/avocado -> Place/avocado/cutting_board/ingredient -> PickUp/knife -> Chop/avocado/knife,True,1.2989048957824707,1666
+10,{'avocado_is_in': 'bowl'},1, -> Scrape/chopped_avocado/bowl/knife,True,0.0010881423950195312,3
+11,{'peanut_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/peanut -> PutOn/peanut/bowl/None,True,0.037017822265625,47
+12,{'orange_pepper_is_in': 'bowl'},2, -> PickUp/orange_pepper -> PutOn/orange_pepper/bowl/None,True,0.04145407676696777,53
+13,{'salt_is_in': 'bowl'},2, -> PickUp/salt_bottle -> Pour/salt_bottle/bowl/salt,True,0.014693975448608398,23
+14,{'chopped_lettuce': True},5, -> Place/salt_bottle/table/ing_bottle -> PickUp/lettuce -> Place/lettuce/cutting_board/ingredient -> PickUp/knife -> Chop/lettuce/knife,True,1.9326720237731934,2463
+15,{'lettuce_is_in': 'bowl'},1, -> Scrape/chopped_lettuce/bowl/knife,True,0.0019299983978271484,3
+16,{'exist_salad': True},3, -> Place/knife/table/tool -> PickUp/spatula -> Stir/bowl/salad/spatula,True,0.03416609764099121,46

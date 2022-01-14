@@ -1,0 +1,12 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'olive_oil_is_in': 'bowl'},2, -> PickUp/olive_oil_bottle -> Pour/olive_oil_bottle/bowl/olive_oil,True,0.007604122161865234,15
+2,{'lemon_juice_is_in': 'bowl'},3, -> Place/olive_oil_bottle/table/ing_bottle -> PickUp/lemon_juice_bottle -> Pour/lemon_juice_bottle/bowl/lemon_juice,True,0.03859901428222656,52
+3,{'chopped_parsley': True},5, -> Place/lemon_juice_bottle/table/ing_bottle -> PickUp/parsley -> Place/parsley/cutting_board/ingredient -> PickUp/knife -> Chop/parsley/knife,True,4.151662826538086,4703
+4,{'parsley_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_parsley/bowl/knife,True,0.7892401218414307,816
+5,{'chopped_shrimp': True},5, -> Place/knife/table/tool -> PickUp/shrimp -> Place/shrimp/cutting_board/ingredient -> PickUp/knife -> Chop/shrimp/knife,True,0.9892210960388184,1205
+6,{'shrimp_is_in': 'bowl'},1, -> Scrape/chopped_shrimp/bowl/knife,True,0.0006039142608642578,2
+7,{'chopped_scallion': True},5, -> Place/knife/table/tool -> PickUp/scallion -> Place/scallion/cutting_board/ingredient -> PickUp/knife -> Chop/scallion/knife,True,0.8957228660583496,999
+8,{'scallion_is_in': 'bowl'},1, -> Scrape/chopped_scallion/bowl/knife,True,0.001146078109741211,3
+9,{'chopped_avocado': True},5, -> Place/knife/table/tool -> PickUp/avocado -> Place/avocado/cutting_board/ingredient -> PickUp/knife -> Chop/avocado/knife,True,0.9845330715179443,1127
+10,{'avocado_is_in': 'bowl'},1, -> Scrape/chopped_avocado/bowl/knife,True,0.0006639957427978516,2
+11,"{'peanut_is_in': 'bowl', 'chopped_spinach': True}",0,,False,3.293850898742676,3182

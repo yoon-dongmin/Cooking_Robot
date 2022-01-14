@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/bacon -> PutOn/bacon/pan/None -> PickUp/pan -> Place/pan/stove/cookware -> Activate/stove/bacon,True,1.8365478515625,3290
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.5631530284881592,973
+3,{'spread_on_matzo1': 'mustard'},3, -> Place/knife/table/tool -> PickUp/mustard_bottle -> Pour/mustard_bottle/matzo1/mustard,True,0.01718902587890625,32
+4,{'ham_is_on': 'matzo1'},3, -> Place/mustard_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/matzo1/None,True,0.038969993591308594,59
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.024532079696655273,37
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.011811971664428711,17
+7,{'spread_on_matzo2': 'mustard'},2, -> PickUp/mustard_bottle -> Pour/mustard_bottle/matzo2/mustard,True,0.021546125411987305,35
+8,{'matzo2_is_on': 'cheese'},3, -> Place/mustard_bottle/table/ing_bottle -> PickUp/matzo2 -> PutOn/matzo2/cheese/None,True,0.06453108787536621,108
+9,{'bacon_is_on': 'matzo2'},2, -> PickUp/bacon -> PutOn/bacon/matzo2/None,True,0.03813886642456055,48
+10,{'spinach_is_on': 'bacon'},2, -> PickUp/spinach -> PutOn/spinach/bacon/None,True,0.027849197387695312,37
+11,{'tomato_is_on': 'spinach'},2, -> PickUp/scooper -> Scoop/chopped_tomato/spinach/scooper,True,0.011113166809082031,18
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/matzo3 -> PutOn/matzo3/chopped_tomato/sandwich,True,0.03376007080078125,44

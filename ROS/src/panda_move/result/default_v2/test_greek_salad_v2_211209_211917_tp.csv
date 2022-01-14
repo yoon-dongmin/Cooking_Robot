@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_onion': True},4, -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,0.2615320682525635,538
+2,{'onion_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_onion/bowl/knife,True,0.06256294250488281,172
+3,{'chopped_cucumber': True},5, -> Place/knife/table/tool -> PickUp/cucumber -> Place/cucumber/cutting_board/ingredient -> PickUp/knife -> Chop/cucumber/knife,True,0.1179189682006836,282
+4,{'cucumber_is_in': 'bowl'},1, -> Scrape/chopped_cucumber/bowl/knife,True,0.0008831024169921875,3
+5,{'chopped_sweet_pepper': True},5, -> Place/knife/table/tool -> PickUp/sweet_pepper -> Place/sweet_pepper/cutting_board/ingredient -> PickUp/knife -> Chop/sweet_pepper/knife,True,0.37004804611206055,750
+6,{'chopped_feta_cheese': True},5, -> Place/knife/table/tool -> PickUp/feta_cheese -> Place/feta_cheese/cutting_board/ingredient -> PickUp/knife -> Chop/feta_cheese/knife,True,0.1647179126739502,379
+7,{'sweet_pepper_is_in': 'bowl'},1, -> Scrape/chopped_sweet_pepper/bowl/knife,True,0.0013360977172851562,3
+8,{'feta_cheese_is_in': 'bowl'},1, -> Scrape/chopped_feta_cheese/bowl/knife,True,0.0009520053863525391,3
+9,{'oregano_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/oregano -> PutOn/oregano/bowl/None,True,0.0046808719635009766,15
+10,{'black_olive_is_in': 'bowl'},2, -> PickUp/black_olive -> PutOn/black_olive/bowl/None,True,0.016704082489013672,34
+11,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.11840105056762695,303
+12,{'tomato_is_in': 'bowl'},1, -> Scrape/chopped_tomato/bowl/knife,True,0.0004839897155761719,2
+13,{'chopped_potato': True},5, -> Place/knife/table/tool -> PickUp/potato -> Place/potato/cutting_board/ingredient -> PickUp/knife -> Chop/potato/knife,True,0.26686978340148926,673
+14,{'potato_is_in': 'bowl'},1, -> Scrape/chopped_potato/bowl/knife,True,0.0008800029754638672,3
+15,{'exist_salad': True},3, -> Place/knife/table/tool -> PickUp/spatula -> Stir/bowl/salad/spatula,True,0.007384061813354492,18

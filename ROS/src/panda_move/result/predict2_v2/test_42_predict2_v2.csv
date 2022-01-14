@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.585683822631836,1840
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,1.1098711490631104,1252
+3,{'relish_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/bowl/relish,True,0.03606986999511719,46
+4,{'chopped_onion': True},5, -> Place/relish_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,3.505265951156616,3908
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0012049674987792969,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.025187969207763672,38
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.1369161605834961,136
+8,{'spread_on_matzo1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/matzo1/spreader,True,0.05404996871948242,53
+9,{'spread_on_matzo2': 'butter'},1, -> Spread/butter/matzo2/spreader,True,0.0016489028930664062,3
+10,{'tuna_spread_is_on': 'matzo1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/matzo1/scooper,True,0.03635692596435547,42
+11,{'chopped_spinach': True},5, -> Place/scooper/table/tool -> PickUp/spinach -> Place/spinach/cutting_board/ingredient -> PickUp/knife -> Chop/spinach/knife,True,1.3626880645751953,1360
+12,{'spinach_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_spinach/tuna_spread/scooper,True,0.11381196975708008,70
+13,{'spread_on_spinach': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_spinach/salt,True,0.07175493240356445,91
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/matzo2 -> PutOn/matzo2/chopped_spinach/sandwich,True,0.11698389053344727,91
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,3.419857978820801,2668

@@ -1,0 +1,29 @@
+[rospy.client][INFO] 2021-09-07 13:09:03,123: init_node, name[/joint_state_publisher], pid[19269]
+[xmlrpc][INFO] 2021-09-07 13:09:03,123: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-09-07 13:09:03,123: Started XML-RPC server [http://wng:33381/]
+[rospy.init][INFO] 2021-09-07 13:09:03,123: ROS Slave URI: [http://wng:33381/]
+[rospy.impl.masterslave][INFO] 2021-09-07 13:09:03,123: _ready: http://wng:33381/
+[xmlrpc][INFO] 2021-09-07 13:09:03,124: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-09-07 13:09:03,124: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-09-07 13:09:03,224: registered with master
+[rospy.rosout][INFO] 2021-09-07 13:09:03,224: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-09-07 13:09:03,226: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-09-07 13:09:03,226: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-09-07 13:09:03,288: topic[/move_group/fake_controller_joint_states] adding connection to [http://wng:38367/], count 0
+[rospy.internal][INFO] 2021-09-07 13:09:03,461: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-09-07 13:09:03,462: topic[/joint_states] adding connection to [/joint_state_desired_publisher], count 0
+[rospy.internal][INFO] 2021-09-07 13:09:03,462: topic[/joint_states] adding connection to [/robot_state_publisher], count 1
+[rospy.internal][INFO] 2021-09-07 13:12:24,689: topic[/joint_states] adding connection to [/move_group_commander_wrappers_1630987747969190550], count 2
+[rospy.core][INFO] 2021-09-07 13:13:47,169: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-09-07 13:13:47,171: topic[/joint_states] removing connection to /joint_state_desired_publisher
+[rospy.internal][INFO] 2021-09-07 13:13:47,172: topic[/joint_states] removing connection to /robot_state_publisher
+[rospy.internal][INFO] 2021-09-07 13:13:47,177: topic[/joint_states] removing connection to /move_group_commander_wrappers_1630987747969190550
+[rospy.internal][INFO] 2021-09-07 13:13:47,177: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-09-07 13:13:47,177: topic[/move_group/fake_controller_joint_states] removing connection to http://wng:38367/
+[rospy.impl.masterslave][INFO] 2021-09-07 13:13:47,178: signal-2
+[rospy.internal][WARNING] 2021-09-07 13:13:47,178: Unknown error initiating TCP/IP socket to wng:43035 (http://wng:38367/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-09-07 13:13:47,281: signal_shutdown [atexit]

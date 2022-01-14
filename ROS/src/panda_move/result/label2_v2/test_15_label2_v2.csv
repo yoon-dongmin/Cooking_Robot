@@ -1,0 +1,17 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'olive_oil_is_in': 'bowl'},2, -> PickUp/olive_oil_bottle -> Pour/olive_oil_bottle/bowl/olive_oil,True,0.017060041427612305,27
+2,{'lemon_juice_is_in': 'bowl'},3, -> Place/olive_oil_bottle/table/ing_bottle -> PickUp/lemon_juice_bottle -> Pour/lemon_juice_bottle/bowl/lemon_juice,True,0.03117203712463379,41
+3,{'chopped_coriander': True},5, -> Place/lemon_juice_bottle/table/ing_bottle -> PickUp/coriander -> Place/coriander/cutting_board/ingredient -> PickUp/knife -> Chop/coriander/knife,True,4.338408946990967,5460
+4,{'coriander_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_coriander/bowl/knife,True,1.5020570755004883,1928
+5,{'chopped_shrimp': True},5, -> Place/knife/table/tool -> PickUp/shrimp -> Place/shrimp/cutting_board/ingredient -> PickUp/knife -> Chop/shrimp/knife,True,0.547105073928833,611
+6,{'shrimp_is_in': 'bowl'},1, -> Scrape/chopped_shrimp/bowl/knife,True,0.0019898414611816406,3
+7,{'chopped_scallion': True},5, -> Place/knife/table/tool -> PickUp/scallion -> Place/scallion/cutting_board/ingredient -> PickUp/knife -> Chop/scallion/knife,True,1.1813740730285645,1458
+8,{'scallion_is_in': 'bowl'},1, -> Scrape/chopped_scallion/bowl/knife,True,0.0006229877471923828,2
+9,{'chopped_avocado': True},5, -> Place/knife/table/tool -> PickUp/avocado -> Place/avocado/cutting_board/ingredient -> PickUp/knife -> Chop/avocado/knife,True,1.2063050270080566,1474
+10,{'avocado_is_in': 'bowl'},1, -> Scrape/chopped_avocado/bowl/knife,True,0.002504110336303711,4
+11,{'peanut_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/peanut -> PutOn/peanut/bowl/None,True,0.02549290657043457,28
+12,{'orange_pepper_is_in': 'bowl'},2, -> PickUp/orange_pepper -> PutOn/orange_pepper/bowl/None,True,0.01583409309387207,18
+13,{'salt_is_in': 'bowl'},2, -> PickUp/salt_bottle -> Pour/salt_bottle/bowl/salt,True,0.027519941329956055,41
+14,{'chopped_broccoli': True},5, -> Place/salt_bottle/table/ing_bottle -> PickUp/broccoli -> Place/broccoli/cutting_board/ingredient -> PickUp/knife -> Chop/broccoli/knife,True,5.234206199645996,6484
+15,{'broccoli_is_in': 'bowl'},1, -> Scrape/chopped_broccoli/bowl/knife,True,0.001984119415283203,3
+16,{'exist_salad': True},3, -> Place/knife/table/tool -> PickUp/spatula -> Stir/bowl/salad/spatula,True,0.05271482467651367,53

@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.7278120517730713,1553
+2,{'tuna_is_in': 'bowl'},1, -> Scrape/chopped_tuna/bowl/knife,True,0.0009319782257080078,2
+3,{'mayonnaise_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/mayonnaise_bottle -> Pour/mayonnaise_bottle/bowl/mayonnaise,True,0.01238107681274414,21
+4,{'chopped_onion': True},5, -> Place/mayonnaise_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,2.554184913635254,2501
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0013899803161621094,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.015692949295043945,28
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.13014698028564453,109
+8,{'spread_on_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/bread1/spreader,True,0.05610299110412598,72
+9,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.008604049682617188,6
+10,{'tuna_spread_is_on': 'bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/bread1/scooper,True,0.012475013732910156,21
+11,{'chopped_cabbage': True},5, -> Place/scooper/table/tool -> PickUp/cabbage -> Place/cabbage/cutting_board/ingredient -> PickUp/knife -> Chop/cabbage/knife,True,0.9170219898223877,784
+12,{'cabbage_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_cabbage/tuna_spread/scooper,True,0.09104800224304199,63
+13,{'spread_on_cabbage': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_cabbage/salt,True,0.03835296630859375,40
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/chopped_cabbage/sandwich,True,0.3415849208831787,206
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,3.3085989952087402,2137

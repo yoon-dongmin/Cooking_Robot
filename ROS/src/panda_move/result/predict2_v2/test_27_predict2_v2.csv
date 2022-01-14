@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,0.6325070858001709,791
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,0.664525032043457,853
+3,{'mustard_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/mustard_bottle -> Pour/mustard_bottle/bowl/mustard,True,0.037683963775634766,45
+4,{'chopped_onion': True},5, -> Place/mustard_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,3.8353400230407715,4477
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0020608901977539062,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.03208494186401367,42
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.09110116958618164,125
+8,{'spread_on_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/bread1/spreader,True,0.0670168399810791,65
+9,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.006702899932861328,6
+10,{'tuna_spread_is_on': 'bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/bread1/scooper,True,0.050373077392578125,44
+11,{'chopped_escarole': True},5, -> Place/scooper/table/tool -> PickUp/escarole -> Place/escarole/cutting_board/ingredient -> PickUp/knife -> Chop/escarole/knife,True,1.0820930004119873,1027
+12,{'escarole_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_escarole/tuna_spread/scooper,True,0.0313410758972168,29
+13,{'spread_on_escarole': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_escarole/salt,True,0.09567904472351074,112
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/chopped_escarole/sandwich,True,0.14590907096862793,116
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,2.249790906906128,1756

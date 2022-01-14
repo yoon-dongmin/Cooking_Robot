@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/pan -> Place/pan/stove/cookware -> PickUp/bacon -> PutOn/bacon/pan/None -> Activate/stove/bacon,True,2.3139870166778564,3670
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.41804981231689453,544
+3,{'spread_on_bread1': 'relish'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/bread1/relish,True,0.006414175033569336,14
+4,{'ham_is_on': 'bread1'},3, -> Place/relish_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/bread1/None,True,0.09818315505981445,122
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.04613208770751953,50
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.023428916931152344,32
+7,{'spread_on_bread2': 'relish'},2, -> PickUp/relish_bottle -> Pour/relish_bottle/bread2/relish,True,0.028151988983154297,38
+8,{'bread2_is_on': 'cheese'},3, -> Place/relish_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/cheese/None,True,0.05358600616455078,78
+9,{'bacon_is_on': 'bread2'},2, -> PickUp/bacon -> PutOn/bacon/bread2/None,True,0.035948991775512695,44
+10,{'celery_is_on': 'bacon'},2, -> PickUp/celery -> PutOn/celery/bacon/None,True,0.035198211669921875,44
+11,{'tomato_is_on': 'celery'},2, -> PickUp/scooper -> Scoop/chopped_tomato/celery/scooper,True,0.03294706344604492,42
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/bread3 -> PutOn/bread3/chopped_tomato/sandwich,True,0.06340408325195312,80

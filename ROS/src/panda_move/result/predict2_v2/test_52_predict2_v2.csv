@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/bacon -> PutOn/bacon/pan/None -> PickUp/pan -> Place/pan/stove/cookware -> Activate/stove/bacon,True,1.6102831363677979,2809
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.6889970302581787,1006
+3,{'spread_on_loaf1': 'chili_sauce'},3, -> Place/knife/table/tool -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/loaf1/chili_sauce,True,0.02531290054321289,36
+4,{'ham_is_on': 'loaf1'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/loaf1/None,True,0.05410194396972656,81
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.010176897048950195,16
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.036496877670288086,39
+7,{'spread_on_loaf2': 'chili_sauce'},2, -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/loaf2/chili_sauce,True,0.01767897605895996,31
+8,{'loaf2_is_on': 'cheese'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/loaf2 -> PutOn/loaf2/cheese/None,True,0.039730072021484375,55
+9,{'bacon_is_on': 'loaf2'},2, -> PickUp/bacon -> PutOn/bacon/loaf2/None,True,0.03339195251464844,30
+10,{'cabbage_is_on': 'bacon'},2, -> PickUp/cabbage -> PutOn/cabbage/bacon/None,True,0.022266864776611328,24
+11,{'tomato_is_on': 'cabbage'},2, -> PickUp/scooper -> Scoop/chopped_tomato/cabbage/scooper,True,0.02014899253845215,26
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/loaf3 -> PutOn/loaf3/chopped_tomato/sandwich,True,0.10011100769042969,121

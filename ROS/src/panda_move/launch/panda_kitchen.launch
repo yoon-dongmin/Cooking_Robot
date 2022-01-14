@@ -1,0 +1,6 @@
+<launch>
+    <rosparam file="$(find panda_move)/config/params.yaml" command="load"/>
+    <node name="server_endpoint" pkg="panda_move" type="server_endpoint.py" args="--wait" output="screen" respawn="true"/>
+    <node name="PandaMove" pkg="panda_move" type="main.py" args="--wait" output="screen"/>
+    <include file="$(find panda_moveit_config)/launch/demo.launch"/>
+</launch>

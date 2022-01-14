@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/pan -> Place/pan/stove/cookware -> PickUp/bacon -> PutOn/bacon/pan/None -> Activate/stove/bacon,True,1.151413917541504,2055
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.5078201293945312,827
+3,{'spread_on_bread1': 'chili_sauce'},3, -> Place/knife/table/tool -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/bread1/chili_sauce,True,0.006639003753662109,14
+4,{'ham_is_on': 'bread1'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/bread1/None,True,0.04549694061279297,65
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.028983116149902344,39
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.03479290008544922,36
+7,{'spread_on_bread2': 'chili_sauce'},2, -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/bread2/chili_sauce,True,0.00577998161315918,14
+8,{'bread2_is_on': 'cheese'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/cheese/None,True,0.04952502250671387,62
+9,{'bacon_is_on': 'bread2'},2, -> PickUp/bacon -> PutOn/bacon/bread2/None,True,0.012968063354492188,15
+10,{'broccoli_is_on': 'bacon'},2, -> PickUp/broccoli -> PutOn/broccoli/bacon/None,True,0.03882002830505371,48
+11,{'tomato_is_on': 'broccoli'},2, -> PickUp/scooper -> Scoop/chopped_tomato/broccoli/scooper,True,0.029636144638061523,41
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/bread3 -> PutOn/bread3/chopped_tomato/sandwich,True,0.04553794860839844,54

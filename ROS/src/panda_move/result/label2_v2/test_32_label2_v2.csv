@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,0.7731690406799316,875
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,1.1637611389160156,1592
+3,{'relish_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/bowl/relish,True,0.026865005493164062,44
+4,{'chopped_onion': True},5, -> Place/relish_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,2.884018898010254,3573
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.001961946487426758,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.023730993270874023,29
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.10878896713256836,142
+8,{'spread_on_loaf1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/loaf1/spreader,True,0.10602188110351562,73
+9,{'spread_on_loaf2': 'butter'},1, -> Spread/butter/loaf2/spreader,True,0.0012450218200683594,2
+10,{'tuna_spread_is_on': 'loaf1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/loaf1/scooper,True,0.04697299003601074,52
+11,{'chopped_green': True},5, -> Place/scooper/table/tool -> PickUp/green -> Place/green/cutting_board/ingredient -> PickUp/knife -> Chop/green/knife,True,0.8797698020935059,1046
+12,{'green_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_green/tuna_spread/scooper,True,0.04399895668029785,55
+13,{'spread_on_green': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_green/salt,True,0.11300802230834961,121
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/loaf2 -> PutOn/loaf2/chopped_green/sandwich,True,0.1956939697265625,172
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,1.735901117324829,1519

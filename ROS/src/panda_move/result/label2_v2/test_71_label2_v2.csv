@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_onion': True},4, -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,0.2834610939025879,536
+2,{'onion_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_onion/bowl/knife,True,0.22838091850280762,513
+3,{'chopped_chili_pepper': True},5, -> Place/knife/table/tool -> PickUp/chili_pepper -> Place/chili_pepper/cutting_board/ingredient -> PickUp/knife -> Chop/chili_pepper/knife,True,0.34939098358154297,721
+4,{'chopped_cheese': True},5, -> Place/knife/table/tool -> PickUp/cheese -> Place/cheese/cutting_board/ingredient -> PickUp/knife -> Chop/cheese/knife,True,0.2401130199432373,489
+5,{'chili_pepper_is_in': 'bowl'},1, -> Scrape/chopped_chili_pepper/bowl/knife,True,0.001962900161743164,4
+6,{'cheese_is_in': 'bowl'},1, -> Scrape/chopped_cheese/bowl/knife,True,0.0004100799560546875,2
+7,{'black_olive_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/black_olive -> PutOn/black_olive/bowl/None,True,0.005930185317993164,16
+8,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.21804499626159668,458
+9,{'tomato_is_in': 'bowl'},1, -> Scrape/chopped_tomato/bowl/knife,True,0.0003769397735595703,2
+10,{'chopped_broccoli': True},5, -> Place/knife/table/tool -> PickUp/broccoli -> Place/broccoli/cutting_board/ingredient -> PickUp/knife -> Chop/broccoli/knife,True,0.26570987701416016,382
+11,{'broccoli_is_in': 'bowl'},1, -> Scrape/chopped_broccoli/bowl/knife,True,0.0006608963012695312,3
+12,{'exist_salad': True},3, -> Place/knife/table/tool -> PickUp/spatula -> Stir/bowl/salad/spatula,True,0.008987903594970703,25

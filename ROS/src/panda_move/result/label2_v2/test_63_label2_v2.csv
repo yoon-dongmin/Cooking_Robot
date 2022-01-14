@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/pan -> Place/pan/stove/cookware -> PickUp/bacon -> PutOn/bacon/pan/None -> Activate/stove/bacon,True,0.8265571594238281,1385
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.6225090026855469,977
+3,{'spread_on_bread_toast1': 'mustard'},3, -> Place/knife/table/tool -> PickUp/mustard_bottle -> Pour/mustard_bottle/bread_toast1/mustard,True,0.019982099533081055,36
+4,{'ham_is_on': 'bread_toast1'},3, -> Place/mustard_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/bread_toast1/None,True,0.051963090896606445,80
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.02507615089416504,29
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.02790093421936035,37
+7,{'spread_on_bread_toast2': 'mustard'},2, -> PickUp/mustard_bottle -> Pour/mustard_bottle/bread_toast2/mustard,True,0.015465021133422852,21
+8,{'bread_toast2_is_on': 'cheese'},3, -> Place/mustard_bottle/table/ing_bottle -> PickUp/bread_toast2 -> PutOn/bread_toast2/cheese/None,True,0.06766796112060547,76
+9,{'bacon_is_on': 'bread_toast2'},2, -> PickUp/bacon -> PutOn/bacon/bread_toast2/None,True,0.025098085403442383,32
+10,{'cabbage_is_on': 'bacon'},2, -> PickUp/cabbage -> PutOn/cabbage/bacon/None,True,0.02638697624206543,29
+11,{'tomato_is_on': 'cabbage'},2, -> PickUp/scooper -> Scoop/chopped_tomato/cabbage/scooper,True,0.03127002716064453,43
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/bread_toast3 -> PutOn/bread_toast3/chopped_tomato/sandwich,True,0.04325699806213379,58

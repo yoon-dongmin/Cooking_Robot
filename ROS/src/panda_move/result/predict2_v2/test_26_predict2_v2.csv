@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.440765142440796,1608
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,0.31986117362976074,417
+3,{'relish_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/bowl/relish,True,0.03641200065612793,38
+4,{'chopped_onion': True},5, -> Place/relish_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,6.075290203094482,6825
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0011639595031738281,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.0336148738861084,42
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.10236215591430664,108
+8,{'spread_on_matzo1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/matzo1/spreader,True,0.02124786376953125,23
+9,{'spread_on_matzo2': 'butter'},1, -> Spread/butter/matzo2/spreader,True,0.00494694709777832,6
+10,{'tuna_spread_is_on': 'matzo1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/matzo1/scooper,True,0.0321500301361084,36
+11,{'chopped_green': True},5, -> Place/scooper/table/tool -> PickUp/green -> Place/green/cutting_board/ingredient -> PickUp/knife -> Chop/green/knife,True,0.9342889785766602,1007
+12,{'green_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_green/tuna_spread/scooper,True,0.04915308952331543,59
+13,{'spread_on_green': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_green/salt,True,0.0918428897857666,112
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/matzo2 -> PutOn/matzo2/chopped_green/sandwich,True,0.2582550048828125,226
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,1.4879839420318604,1289

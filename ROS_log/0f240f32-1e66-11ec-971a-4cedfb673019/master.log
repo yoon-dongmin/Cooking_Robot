@@ -1,0 +1,795 @@
+[rosmaster.main][INFO] 2021-09-26 10:07:03,824: initialization complete, waiting for shutdown
+[rosmaster.main][INFO] 2021-09-26 10:07:03,824: Starting ROS Master Node
+[xmlrpc][INFO] 2021-09-26 10:07:03,824: XML-RPC server binding to 0.0.0.0:11311
+[xmlrpc][INFO] 2021-09-26 10:07:03,825: Started XML-RPC server [http://wng:11311/]
+[xmlrpc][INFO] 2021-09-26 10:07:03,825: xml rpc node: starting XML-RPC server
+[rosmaster.master][INFO] 2021-09-26 10:07:03,825: Master initialized: port[11311], uri[http://wng:11311/]
+[rosmaster.master][INFO] 2021-09-26 10:07:03,886: +PARAM [/run_id] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,886: +PARAM [/roslaunch/uris/host_wng__39313] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,930: +SERVICE [/rosout/get_loggers] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:03,930: +SERVICE [/rosout/set_logger_level] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:03,931: +PUB [/rosout_agg] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:03,932: +SUB [/rosout] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/RRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/panda_arm/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/robot_description_semantic] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/stretch_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/robot_description_planning/joint_limits/panda_joint3/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/max_degree] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/sparse_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/FMTkConfigDefault/radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/controller_list] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/cache_cc] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,976: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/max_safe_path_cost] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/sparse_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/hand/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/octomap_frame] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/PRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/BiESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/ESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint2/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/max_failures] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/frountier_node_ratio] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/PRMkConfigDefault/max_nearest_neighbors] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/cost_threshold] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/robot_description_kinematics/panda_arm/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/move_group/planner_configs/FMTkConfigDefault/cache_cc] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,977: +PARAM [/robot_description_planning/joint_limits/panda_joint2/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_joint5/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/FMTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/epsilon] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/LazyPRMkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/min_degree] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/max_states_failed] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/SBLkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint2/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/rviz_wng_28459_8466807832085763986/panda_arm/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_joint6/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountierNodeRatio] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_joint3/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planning_plugin] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_joint7/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/LazyPRMkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/robot_description_planning/joint_limits/panda_joint5/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,978: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/max_failures] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/PDSTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/rosdistro] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_planning/joint_limits/panda_joint1/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/max_pts_per_leaf] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/nearest_k] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/LazyPRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_kinematics/panda_arm/kinematics_solver_timeout] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/PRMstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/RRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/allow_trajectory_execution] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/stretch_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/ROS_IP] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/ESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_planning/joint_limits/panda_joint4/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/start_state_max_bounds_error] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint2/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/max_range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_kinematics/panda_arm/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_planning/joint_limits/panda_joint2/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,979: +PARAM [/robot_description_planning/joint_limits/panda_joint7/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/robot_description_planning/joint_limits/panda_joint5/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/joint_state_publisher/use_gui] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/robot_description_planning/joint_limits/panda_joint7/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/robot_description_planning/joint_limits/panda_joint6/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/robot_description_planning/joint_limits/panda_joint3/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/moveit_manage_controllers] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/panda_arm_hand/planner_configs] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/FMTkConfigDefault/heuristics] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/optimality] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/robot_description_planning/joint_limits/panda_joint2/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/FMTkConfigDefault/nearest_k] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/ESTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/radius_multiplier] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/border_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/jiggle_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/dense_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/num_samples] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,980: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/temp_change_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_joint1/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/SBLkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint1/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/FMTkConfigDefault/extended_fmt] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_joint5/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint1/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/rviz_wng_28459_8466807832085763986/panda_arm/kinematics_solver] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/rviz_wng_28459_8466807832085763986/panda_arm/kinematics_solver_search_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/moveit_controller_manager] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_joint1/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/frountier_threshold] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/heuristics] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint1/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/robot_description_planning/joint_limits/panda_joint7/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,981: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_joint4/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/request_adapters] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/min_temperature] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_joint6/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/balanced] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/ProjESTkConfigDefault/range] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/octomap_resolution] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/degree] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/initial] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/init_temperature] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/sensors] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_joint1/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/TrajOptDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/RRTstarkConfigDefault/delay_collision_checking] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/KPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_joint3/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_joint6/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/BiTRRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint2/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,982: +PARAM [/move_group/planner_configs/RRTConnectkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/SPARSkConfigDefault/dense_delta_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/LBTRRTkConfigDefault/goal_bias] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/robot_description_planning/joint_limits/panda_finger_joint1/max_acceleration] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/BKPIECEkConfigDefault/failed_expansion_score_factor] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/min_valid_path_fraction] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/rosversion] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/BiESTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/robot_description_planning/joint_limits/panda_joint2/has_velocity_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/estimated_dimension] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/STRIDEkConfigDefault/use_projected_distance] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/TRRTkConfigDefault/k_constant] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/FMTkConfigDefault/num_samples] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/LBKPIECEkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/BFMTkConfigDefault/extended_fmt] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/robot_description_planning/joint_limits/panda_joint4/max_velocity] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/robot_description_planning/joint_limits/panda_joint4/has_acceleration_limits] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/SPARStwokConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/move_group/planner_configs/RRTkConfigDefault/type] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:03,983: +PARAM [/source_list] by /roslaunch
+[rosmaster.master][INFO] 2021-09-26 10:07:04,026: +PUB [/rosout] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,026: +SERVICE [/joint_state_desired_publisher/get_loggers] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,027: +SERVICE [/joint_state_desired_publisher/set_logger_level] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,029: +SUB [/joint_states] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,039: +PUB [/rosout] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,040: +SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,040: +SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,042: +PUB [/tf] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,042: +PUB [/tf_static] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,044: +SUB [/joint_states] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,070: +PUB [/rosout] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,070: +SERVICE [/move_group/get_loggers] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,070: +SERVICE [/move_group/set_logger_level] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,071: +SUB [/tf] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,072: +SUB [/tf_static] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,075: +CACHEDPARAM [/rosout_disable_topics_generation] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,125: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,126: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,126: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,127: +SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,127: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,127: +PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,127: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,128: +PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,128: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,129: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,129: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,129: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,129: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,129: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,130: +PUB [/move_group/monitored_planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,130: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,130: +PARAM [/move_group/planning_scene_monitor/publish_planning_scene_hz] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,130: +PARAM [/move_group/planning_scene_monitor/publish_geometry_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,131: +PARAM [/move_group/planning_scene_monitor/publish_state_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,131: +PARAM [/move_group/planning_scene_monitor/publish_transforms_updates] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,132: +SUB [/planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,133: +SUB [/collision_object] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,134: +SUB [/planning_scene_world] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,137: +PUB [/move_group/filtered_cloud] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,138: +SERVICE [/move_group/save_map] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,138: +SERVICE [/move_group/load_map] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,141: +SUB [/camera/depth_registered/points] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,142: +SUB [/joint_states_desired] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,142: +SUB [/attached_collision_object] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,175: +SERVICE [/move_group/ompl/set_parameters] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,175: +PUB [/move_group/ompl/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,175: +PUB [/move_group/ompl/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,176: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,177: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,177: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,177: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,177: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,177: +PARAM [/move_group/ompl/simplify_solutions] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,178: +PARAM [/move_group/ompl/minimum_waypoint_count] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,178: +PARAM [/move_group/ompl/maximum_waypoint_distance] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,178: +PARAM [/move_group/ompl/link_for_exploration_tree] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,178: +PARAM [/move_group/ompl/display_random_valid_states] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,184: +PUB [/move_group/display_planned_path] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,184: +PUB [/move_group/display_contacts] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,188: +PUB [/move_group/fake_controller_joint_states] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,195: +PUB [/rosout] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,195: +SERVICE [/rviz_wng_28459_8466807832085763986/get_loggers] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,196: +SERVICE [/rviz_wng_28459_8466807832085763986/set_logger_level] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,197: +CACHEDPARAM [/rosout_disable_topics_generation] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:04,215: +SUB [/trajectory_execution_event] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,215: +SERVICE [/move_group/trajectory_execution/set_parameters] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,215: +PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,216: +PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,217: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,218: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,218: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,218: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,219: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,219: +PARAM [/move_group/trajectory_execution/wait_for_trajectory_completion] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,219: +PARAM [/move_group/trajectory_execution/execution_duration_monitoring] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,219: +PARAM [/move_group/trajectory_execution/allowed_execution_duration_scaling] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,220: +PARAM [/move_group/trajectory_execution/allowed_goal_duration_margin] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,220: +PARAM [/move_group/trajectory_execution/execution_velocity_scaling] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,220: +PARAM [/move_group/trajectory_execution/allowed_start_tolerance] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,221: +PARAM [/move_group/trajectory_execution/wait_for_trajectory_completion] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,221: +SERVICE [/move_group/plan_execution/set_parameters] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,221: +PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,221: +PUB [/move_group/plan_execution/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,222: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,222: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,222: +PARAM [/move_group/plan_execution/max_replan_attempts] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,223: +PARAM [/move_group/plan_execution/record_trajectory_state_frequency] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,223: +SERVICE [/move_group/sense_for_plan/set_parameters] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,223: +PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,223: +PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,224: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,224: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,224: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,225: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,225: +PARAM [/move_group/sense_for_plan/max_safe_path_cost] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,225: +PARAM [/move_group/sense_for_plan/max_look_attempts] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,225: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,225: +PARAM [/move_group/sense_for_plan/max_cost_sources] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,226: +PARAM [/move_group/sense_for_plan/discard_overlapping_cost_sources] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:04,226: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,226: +PUB [/move_group/display_cost_sources] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,227: +PUB [/move_group/motion_plan_request] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,232: +SERVICE [/apply_planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,232: +SERVICE [/clear_octomap] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,232: +SERVICE [/compute_cartesian_path] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,233: +PUB [/execute_trajectory/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,233: +PUB [/execute_trajectory/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,234: +PUB [/execute_trajectory/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,235: +SUB [/execute_trajectory/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,236: +SUB [/execute_trajectory/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,236: +SERVICE [/get_planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,237: +SERVICE [/compute_fk] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,237: +SERVICE [/compute_ik] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,237: +PUB [/move_group/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,238: +PUB [/move_group/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,238: +PUB [/move_group/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,239: +SUB [/move_group/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,240: +SUB [/move_group/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,244: +PUB [/move_group/display_grasp_markers] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,244: +PUB [/pickup/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,244: +PUB [/pickup/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,245: +PUB [/pickup/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,246: +SUB [/pickup/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,247: +SUB [/pickup/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,248: +PUB [/place/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,248: +PUB [/place/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,248: +PUB [/place/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,249: +SUB [/place/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,250: +SUB [/place/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,251: +SERVICE [/plan_kinematic_path] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,251: +SERVICE [/query_planner_interface] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,251: +SERVICE [/get_planner_params] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,251: +SERVICE [/set_planner_params] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,252: +SERVICE [/check_state_validity] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,327: +CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.master][INFO] 2021-09-26 10:07:04,358: +PUB [/rosout] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,361: +SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,361: +SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,375: +SUB [/move_group/fake_controller_joint_states] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,375: +PUB [/joint_states] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,426: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,426: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,426: publisherUpdate[/joint_states] -> http://wng:44613/ ['http://wng:46305/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,427: publisherUpdate[/joint_states] -> http://wng:41631/ ['http://wng:46305/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,427: publisherUpdate[/joint_states] -> http://wng:44613/ ['http://wng:46305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,427: publisherUpdate[/joint_states] -> http://wng:41631/ ['http://wng:46305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,632: +SUB [/tf] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,633: +SUB [/tf_static] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,659: +PUB [/initialpose] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,661: +PUB [/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,678: +PUB [/joint_states_desired] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,678: +CACHEDPARAM [/rosout_disable_topics_generation] by /joint_state_desired_publisher
+[rosmaster.master][INFO] 2021-09-26 10:07:04,707: +SUB [/visualization_marker] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,709: +SUB [/visualization_marker_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,709: -SUB [/visualization_marker] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,709: -SUB [/visualization_marker_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,710: +SUB [/action] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,711: +SUB [/action_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,720: +PUB [/planning_scene] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,720: +PUB [/planning_scene_world] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,722: +SUB [/recognize_objects/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,722: +SUB [/recognize_objects/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,723: +SUB [/recognize_objects/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,723: +PUB [/recognize_objects/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,724: +PUB [/recognize_objects/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,725: +SUB [/recognized_object_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,727: publisherUpdate[/joint_states_desired] -> http://wng:34541/ ['http://wng:44613/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,728: publisherUpdate[/joint_states_desired] -> http://wng:34541/ ['http://wng:44613/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,728: publisherUpdate[/planning_scene] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,728: publisherUpdate[/planning_scene] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,728: publisherUpdate[/planning_scene_world] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,729: publisherUpdate[/planning_scene_world] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,822: +PUB [/rosout] /PandaMove http://wng:44131/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,824: +SERVICE [/PandaMove/get_loggers] /PandaMove http://wng:44131/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,825: +SERVICE [/PandaMove/set_logger_level] /PandaMove http://wng:44131/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,828: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:44131/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,829: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:44131/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:04,833: +PUB [/rosout] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,835: +SERVICE [/server_endpoint/get_loggers] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,835: +SERVICE [/server_endpoint/set_logger_level] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,836: +SERVICE [/init_sync] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,837: +SERVICE [/scene_sync] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,838: +SERVICE [/panda_plan] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,838: +SERVICE [/hand_sync] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,839: +SERVICE [/motion_check] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,840: +SUB [/execution_check] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:04,841: +CACHEDPARAM [/rosout_disable_topics_generation] by /server_endpoint
+[rosmaster.master][INFO] 2021-09-26 10:07:04,878: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,879: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,879: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,880: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,880: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,881: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,881: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,881: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,882: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,882: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,883: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,883: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,884: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,884: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,885: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,885: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,886: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,886: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,887: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,887: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,888: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,888: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,889: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,889: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,890: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,890: +CACHEDPARAM [/rosout_disable_topics_generation] by /PandaMove
+[rosmaster.master][INFO] 2021-09-26 10:07:04,929: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:44131/', 'http://wng:38979/']
+[rosmaster.master][INFO] 2021-09-26 10:07:04,929: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:44131/', 'http://wng:38979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:07,745: -SUB [/recognize_objects/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,746: -PUB [/recognize_objects/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,747: -PUB [/recognize_objects/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,749: -SUB [/recognize_objects/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,750: -SUB [/recognize_objects/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,808: +PUB [/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,809: -PUB [/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,809: +PUB [/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,810: -PUB [/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,810: -PUB [/initialpose] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,825: +SERVICE [/rviz_wng_28459_8466807832085763986/reload_shaders] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,826: +SERVICE [/rviz_wng_28459_8466807832085763986/load_config] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,826: +SERVICE [/rviz_wng_28459_8466807832085763986/save_config] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,888: +SERVICE [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/set_parameters] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,889: +PUB [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/parameter_descriptions] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,889: +PUB [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/parameter_updates] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:07,890: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_planning_scene] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,891: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_planning_scene_hz] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,891: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_geometry_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,891: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_state_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,892: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_transforms_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,892: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_planning_scene] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,892: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_planning_scene_hz] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,892: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_geometry_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,893: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_state_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,893: +PARAM [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/publish_transforms_updates] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:07,924: +SUB [/move_group/monitored_planning_scene] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,153: +SUB [/move_group/display_planned_path] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,154: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,154: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,155: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,156: -PUB [/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,156: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,157: +SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,158: +PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,164: +PUB [/trajectory_execution_event] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,164: +PUB [/attached_collision_object] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,166: +SUB [/move_group/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,167: +SUB [/move_group/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,168: +SUB [/move_group/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,168: +PUB [/move_group/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,168: +PUB [/move_group/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,234: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://wng:34657/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,234: publisherUpdate[/trajectory_execution_event] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,235: publisherUpdate[/trajectory_execution_event] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,235: publisherUpdate[/attached_collision_object] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,236: publisherUpdate[/attached_collision_object] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,236: publisherUpdate[/move_group/goal] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,236: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://wng:34657/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,236: publisherUpdate[/move_group/goal] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,236: publisherUpdate[/move_group/cancel] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,237: publisherUpdate[/move_group/cancel] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,441: +SUB [/pickup/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,442: +SUB [/pickup/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,443: +SUB [/pickup/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,444: +PUB [/pickup/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,444: +PUB [/pickup/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,535: publisherUpdate[/pickup/goal] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,536: publisherUpdate[/pickup/goal] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,536: publisherUpdate[/pickup/cancel] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,536: publisherUpdate[/pickup/cancel] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,661: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,739: +SUB [/place/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,741: +SUB [/place/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,742: +SUB [/place/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,742: +PUB [/place/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,742: +PUB [/place/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,837: publisherUpdate[/place/goal] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,837: publisherUpdate[/place/goal] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,837: publisherUpdate[/place/cancel] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:08,838: publisherUpdate[/place/cancel] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:08,941: +SUB [/execute_trajectory/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,942: +SUB [/execute_trajectory/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,943: +SUB [/execute_trajectory/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,943: +PUB [/execute_trajectory/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:08,943: +PUB [/execute_trajectory/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:09,037: publisherUpdate[/execute_trajectory/goal] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:09,038: publisherUpdate[/execute_trajectory/goal] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:09,038: publisherUpdate[/execute_trajectory/cancel] -> http://wng:34541/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:09,038: publisherUpdate[/execute_trajectory/cancel] -> http://wng:34541/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,742: -SUB [/move_group/fake_controller_joint_states] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,743: -PUB [/rosout] /PandaMove http://wng:44131/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,743: -SUB [/execution_check] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,743: -PUB [/joint_states] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,743: -SERVICE [/PandaMove/get_loggers] /PandaMove rosrpc://wng:34391
+[rosmaster.master][INFO] 2021-09-26 10:07:29,743: -PUB [/rosout] /server_endpoint http://wng:38979/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -PUB [/rosout] /joint_state_publisher http://wng:46305/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/PandaMove/set_logger_level] /PandaMove rosrpc://wng:34391
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/hand_sync] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/panda_plan] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/server_endpoint/get_loggers] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/joint_state_publisher/get_loggers] /joint_state_publisher rosrpc://wng:36073
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/scene_sync] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/server_endpoint/set_logger_level] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/joint_state_publisher/set_logger_level] /joint_state_publisher rosrpc://wng:36073
+[rosmaster.master][INFO] 2021-09-26 10:07:29,744: -SERVICE [/motion_check] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,745: -SERVICE [/init_sync] /server_endpoint rosrpc://wng:35051
+[rosmaster.master][INFO] 2021-09-26 10:07:29,768: -PUB [/rosout] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,769: -PUB [/joint_states_desired] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,769: -SUB [/joint_states] /joint_state_desired_publisher http://wng:44613/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,769: -SERVICE [/joint_state_desired_publisher/get_loggers] /joint_state_desired_publisher rosrpc://wng:54389
+[rosmaster.master][INFO] 2021-09-26 10:07:29,770: -SERVICE [/joint_state_desired_publisher/set_logger_level] /joint_state_desired_publisher rosrpc://wng:54389
+[rosmaster.master][INFO] 2021-09-26 10:07:29,770: -CACHEDPARAM [/rosout_disable_topics_generation] by /joint_state_desired_publisher
+[rosmaster.master][INFO] 2021-09-26 10:07:29,774: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:38979/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,774: publisherUpdate[/joint_states] -> http://wng:44613/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,774: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/', 'http://wng:38979/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,774: publisherUpdate[/joint_states] -> http://wng:41631/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,775: publisherUpdate[/joint_states] -> http://wng:41631/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,775: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,775: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/', 'http://wng:46305/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,775: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,775: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:44613/', 'http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,776: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,776: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:41631/', 'http://wng:34541/', 'http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,776: publisherUpdate[/joint_states_desired] -> http://wng:34541/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,776: publisherUpdate[/joint_states_desired] -> http://wng:34541/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,778: publisherUpdate[/joint_states] -> http://wng:44613/ []: sec=0.00, exception=[Errno 111] Connection refused
+[rosmaster.threadpool][ERROR] 2021-09-26 10:07:29,779: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1311, in single_request
+    self.send_content(h, request_body)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1459, in send_content
+    connection.endheaders(request_body)
+  File "/usr/lib/python2.7/httplib.py", line 1095, in endheaders
+    self._send_output(message_body)
+  File "/usr/lib/python2.7/httplib.py", line 898, in _send_output
+    self.send(msg)
+  File "/usr/lib/python2.7/httplib.py", line 860, in send
+    self.connect()
+  File "/usr/lib/python2.7/httplib.py", line 837, in connect
+    self.timeout, self.source_address)
+  File "/usr/lib/python2.7/socket.py", line 575, in create_connection
+    raise err
+error: [Errno 111] Connection refused
+
+[rosmaster.master][INFO] 2021-09-26 10:07:29,875: -PUB [/rosout] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,876: -PUB [/tf] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,876: -PUB [/tf_static] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,876: -SUB [/joint_states] /robot_state_publisher http://wng:41631/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,876: -PUB [/rosout] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,877: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:34541/', 'http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,877: -SERVICE [/robot_state_publisher/get_loggers] /robot_state_publisher rosrpc://wng:52253
+[rosmaster.master][INFO] 2021-09-26 10:07:29,877: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:34541/', 'http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,878: -PUB [/move_group/planning_scene_monitor/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,878: publisherUpdate[/tf] -> http://wng:34541/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,878: -SERVICE [/robot_state_publisher/set_logger_level] /robot_state_publisher rosrpc://wng:52253
+[rosmaster.master][INFO] 2021-09-26 10:07:29,878: -PUB [/move_group/planning_scene_monitor/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,879: -PUB [/move_group/monitored_planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,879: publisherUpdate[/tf] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,880: -PUB [/move_group/filtered_cloud] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,879: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:34657/']
+[rosmaster.master][INFO] 2021-09-26 10:07:29,880: publisherUpdate[/tf] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,880: publisherUpdate[/tf_static] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,880: -PUB [/move_group/ompl/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,881: publisherUpdate[/tf_static] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,881: publisherUpdate[/rosout] -> http://wng:35951/ ['http://wng:34657/']: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,881: publisherUpdate[/move_group/monitored_planning_scene] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,881: -PUB [/move_group/ompl/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,882: publisherUpdate[/move_group/monitored_planning_scene] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,882: -PUB [/move_group/display_planned_path] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,882: -PUB [/move_group/display_contacts] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,883: -PUB [/move_group/fake_controller_joint_states] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,883: -PUB [/move_group/trajectory_execution/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,883: -PUB [/move_group/trajectory_execution/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,883: -PUB [/move_group/plan_execution/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,884: -PUB [/move_group/plan_execution/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,884: -PUB [/move_group/sense_for_plan/parameter_descriptions] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,884: -PUB [/move_group/sense_for_plan/parameter_updates] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,884: -PUB [/move_group/display_cost_sources] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,885: -PUB [/move_group/motion_plan_request] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,885: -PUB [/execute_trajectory/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,885: -PUB [/execute_trajectory/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,886: -PUB [/execute_trajectory/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,886: -PUB [/move_group/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,886: -PUB [/move_group/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,886: -PUB [/move_group/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,886: -PUB [/move_group/display_grasp_markers] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,887: publisherUpdate[/tf] -> http://wng:34541/ []: sec=0.01, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.master][INFO] 2021-09-26 10:07:29,887: -PUB [/pickup/result] /move_group http://wng:34541/
+[rosmaster.threadpool][ERROR] 2021-09-26 10:07:29,887: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-09-26 10:07:29,887: -PUB [/pickup/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,887: publisherUpdate[/tf_static] -> http://wng:34541/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,888: -PUB [/pickup/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,888: publisherUpdate[/tf_static] -> http://wng:34541/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-09-26 10:07:29,888: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-09-26 10:07:29,888: publisherUpdate[/move_group/display_planned_path] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,889: publisherUpdate[/move_group/display_planned_path] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,889: publisherUpdate[/execute_trajectory/result] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,890: publisherUpdate[/execute_trajectory/result] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,890: publisherUpdate[/execute_trajectory/feedback] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,890: publisherUpdate[/execute_trajectory/feedback] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,890: publisherUpdate[/execute_trajectory/status] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: publisherUpdate[/execute_trajectory/status] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: -PUB [/place/result] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: publisherUpdate[/move_group/result] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: -PUB [/place/feedback] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: publisherUpdate[/move_group/result] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: publisherUpdate[/move_group/feedback] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,891: -PUB [/place/status] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,892: publisherUpdate[/move_group/feedback] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,892: -SUB [/tf] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,892: publisherUpdate[/move_group/status] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,892: -SUB [/tf_static] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,892: publisherUpdate[/move_group/status] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,893: publisherUpdate[/pickup/result] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,893: -SUB [/planning_scene] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,893: publisherUpdate[/pickup/result] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,893: -SUB [/collision_object] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,893: publisherUpdate[/pickup/feedback] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,894: -SUB [/planning_scene_world] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,894: publisherUpdate[/pickup/feedback] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,894: -SUB [/camera/depth_registered/points] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,894: publisherUpdate[/pickup/status] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,894: -SUB [/joint_states_desired] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: publisherUpdate[/pickup/status] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: -SUB [/attached_collision_object] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: publisherUpdate[/place/result] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: -SUB [/trajectory_execution_event] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: publisherUpdate[/place/result] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,895: publisherUpdate[/place/feedback] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,896: -SUB [/execute_trajectory/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,896: publisherUpdate[/place/feedback] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,896: publisherUpdate[/place/status] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,896: -SUB [/execute_trajectory/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,896: publisherUpdate[/place/status] -> http://wng:34657/ []: sec=0.00, result=[0, 'Unknown Error', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,897: -SUB [/move_group/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,897: -SUB [/move_group/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,897: -SUB [/pickup/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,897: -SUB [/pickup/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,898: -SUB [/place/goal] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,898: -SUB [/place/cancel] /move_group http://wng:34541/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,898: -SERVICE [/move_group/get_loggers] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,898: -SERVICE [/move_group/set_logger_level] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,899: -SERVICE [/move_group/planning_scene_monitor/set_parameters] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,899: -SERVICE [/move_group/save_map] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,899: -SERVICE [/move_group/load_map] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,899: -SERVICE [/move_group/ompl/set_parameters] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,899: -SERVICE [/move_group/trajectory_execution/set_parameters] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,900: -SERVICE [/move_group/plan_execution/set_parameters] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,900: -SERVICE [/move_group/sense_for_plan/set_parameters] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,900: -SERVICE [/apply_planning_scene] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,900: -SERVICE [/clear_octomap] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,900: -SERVICE [/compute_cartesian_path] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,901: -SERVICE [/get_planning_scene] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,901: -SERVICE [/compute_fk] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,901: -SERVICE [/compute_ik] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,901: -SERVICE [/plan_kinematic_path] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,901: -SERVICE [/query_planner_interface] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,902: -SERVICE [/get_planner_params] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,902: -SERVICE [/set_planner_params] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,902: -SERVICE [/check_state_validity] /move_group rosrpc://wng:44615
+[rosmaster.master][INFO] 2021-09-26 10:07:29,903: -CACHEDPARAM [/rosout_disable_topics_generation] by /move_group
+[rosmaster.master][INFO] 2021-09-26 10:07:29,997: -PUB [/rosout] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,997: publisherUpdate[/rosout] -> http://wng:35951/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:29,997: -PUB [/planning_scene] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,998: publisherUpdate[/rosout] -> http://wng:35951/ []: sec=0.00, result=[1, '', 0]
+[rosmaster.master][INFO] 2021-09-26 10:07:29,998: -PUB [/planning_scene_world] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,998: -PUB [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/parameter_descriptions] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,998: -PUB [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/parameter_updates] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,999: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,999: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,999: -PUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,999: -PUB [/trajectory_execution_event] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:29,999: -PUB [/attached_collision_object] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,000: -PUB [/move_group/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,000: -PUB [/move_group/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,000: -PUB [/pickup/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,000: -PUB [/pickup/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,001: -PUB [/place/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,001: -PUB [/place/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,001: -PUB [/execute_trajectory/goal] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,002: -PUB [/execute_trajectory/cancel] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,002: -SUB [/tf] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,002: -SUB [/tf_static] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,002: -SUB [/action] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,003: -SUB [/action_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,003: -SUB [/recognized_object_array] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,003: -SUB [/move_group/monitored_planning_scene] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,003: -SUB [/move_group/display_planned_path] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,003: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,004: -SUB [/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,004: -SUB [/move_group/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,004: -SUB [/move_group/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,004: -SUB [/move_group/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,005: -SUB [/pickup/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,005: -SUB [/pickup/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,005: -SUB [/pickup/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,005: -SUB [/place/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,005: -SUB [/place/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,006: -SUB [/place/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,006: -SUB [/execute_trajectory/status] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,006: -SUB [/execute_trajectory/feedback] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,006: -SUB [/execute_trajectory/result] /rviz_wng_28459_8466807832085763986 http://wng:34657/
+[rosmaster.master][INFO] 2021-09-26 10:07:30,007: -SERVICE [/rviz_wng_28459_8466807832085763986/get_loggers] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,007: -SERVICE [/rviz_wng_28459_8466807832085763986/set_logger_level] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,007: -SERVICE [/rviz_wng_28459_8466807832085763986/reload_shaders] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,007: -SERVICE [/rviz_wng_28459_8466807832085763986/load_config] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,007: -SERVICE [/rviz_wng_28459_8466807832085763986/save_config] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,008: -SERVICE [/rviz_wng_28459_8466807832085763986/motionplanning_planning_scene_monitor/set_parameters] /rviz_wng_28459_8466807832085763986 rosrpc://wng:49313
+[rosmaster.master][INFO] 2021-09-26 10:07:30,008: -CACHEDPARAM [/rosout_disable_topics_generation] by /rviz_wng_28459_8466807832085763986
+[rosmaster.master][INFO] 2021-09-26 10:07:30,082: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:30,082: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update] -> http://wng:34657/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-09-26 10:07:30,082: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-09-26 10:07:30,082: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://wng:34657/ []
+[rosmaster.master][INFO] 2021-09-26 10:07:30,083: publisherUpdate[/rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] -> http://wng:34657/ []: sec=0.00, exception=<Fault -1: 'publisherUpdate: unknown method name'>
+[rosmaster.threadpool][ERROR] 2021-09-26 10:07:30,083: Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/threadpool.py", line 218, in run
+    result = cmd(*args)
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosmaster/master_api.py", line 210, in publisher_update_task
+    ret = xmlrpcapi(api).publisherUpdate('/master', topic, pub_uris)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1243, in __call__
+    return self.__send(self.__name, args)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1602, in __request
+    verbose=self.__verbose
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1283, in request
+    return self.single_request(host, handler, request_body, verbose)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1316, in single_request
+    return self.parse_response(response)
+  File "/usr/lib/python2.7/xmlrpclib.py", line 1493, in parse_response
+    return u.close()
+  File "/usr/lib/python2.7/xmlrpclib.py", line 800, in close
+    raise Fault(**self._stack[0])
+Fault: <Fault -1: 'publisherUpdate: unknown method name'>
+
+[rosmaster.master][INFO] 2021-09-26 10:07:46,924: -PUB [/rosout_agg] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:46,924: -SUB [/rosout] /rosout http://wng:35951/
+[rosmaster.master][INFO] 2021-09-26 10:07:46,924: -SERVICE [/rosout/get_loggers] /rosout rosrpc://wng:34701
+[rosmaster.master][INFO] 2021-09-26 10:07:46,925: -SERVICE [/rosout/set_logger_level] /rosout rosrpc://wng:34701
+[rosmaster.master][INFO] 2021-09-26 10:07:46,925: -CACHEDPARAM [/rosout/omit_topics] by /rosout
+[rosmaster.main][INFO] 2021-09-26 10:07:46,978: keyboard interrupt, will exit
+[rosmaster.main][INFO] 2021-09-26 10:07:46,978: stopping master...
+[rospy.core][INFO] 2021-09-26 10:07:46,978: signal_shutdown [atexit]

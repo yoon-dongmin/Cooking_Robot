@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.7083351612091064,1739
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,1.4216530323028564,1796
+3,{'relish_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/relish_bottle -> Pour/relish_bottle/bowl/relish,True,0.03215193748474121,47
+4,{'chopped_onion': True},5, -> Place/relish_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,5.484034061431885,6376
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.001194000244140625,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.016427040100097656,25
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.14743590354919434,190
+8,{'spread_on_bread_toast1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/bread_toast1/spreader,True,0.039591073989868164,45
+9,{'spread_on_bread_toast2': 'butter'},1, -> Spread/butter/bread_toast2/spreader,True,0.0022759437561035156,4
+10,{'tuna_spread_is_on': 'bread_toast1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/bread_toast1/scooper,True,0.028122901916503906,33
+11,{'chopped_spinach': True},5, -> Place/scooper/table/tool -> PickUp/spinach -> Place/spinach/cutting_board/ingredient -> PickUp/knife -> Chop/spinach/knife,True,1.3201510906219482,1532
+12,{'spinach_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_spinach/tuna_spread/scooper,True,0.07811093330383301,83
+13,{'spread_on_spinach': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_spinach/salt,True,0.04500412940979004,48
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/bread_toast2 -> PutOn/bread_toast2/chopped_spinach/sandwich,True,0.6030168533325195,444
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,1.8774778842926025,1502

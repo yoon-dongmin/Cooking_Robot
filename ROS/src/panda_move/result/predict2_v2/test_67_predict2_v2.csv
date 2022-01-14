@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/bacon -> PutOn/bacon/pan/None -> PickUp/pan -> Place/pan/stove/cookware -> Activate/stove/bacon,True,1.3212339878082275,2126
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.4413599967956543,701
+3,{'spread_on_matzo1': 'chili_sauce'},3, -> Place/knife/table/tool -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/matzo1/chili_sauce,True,0.03091597557067871,42
+4,{'ham_is_on': 'matzo1'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/matzo1/None,True,0.08315706253051758,133
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.03539395332336426,47
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.02690410614013672,30
+7,{'spread_on_matzo2': 'chili_sauce'},2, -> PickUp/chili_sauce_bottle -> Pour/chili_sauce_bottle/matzo2/chili_sauce,True,0.028841018676757812,34
+8,{'matzo2_is_on': 'cheese'},3, -> Place/chili_sauce_bottle/table/ing_bottle -> PickUp/matzo2 -> PutOn/matzo2/cheese/None,True,0.06873703002929688,111
+9,{'bacon_is_on': 'matzo2'},2, -> PickUp/bacon -> PutOn/bacon/matzo2/None,True,0.011715173721313477,18
+10,{'green_is_on': 'bacon'},2, -> PickUp/green -> PutOn/green/bacon/None,True,0.023364782333374023,28
+11,{'tomato_is_on': 'green'},2, -> PickUp/scooper -> Scoop/chopped_tomato/green/scooper,True,0.03004002571105957,42
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/matzo3 -> PutOn/matzo3/chopped_tomato/sandwich,True,0.09457898139953613,117

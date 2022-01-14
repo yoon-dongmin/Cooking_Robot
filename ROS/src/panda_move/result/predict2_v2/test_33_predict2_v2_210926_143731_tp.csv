@@ -1,0 +1,24 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,2.006709098815918,1728
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,1.5460188388824463,1358
+3,{'mayonnaise_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/mayonnaise_bottle -> Pour/mayonnaise_bottle/bowl/mayonnaise,True,0.032508134841918945,25
+4,{'chopped_onion': True},5, -> Place/mayonnaise_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,6.844510078430176,5171
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.0033121109008789062,3
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.0375971794128418,37
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.1595909595489502,144
+8,{'spread_on_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/bread1/spreader,True,0.06801986694335938,34
+8,{'spread_on_bread1': 'butter'},1, -> Spread/butter/bread1/spreader,True,0.0051059722900390625,5
+8,{'spread_on_bread1': 'butter'},1, -> Spread/butter/bread1/spreader,True,0.0034530162811279297,3
+9,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.010489940643310547,6
+9,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.006371974945068359,5
+9,{'spread_on_bread2': 'butter'},1, -> Spread/butter/bread2/spreader,True,0.005970954895019531,5
+10,{'tuna_spread_is_on': 'bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/bread1/scooper,True,0.11947107315063477,64
+10,{'tuna_spread_is_on': 'bread1'},1, -> Scoop/tuna_spread/bread1/scooper,True,0.003782033920288086,4
+10,{'tuna_spread_is_on': 'bread1'},1, -> Scoop/tuna_spread/bread1/scooper,True,0.007542133331298828,5
+11,{'chopped_cabbage': True},5, -> Place/scooper/table/tool -> PickUp/cabbage -> Place/cabbage/cutting_board/ingredient -> PickUp/knife -> Chop/cabbage/knife,True,1.3634231090545654,889
+11,{'chopped_cabbage': True},5, -> Place/scooper/table/tool -> PickUp/cabbage -> Place/cabbage/cutting_board/ingredient -> PickUp/knife -> Chop/cabbage/knife,True,1.0810439586639404,920
+11,{'chopped_cabbage': True},5, -> Place/scooper/table/tool -> PickUp/cabbage -> Place/cabbage/cutting_board/ingredient -> PickUp/knife -> Chop/cabbage/knife,True,1.9276280403137207,1600
+12,{'cabbage_is_on': 'tuna_spread'},1, -> Scoop/chopped_cabbage/tuna_spread/scooper,True,0.013929128646850586,8
+12,{'cabbage_is_on': 'tuna_spread'},1, -> Scoop/chopped_cabbage/tuna_spread/scooper,True,0.015411853790283203,8
+12,{'cabbage_is_on': 'tuna_spread'},1, -> Scoop/chopped_cabbage/tuna_spread/scooper,True,0.001486063003540039,2
+13,{'spread_on_cabbage': 'salt'},0,,False,5.826305150985718,3989

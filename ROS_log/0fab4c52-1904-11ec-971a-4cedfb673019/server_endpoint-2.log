@@ -1,0 +1,42 @@
+[rospy.client][INFO] 2021-09-19 13:42:59,081: init_node, name[/server_endpoint], pid[27015]
+[xmlrpc][INFO] 2021-09-19 13:42:59,082: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-09-19 13:42:59,082: Started XML-RPC server [http://wng:44713/]
+[rospy.init][INFO] 2021-09-19 13:42:59,082: ROS Slave URI: [http://wng:44713/]
+[rospy.impl.masterslave][INFO] 2021-09-19 13:42:59,082: _ready: http://wng:44713/
+[rospy.registration][INFO] 2021-09-19 13:42:59,082: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-09-19 13:42:59,082: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-09-19 13:42:59,182: registered with master
+[rospy.rosout][INFO] 2021-09-19 13:42:59,183: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-09-19 13:42:59,184: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-09-19 13:42:59,185: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-09-19 13:42:59,194: Starting server on 192.168.1.146:10000
+[rospy.internal][INFO] 2021-09-19 13:42:59,425: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-09-19 13:43:10,576: Connection from 192.168.1.146
+[rosout][INFO] 2021-09-19 13:43:10,580: RegisterPublisher(execution_check, <class 'panda_move.msg._ExecutionCheck.ExecutionCheck'>) OK
+[rospy.internal][INFO] 2021-09-19 13:43:10,665: topic[/execution_check] adding connection to [http://wng:44713/], count 0
+[rospy.internal][INFO] 2021-09-19 13:43:10,666: topic[/execution_check] adding connection to [/server_endpoint], count 0
+[rosout][ERROR] 2021-09-19 14:02:34,415: bad callback: <function pressEnter at 0x7f59712dcdd0>
+Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/topics.py", line 750, in _invoke_callback
+    cb(msg)
+  File "/home/wng/unity_ws/ROS/src/panda_move/scripts/server_endpoint.py", line 17, in pressEnter
+    pyautogui.press('enter')
+  File "/home/wng/.local/lib/python2.7/site-packages/pyautogui/__init__.py", line 597, in wrapper
+    failSafeCheck()
+  File "/home/wng/.local/lib/python2.7/site-packages/pyautogui/__init__.py", line 1723, in failSafeCheck
+    "PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED."
+FailSafeException: PyAutoGUI fail-safe triggered from mouse moving to a corner of the screen. To disable this fail-safe, set pyautogui.FAILSAFE to False. DISABLING FAIL-SAFE IS NOT RECOMMENDED.
+
+[rospy.core][INFO] 2021-09-19 14:02:48,832: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-09-19 14:02:48,836: topic[/execution_check] removing connection to /server_endpoint
+[rospy.internal][INFO] 2021-09-19 14:02:48,836: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-09-19 14:02:48,836: topic[/execution_check] removing connection to http://wng:44713/
+[rospy.impl.masterslave][INFO] 2021-09-19 14:02:48,836: signal-2
+[rospy.internal][WARNING] 2021-09-19 14:02:48,837: Unknown error initiating TCP/IP socket to wng:43769 (http://wng:44713/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+AttributeError: 'NoneType' object has no attribute 'buff_size'
+
+[rospy.core][INFO] 2021-09-19 14:02:48,968: signal_shutdown [atexit]

@@ -1,0 +1,32 @@
+[rospy.client][INFO] 2021-09-26 15:11:39,108: init_node, name[/server_endpoint], pid[23978]
+[xmlrpc][INFO] 2021-09-26 15:11:39,108: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-09-26 15:11:39,108: Started XML-RPC server [http://wng:34519/]
+[rospy.init][INFO] 2021-09-26 15:11:39,109: ROS Slave URI: [http://wng:34519/]
+[rospy.impl.masterslave][INFO] 2021-09-26 15:11:39,109: _ready: http://wng:34519/
+[rospy.registration][INFO] 2021-09-26 15:11:39,109: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-09-26 15:11:39,109: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-09-26 15:11:39,209: registered with master
+[rospy.rosout][INFO] 2021-09-26 15:11:39,209: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-09-26 15:11:39,210: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-09-26 15:11:39,211: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-09-26 15:11:39,219: Starting server on 192.168.1.146:10000
+[rospy.internal][INFO] 2021-09-26 15:11:39,424: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-09-26 15:12:08,096: Connection from 192.168.1.146
+[rosout][INFO] 2021-09-26 15:12:08,100: RegisterPublisher(execution_check, <class 'panda_move.msg._ExecutionCheck.ExecutionCheck'>) OK
+[rospy.internal][INFO] 2021-09-26 15:12:08,153: topic[/execution_check] adding connection to [http://wng:34519/], count 0
+[rospy.internal][INFO] 2021-09-26 15:12:08,155: topic[/execution_check] adding connection to [/server_endpoint], count 0
+[rospy.core][INFO] 2021-09-26 15:56:22,980: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-09-26 15:56:22,983: topic[/execution_check] removing connection to /server_endpoint
+[rospy.internal][INFO] 2021-09-26 15:56:22,984: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-09-26 15:56:22,984: topic[/execution_check] removing connection to http://wng:34519/
+[rospy.impl.masterslave][INFO] 2021-09-26 15:56:22,984: signal-2
+[rospy.internal][WARNING] 2021-09-26 15:56:22,984: Unknown error initiating TCP/IP socket to wng:34169 (http://wng:34519/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 562, in connect
+    self.read_header()
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 657, in read_header
+    self._validate_header(read_ros_handshake_header(sock, self.read_buff, self.protocol.buff_size))
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rosgraph/network.py", line 359, in read_ros_handshake_header
+    raise ROSHandshakeException("connection from sender terminated before handshake header received. %s bytes were received. Please check sender for additional details."%b.tell())
+ROSHandshakeException: connection from sender terminated before handshake header received. 0 bytes were received. Please check sender for additional details.
+
+[rospy.core][INFO] 2021-09-26 15:56:23,148: signal_shutdown [atexit]

@@ -1,0 +1,23 @@
+[rospy.client][INFO] 2021-09-18 17:11:51,702: init_node, name[/server_endpoint], pid[12924]
+[xmlrpc][INFO] 2021-09-18 17:11:51,703: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-09-18 17:11:51,703: Started XML-RPC server [http://wng:32891/]
+[rospy.init][INFO] 2021-09-18 17:11:51,703: ROS Slave URI: [http://wng:32891/]
+[rospy.impl.masterslave][INFO] 2021-09-18 17:11:51,703: _ready: http://wng:32891/
+[rospy.registration][INFO] 2021-09-18 17:11:51,703: Registering with master node http://localhost:11311
+[xmlrpc][INFO] 2021-09-18 17:11:51,704: xml rpc node: starting XML-RPC server
+[rospy.init][INFO] 2021-09-18 17:11:51,803: registered with master
+[rospy.rosout][INFO] 2021-09-18 17:11:51,804: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-09-18 17:11:51,809: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-09-18 17:11:51,810: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-09-18 17:11:51,815: Starting server on 192.168.1.146:10000
+[rospy.internal][INFO] 2021-09-18 17:11:52,058: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-09-18 17:12:11,042: Connection from 192.168.1.146
+[rosout][INFO] 2021-09-18 17:12:11,048: RegisterPublisher(execution_check, <class 'panda_move.msg._ExecutionCheck.ExecutionCheck'>) OK
+[rospy.internal][INFO] 2021-09-18 17:12:11,096: topic[/execution_check] adding connection to [http://wng:32891/], count 0
+[rospy.internal][INFO] 2021-09-18 17:12:11,097: topic[/execution_check] adding connection to [/server_endpoint], count 0
+[rospy.core][INFO] 2021-09-18 17:44:08,253: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-09-18 17:44:08,257: topic[/execution_check] removing connection to /server_endpoint
+[rospy.internal][INFO] 2021-09-18 17:44:08,257: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-09-18 17:44:08,257: topic[/execution_check] removing connection to http://wng:32891/
+[rospy.impl.masterslave][INFO] 2021-09-18 17:44:08,257: signal-2
+[rospy.core][INFO] 2021-09-18 17:44:08,389: signal_shutdown [atexit]

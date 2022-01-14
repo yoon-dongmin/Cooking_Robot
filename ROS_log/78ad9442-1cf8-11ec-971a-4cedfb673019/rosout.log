@@ -1,0 +1,1525 @@
+
+
+1632461405.182158249  Node Startup
+1632461405.524289816 INFO /move_group [/tmp/binarydeb/ros-melodic-moveit-ros-move-group-1.0.7/src/move_group_context.cpp:85(MoveGroupContext::status)] [topics: /rosout, /move_group/planning_scene_monitor/parameter_descriptions, /move_group/planning_scene_monitor/parameter_updates, /move_group/monitored_planning_scene, /move_group/filtered_cloud, /move_group/ompl/parameter_descriptions, /move_group/ompl/parameter_updates, /move_group/display_planned_path, /move_group/display_contacts, /move_group/fake_controller_joint_states, /move_group/trajectory_execution/parameter_descriptions, /move_group/trajectory_execution/parameter_updates, /move_group/plan_execution/parameter_descriptions, /move_group/plan_execution/parameter_updates, /move_group/sense_for_plan/parameter_descriptions, /move_group/sense_for_plan/parameter_updates, /move_group/display_cost_sources, /move_group/motion_plan_request, /execute_trajectory/result, /execute_trajectory/feedback, /execute_trajectory/status, /move_group/result, /move_group/feedback, /move_group/status, /move_group/display_grasp_markers, /pickup/result, /pickup/feedback, /pickup/status, /place/result, /place/feedback, /place/status] MoveGroup context initialization complete
+1632461405.416290315 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-rviz-1.13.17/src/rviz/ogre_helpers/render_system.cpp:85(RenderSystem::forceGlVersion)] [topics: /rosout] Forcing OpenGl version 0.
+1632461405.836593621 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-rviz-1.13.17/src/rviz/ogre_helpers/render_system.cpp:462(RenderWindow* rviz::RenderSystem::makeRenderWindow)] [topics: /rosout] Stereo is NOT SUPPORTED
+1632461405.836643233 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-rviz-1.13.17/src/rviz/ogre_helpers/render_system.cpp:183(RenderSystem::detectGlVersion)] [topics: /rosout] OpenGL device: llvmpipe (LLVM 10.0.0, 256 bits)
+1632461405.836664832 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-rviz-1.13.17/src/rviz/ogre_helpers/render_system.cpp:230(RenderSystem::detectGlVersion)] [topics: /rosout] OpenGl version: 3.1 (GLSL 1.4).
+1632461405.911006264 INFO /joint_state_desired_publisher [/tmp/binarydeb/ros-melodic-topic-tools-1.14.11/src/relay.cpp:101(MessageEvent<topic_tools::ShapeShifter>&))] [topics: /rosout, /joint_states_desired] advertised as joint_states_desired
+
+1632461406.137510061 INFO /PandaMove [main.py:176(get_default_initial)] [topics: /rosout] mayonnaise_bottle, mayonnaise_bottle, None
+1632461406.090202093 INFO /server_endpoint [server.py:78(TcpServer.listen_loop)] [topics: /execution_check, /rosout] Starting server on 192.168.1.146:10000
+1632461409.063408260 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-core-1.0.7/robot_model/src/robot_model.cpp:92(core::RobotModel::buildModel)] [topics: /rosout, /planning_scene, /planning_scene_world, /feedback] Loading robot model 'panda'...
+1632461409.063432329 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-core-1.0.7/robot_model/src/robot_model.cpp:951(core::JointModel* moveit::core::RobotModel::constructJointModel)] [topics: /rosout, /planning_scene, /planning_scene_world, /feedback] No root/virtual joint specified in SRDF. Assuming fixed joint
+1632461409.126595174 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-1.0.7/planning_scene_monitor/src/planning_scene_monitor.cpp:987(PlanningSceneMonitor::startSceneMonitor)] [topics: /rosout, /planning_scene, /planning_scene_world, /feedback, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates] Starting planning scene monitor
+1632461409.127832657 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-1.0.7/planning_scene_monitor/src/planning_scene_monitor.cpp:993(PlanningSceneMonitor::startSceneMonitor)] [topics: /rosout, /planning_scene, /planning_scene_world, /feedback, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates] Listening to '/move_group/monitored_planning_scene'
+1632461409.364860510 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-visualization-1.0.7/motion_planning_rviz_plugin/src/motion_planning_frame.cpp:361(MotionPlanningFrame::changePlanningGroupHelper)] [topics: /rosout, /planning_scene, /planning_scene_world, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback] Constructing new MoveGroup connection for group 'panda_arm' in namespace ''
+1632461410.426603812 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/move_group_interface/src/move_group_interface.cpp:176(planning_interface::MoveGroupInterface::MoveGroupInterfaceImpl::MoveGroupInterfaceImpl)] [topics: /rosout, /planning_scene, /planning_scene_world, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Ready to take commands for planning group panda_arm.
+1632461410.426644626 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/move_group_interface/src/move_group_interface.cpp:980(planning_interface::MoveGroupInterface::MoveGroupInterfaceImpl::allowLooking)] [topics: /rosout, /planning_scene, /planning_scene_world, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Looking around: no
+1632461410.426660712 INFO /rviz_wng_24360_9202468631079321143 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/move_group_interface/src/move_group_interface.cpp:986(planning_interface::MoveGroupInterface::MoveGroupInterfaceImpl::allowReplanning)] [topics: /rosout, /planning_scene, /planning_scene_world, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_descriptions, /rviz_wng_24360_9202468631079321143/motionplanning_planning_scene_monitor/parameter_updates, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update_full, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/update, /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic/feedback, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Replanning: no
+1632461413.263949095 INFO /move_group_commander_wrappers_1632461413258304280 [/tmp/binarydeb/ros-melodic-moveit-core-1.0.7/robot_model/src/robot_model.cpp:951(core::JointModel* moveit::core::RobotModel::constructJointModel)] [topics: /rosout] No root/virtual joint specified in SRDF. Assuming fixed joint
+1632461414.508039093 INFO /move_group_commander_wrappers_1632461413258304280 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/move_group_interface/src/move_group_interface.cpp:176(planning_interface::MoveGroupInterface::MoveGroupInterfaceImpl::MoveGroupInterfaceImpl)] [topics: /rosout, /planning_scene, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Ready to take commands for planning group panda_arm.
+1632461414.909829444 INFO /move_group_commander_wrappers_1632461413258304280 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/move_group_interface/src/move_group_interface.cpp:176(planning_interface::MoveGroupInterface::MoveGroupInterfaceImpl::MoveGroupInterfaceImpl)] [topics: /rosout, /planning_scene, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Ready to take commands for planning group hand.
+1632461415.037760972 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461415.739703893 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.740432024 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.741007089 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.741559982 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.742134094 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.742687940 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.743235111 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.743799924 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.744364976 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.744930982 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.745486974 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.746038913 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.746597051 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.747148990 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.747684955 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.748234987 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.748795032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.749351978 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.749911069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.750473976 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.751075983 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.751641988 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.752187013 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.752733945 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.753314971 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.753855943 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.754414081 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.754961967 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.755525112 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.756387948 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.757200956 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.757884025 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461415.758774995 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] pan
+1632461415.768184900 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461416.474100112 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461416.475090980 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.475805997 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.476474046 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.477121114 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.477766990 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.478429079 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.479090929 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.479737997 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.480400085 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.481039047 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.481704950 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.482367038 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.483057975 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.483737945 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.484422922 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.485131978 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.485750913 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.486388921 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.487019062 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.487659931 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.488305091 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.488933086 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.489573001 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.490247011 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.491075038 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.492136955 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.493016004 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.493680953 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.494313001 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.494929075 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.495558977 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.496195077 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461416.496761083 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461416.497646093 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] pot
+1632461416.514863014 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461417.217211008 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461417.218547105 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461417.219352960 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.220072984 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.220791101 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.221575975 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.222486972 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.223437070 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.224342107 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.225270032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.226191043 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.227134943 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.228043079 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.229182958 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.230568885 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.231372117 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.232069015 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.232784032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.233541011 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.234220027 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.234913110 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.235737085 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.236545085 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.237313032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.238033056 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.238712072 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.239387989 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.240097999 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.240777969 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.241503000 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.242240905 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.242973089 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.243535995 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461417.244369029 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.245102882 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.245796918 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461417.246803045 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] plate
+1632461417.254295110 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461417.956837892 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461417.958175897 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461417.959547996 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461417.960474014 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.961297035 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.962130069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.962969064 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.963905096 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.965344905 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.966239929 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.967044115 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.967888116 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.968755006 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.969538927 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.970328092 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.971308946 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.972259044 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.973084926 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.973659992 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461417.974505901 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.975270986 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.976083993 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.976861000 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.977684974 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.978487014 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.979320049 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.980169057 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.980895996 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.981662034 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.982404947 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.983179092 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.984141111 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.985060930 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.986524105 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.987267971 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461417.988462924 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.989622116 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461417.990415096 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461417.991298913 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] bowl
+1632461418.004514932 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461418.707493066 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461418.709400892 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461418.711281061 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461418.716239929 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461418.717514038 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.718434095 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.719377040 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.720271110 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.721153974 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.722059011 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.722974061 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.723856925 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.724721908 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.725631952 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.726326942 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461418.727277040 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.728229045 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.729087114 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.729970932 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.730915069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.731683015 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461418.733278036 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.734411954 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.735337972 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.736244916 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.737164020 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.738070011 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.739231109 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.740236997 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.741184949 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.742134094 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.743087053 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.744406938 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.745507001 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.746807098 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.748116970 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.748851060 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461418.749933004 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.750874042 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461418.751472949 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461418.752228021 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] spatula
+1632461418.756094932 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461419.458667993 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461419.460062980 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461419.461406946 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461419.462754011 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461419.464128971 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461419.465172052 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.466089963 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.467053890 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.468791007 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.470062971 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.471252918 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.472194910 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.473107099 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.474131107 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.475405931 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.476082086 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461419.477078914 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.478001117 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.479000091 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.479592084 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461419.480541944 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.481503963 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.482089996 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461419.483082056 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.484035968 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.484992980 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.486078023 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.487201929 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.488711118 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.490304946 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.491960048 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.493227958 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.494313955 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.495294094 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.496280908 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.497276067 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.498255968 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.499213933 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.499828100 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461419.501012086 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.502629041 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461419.503365039 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461419.504534006 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] spreader
+1632461419.511718034 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461420.217730045 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.221079111 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.225111007 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.227916955 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.230334043 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461420.232419967 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461420.234735012 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.236371994 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.237935066 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.239423036 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.240725994 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.242053031 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.243468999 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.246157884 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.248550891 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.250222921 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.251161098 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461420.252770900 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.254026889 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.254736900 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461420.256114006 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.256727933 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461420.257800102 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.258779048 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.259342908 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461420.260376930 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.261396884 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.263030052 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.264946937 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.266477108 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.267581939 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.268615007 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.269582033 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.271147966 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.272629976 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.273762941 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.274748086 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.275723934 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.276855945 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.278583049 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.279207944 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461420.280199050 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.281126022 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461420.281668901 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461420.282346010 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] scooper
+1632461420.287789106 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461420.990442991 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.991808891 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.993129014 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.994396924 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461420.995702981 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461420.996983051 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461420.998275041 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461420.999438047 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.000509977 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.001591920 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.002686977 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.003724098 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461421.005215883 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.006282091 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.007303953 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.008284091 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.009366989 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.010575056 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.011190891 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461421.012279033 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.013277053 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.013816118 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461421.014827013 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.015367031 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461421.016386032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.017445087 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.018021106 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461421.019153118 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.020503997 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.022327899 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.023931026 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.025139093 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.026205062 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.027287960 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.028304100 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.029341936 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.030410051 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.031460046 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.032500028 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.033535003 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.035047054 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.036555051 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.037573099 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461421.038820981 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.039851903 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.040385007 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461421.041053056 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] knife
+1632461421.048768997 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461421.752058982 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461421.755491971 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461421.757138013 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461421.758534908 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461421.759799957 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461421.761060953 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461421.762392997 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461421.763710975 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461421.765059947 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.765635967 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461421.766767978 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.767942905 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.769093036 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.769676923 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461421.772416114 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.773874998 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.775089025 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.776257038 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.777856111 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.779383897 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.780172109 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461421.781763076 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.783009052 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.783593893 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461421.784774065 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.785326957 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461421.786497116 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.787636041 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.788227081 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461421.789343118 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.790498971 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.791610002 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.792706966 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.793875932 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.795006990 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.796160936 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.797565937 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.798942089 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.800889968 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.803117990 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.804591894 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.808317899 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.810070037 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.811378002 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.812062978 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461421.813323020 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.815210103 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461421.815943956 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461421.816915035 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] cutting_board
+1632461421.822451114 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461422.525255918 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461422.526663064 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461422.527985095 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461422.529297113 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461422.530637025 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461422.531922101 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461422.533190011 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461422.534610033 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461422.535849094 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.536437988 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461422.537646055 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.538764953 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.540776968 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.541460037 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461422.542587995 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.543672084 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.544776916 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.546000003 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.547143936 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.548243045 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.548803091 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461422.549916982 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.551019906 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.551611900 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461422.552798032 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.553409099 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461422.554718017 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.556503057 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.557590961 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461422.559004068 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.560189008 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.561230897 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.562304973 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.563435077 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.564538955 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.565566062 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.566672086 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.567743062 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.568837881 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.570357084 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.571574926 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.573659896 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.574953079 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.576128959 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.576761007 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461422.577940940 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.579385995 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461422.580023050 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461422.580852985 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] tuna
+1632461422.586215019 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461423.290242910 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461423.291986942 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461423.293332099 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461423.294682025 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461423.295974969 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461423.297208070 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461423.298489093 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461423.299716949 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461423.301085948 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=tuna, obj_pose=position: 
+  x: 0.5
+  y: 0.3
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461423.302407026 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.302978992 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461423.304143905 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.305286884 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.306421041 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.308526992 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461423.310009956 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.311233997 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.312349081 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.313971996 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.315577030 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.317250967 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.318093061 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461423.322623968 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.324321985 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.324994087 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461423.326138973 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.326700925 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461423.327840089 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.329011917 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.329569101 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461423.330687046 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.331852912 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.333121061 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.334393024 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.335632085 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.336779117 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.337944030 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.339096069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.341363906 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.342618942 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.343204021 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_6, val=[{'z': 0.40000000000000002, 'name': 'tuna'}]
+1632461423.344362974 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.345525979 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.347084045 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.348622083 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.350280046 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.350893974 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461423.352045059 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.353156089 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461423.353691101 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461423.354370117 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] onion
+1632461423.360697984 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461424.063180923 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.064730882 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.066137075 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.067428112 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.068706989 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.070041894 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.071481943 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461424.072810888 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.074131011 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=tuna, obj_pose=position: 
+  x: 0.5
+  y: 0.3
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.076750040 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=onion, obj_pose=position: 
+  x: 0.33
+  y: 0.48
+  z: 0.426
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.078161954 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.078721046 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461424.079881906 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.081013917 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.082360029 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.082992076 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461424.084403991 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.085958957 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.088074922 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.090159893 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.091649055 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.092952966 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.093521118 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461424.094757080 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.095959901 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.096507072 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461424.097719907 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.098293066 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461424.099494934 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.100851058 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.101633071 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461424.102885007 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.104096889 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.105257034 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.105793952 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_8, val=[{'z': 0.40000000000000002, 'name': 'onion'}]
+1632461424.106955051 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.109294891 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.110697031 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.111969947 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.113250970 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.114691019 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.116029024 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.116714000 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_6, val=[{'z': 0.40000000000000002, 'name': 'tuna'}]
+1632461424.118149042 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.121015071 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.123413085 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.124828100 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.126070976 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.126673936 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461424.127880096 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.129143953 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.129707098 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461424.130434036 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] butter
+1632461424.132083892 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461424.834861993 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.836416959 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.837852954 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.839364051 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.840879917 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.842361927 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.844289064 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461424.846692085 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461424.848263025 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=tuna, obj_pose=position: 
+  x: 0.5
+  y: 0.3
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.849678993 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=onion, obj_pose=position: 
+  x: 0.33
+  y: 0.48
+  z: 0.426
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.851376056 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=butter, obj_pose=position: 
+  x: 0.5
+  y: 0.66
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461424.853532075 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.854152917 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461424.855494022 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.856806993 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.858170986 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.858783960 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461424.860122919 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.861824989 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.864089012 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.868563890 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.871227979 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.872689962 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.873354911 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461424.874780893 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.876173019 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.876818895 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461424.878242969 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.880501985 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461424.882122993 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.883555889 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.884193897 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461424.885622024 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.887128114 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.888684988 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.889436006 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_8, val=[{'z': 0.40000000000000002, 'name': 'onion'}]
+1632461424.892616987 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.895071029 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.896563053 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.897891998 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.899161100 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.899709939 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_4, val=[{'z': 0.40000000000000002, 'name': 'butter'}]
+1632461424.900963068 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.902230978 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.902797937 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_6, val=[{'z': 0.40000000000000002, 'name': 'tuna'}]
+1632461424.904097080 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.905936956 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.907277107 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.910250902 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.911735057 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.912302017 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461424.913537025 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.915036916 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461424.915632009 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461424.916448116 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] lettuce
+1632461424.922291994 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461425.625973939 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.629534006 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.631516933 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.632998943 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.634470939 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461425.635943889 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461425.637423038 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461425.639139890 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461425.640830039 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=tuna, obj_pose=position: 
+  x: 0.5
+  y: 0.3
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.642327070 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=onion, obj_pose=position: 
+  x: 0.33
+  y: 0.48
+  z: 0.426
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.644023895 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=butter, obj_pose=position: 
+  x: 0.5
+  y: 0.66
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.647192001 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=lettuce, obj_pose=position: 
+  x: 0.67
+  y: 0.48
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461425.648739099 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.649318933 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461425.650758028 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.652621030 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.654715061 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.655563116 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461425.658384084 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.660604953 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.663343906 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.665838003 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.667212009 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.668556928 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.669081926 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461425.670425891 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.671797990 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.672380924 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461425.673682928 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.674231052 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461425.676496028 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.677915096 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.678508996 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461425.679897069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.681305885 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.682924985 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.683604955 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_8, val=[{'z': 0.40000000000000002, 'name': 'onion'}]
+1632461425.685143947 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.687457084 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.689827919 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.690617084 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_2, val=[{'z': 0.40000000000000002, 'name': 'lettuce'}]
+1632461425.692198038 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.693495988 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.694048881 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_4, val=[{'z': 0.40000000000000002, 'name': 'butter'}]
+1632461425.695358037 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.696683883 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.697187900 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_6, val=[{'z': 0.40000000000000002, 'name': 'tuna'}]
+1632461425.698477983 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.699768066 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.701730966 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.703244924 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.704621076 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.705163955 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461425.706512928 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.709259986 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461425.709901094 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461425.710670948 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] bread1
+1632461425.714447021 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461426.416850090 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pan, obj_pose=position: 
+  x: 0.5
+  y: 1.125
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.418632030 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=pot, obj_pose=position: 
+  x: 0.5
+  y: 1.375
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.420624017 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=plate, obj_pose=position: 
+  x: 0.375
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.422857999 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bowl, obj_pose=position: 
+  x: 0.625
+  y: -0.165
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.425899982 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spatula, obj_pose=position: 
+  x: 0.3819
+  y: -1.0
+  z: 0.450000000855
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461426.428215026 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=spreader, obj_pose=position: 
+  x: 0.2991
+  y: -1.4
+  z: 0.449999998636
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461426.429862976 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=scooper, obj_pose=position: 
+  x: 0.2463
+  y: -0.799999997221
+  z: 0.45
+orientation: 
+  x: -9.47342660555e-09
+  y: 9.4734265663e-09
+  z: 0.707106771713
+  w: 0.70710679066
+1632461426.431256055 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=knife, obj_pose=position: 
+  x: 0.3018
+  y: -1.2
+  z: 0.449999998708
+orientation: 
+  x: -0.500000006699
+  y: 0.499999993301
+  z: 0.499999993301
+  w: 0.500000006699
+1632461426.432517051 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=tuna, obj_pose=position: 
+  x: 0.5
+  y: 0.3
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.433830022 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=onion, obj_pose=position: 
+  x: 0.33
+  y: 0.48
+  z: 0.426
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.435174942 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=butter, obj_pose=position: 
+  x: 0.5
+  y: 0.66
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.436419010 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=lettuce, obj_pose=position: 
+  x: 0.67
+  y: 0.48
+  z: 0.401
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: 0.0
+  w: 1.0
+1632461426.437779903 INFO /PandaMove [object_level_motion.py:275(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] obj=bread1, obj_pose=position: 
+  x: 0.33
+  y: 0.66
+  z: 0.4095
+orientation: 
+  x: 0.0
+  y: 0.0
+  z: -0.707106771713
+  w: 0.70710679066
+1632461426.439306974 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.439877986 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spreader, val=[{'z': 0.44999999999999996, 'name': 'knife'}]
+1632461426.441265106 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.442914009 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.445555925 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.446181058 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_knife, val=[{'z': 0.45000000000000001, 'name': 'scooper'}]
+1632461426.447587013 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.448959112 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.450536012 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.452157020 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.453942060 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.458189964 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.459388971 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_2, val=[{'z': 0.40000000000000002, 'name': 'bowl'}]
+1632461426.461039066 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.462477922 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.463057041 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_spatula, val=[{'z': 0.44999999999999996, 'name': 'spreader'}]
+1632461426.464494943 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.465037107 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_scooper, val=[{'z': 0.45000000000000007, 'name': 'spatula'}]
+1632461426.466433048 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.467840909 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.468400955 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_empty_4, val=[{'z': 0.40000000000000002, 'name': 'plate'}]
+1632461426.469805002 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.471216917 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.472631931 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.473186016 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_8, val=[{'z': 0.40000000000000002, 'name': 'onion'}]
+1632461426.477385044 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.479376077 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.480762004 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.481281995 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_2, val=[{'z': 0.40000000000000002, 'name': 'lettuce'}]
+1632461426.482867956 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.484467983 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.485073089 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_4, val=[{'z': 0.40000000000000002, 'name': 'butter'}]
+1632461426.486476898 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.487047910 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_7, val=[{'z': 0.40000000000000002, 'name': 'bread1'}]
+1632461426.488435029 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.488980054 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_ing_6, val=[{'z': 0.40000000000000002, 'name': 'tuna'}]
+1632461426.490395069 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.492021083 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.497101068 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.499113082 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.500631093 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.501169919 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pan, val=[{'z': 0.40000000000000002, 'name': 'pot'}]
+1632461426.502557992 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.503993034 INFO /PandaMove [object_level_motion.py:297(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+1632461426.504575014 INFO /PandaMove [object_level_motion.py:299(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] key=table1_pot, val=[{'z': 0.40000000000000002, 'name': 'pan'}]
+1632461426.505307912 INFO /PandaMove [object_level_motion.py:254(ObjectLevelMotion._arrange)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] bread2
+1632461426.510900020 INFO /PandaMove [object_level_motion.py:265(ObjectLevelMotion._update_place_pose_state)] [topics: /tf_static, /collision_object, /attached_collision_object, /waypoints, /rosout, /action] wait for update_place_pose_state
+1632461427.076882458 WARN /move_group_commander_wrappers_1632461413258304280 [/tmp/binarydeb/ros-melodic-moveit-ros-planning-interface-1.0.7/planning_scene_interface/src/planning_scene_interface.cpp:159(map<std::__cxx11::basic_string<char>, geometry_msgs::Pose_<std::allocator<void> > > moveit::planning_interface::PlanningSceneInterface::PlanningSceneInterfaceImpl::getObjectPoses)] [topics: /rosout, /planning_scene, /trajectory_execution_event, /attached_collision_object, /move_group/goal, /move_group/cancel, /pickup/goal, /pickup/cancel, /place/goal, /place/cancel, /execute_trajectory/goal, /execute_trajectory/cancel] Could not call planning scene service to get object names

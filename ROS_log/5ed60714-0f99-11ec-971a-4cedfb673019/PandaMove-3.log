@@ -1,0 +1,1616 @@
+[rospy.client][INFO] 2021-09-07 14:06:41,716: init_node, name[/PandaMove], pid[26474]
+[xmlrpc][INFO] 2021-09-07 14:06:41,717: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-09-07 14:06:41,717: Started XML-RPC server [http://wng:36811/]
+[rospy.init][INFO] 2021-09-07 14:06:41,717: ROS Slave URI: [http://wng:36811/]
+[rospy.impl.masterslave][INFO] 2021-09-07 14:06:41,717: _ready: http://wng:36811/
+[xmlrpc][INFO] 2021-09-07 14:06:41,717: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-09-07 14:06:41,718: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-09-07 14:06:41,817: registered with master
+[rospy.rosout][INFO] 2021-09-07 14:06:41,818: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-09-07 14:06:41,819: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-09-07 14:06:41,819: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rospy.internal][INFO] 2021-09-07 14:06:43,558: topic[/rosout] adding connection to [/rosout], count 0
+[rospy.internal][INFO] 2021-09-07 14:06:43,572: topic[/collision_object] adding connection to [/move_group], count 0
+[rospy.internal][INFO] 2021-09-07 14:06:43,583: topic[/attached_collision_object] adding connection to [/move_group], count 0
+[rosout][INFO] 2021-09-07 14:06:43,583: wait for update_place_pose_state
+[rospy.internal][INFO] 2021-09-07 14:06:43,656: topic[/tf_static] adding connection to [/rviz_wng_26438_1310312606729041644], count 0
+[rospy.internal][INFO] 2021-09-07 14:06:43,657: topic[/tf_static] adding connection to [/move_group], count 1
+[rospy.internal][INFO] 2021-09-07 14:06:43,670: topic[/tf_static] adding connection to [/move_group_commander_wrappers_1630991201663322304], count 2
+[rospy.internal][INFO] 2021-09-07 14:06:43,903: topic[/action] adding connection to [/rviz_wng_26438_1310312606729041644], count 0
+[rosout][INFO] 2021-09-07 14:06:44,285: pan
+[rosout][INFO] 2021-09-07 14:06:44,296: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:45,001: pot
+[rosout][INFO] 2021-09-07 14:06:45,017: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:45,726: plate
+[rosout][INFO] 2021-09-07 14:06:45,735: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:46,448: bowl
+[rosout][INFO] 2021-09-07 14:06:46,470: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:47,199: spatula
+[rosout][INFO] 2021-09-07 14:06:47,208: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:47,926: spreader
+[rosout][INFO] 2021-09-07 14:06:47,933: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:48,652: scooper
+[rosout][INFO] 2021-09-07 14:06:48,659: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:49,391: knife
+[rosout][INFO] 2021-09-07 14:06:49,404: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:50,167: cutting_board
+[rosout][INFO] 2021-09-07 14:06:50,182: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:50,911: onion
+[rosout][INFO] 2021-09-07 14:06:50,921: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:51,680: spinach
+[rosout][INFO] 2021-09-07 14:06:51,690: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:52,437: green_pepper
+[rosout][INFO] 2021-09-07 14:06:52,462: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:53,208: cheese
+[rosout][INFO] 2021-09-07 14:06:53,211: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:53,977: oregano
+[rosout][INFO] 2021-09-07 14:06:54,155: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:54,937: black_olive
+[rosout][INFO] 2021-09-07 14:06:54,948: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:55,749: tomato
+[rosout][INFO] 2021-09-07 14:06:55,764: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:56,553: chopped_onion
+[rosout][INFO] 2021-09-07 14:06:56,564: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:57,339: chopped_spinach
+[rosout][INFO] 2021-09-07 14:06:57,385: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:58,206: chopped_green_pepper
+[rosout][INFO] 2021-09-07 14:06:58,253: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:59,038: chopped_cheese
+[rosout][INFO] 2021-09-07 14:06:59,050: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:06:59,867: chopped_tomato
+[rosout][INFO] 2021-09-07 14:07:17,873: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:07:17,875: ==================================================
+[rosout][INFO] 2021-09-07 14:07:17,876: [task=1]
+[rosout][INFO] 2021-09-07 14:07:17,877: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:07:18,658: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:07:18,659: using_ings: [set(['onion']), {}]
+[rosout][INFO] 2021-09-07 14:07:18,660: using_objects: {'plate': 'plate', 'onion': 'onion', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:07:18,666: goal: {'exist_oregano': True, 'exist_spinach': True, 'exist_black_olive': True, 'exist_tomato': True, 'exist_green_pepper': True, 'exist_cheese': True, 'exist_onion': True, 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:07:18,667: goal_diff: {'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:07:18,668: current: {'plate_is_on': 'near_cutting_board', 'oregano_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'green_pepper_is_on': 'table1', 'onion_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'knife_is_on': 'table1', 'pan_is_on': 'table1', 'bowl_is_on': 'table1', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:07:18,668: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': False, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'table1', 'chopped_salad': False, 'onion_is_on': 'table1', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table1', 'spread_on_oregano': 'None', 'holding': 'None', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': False, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'None', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'None', 'exist_tomato': True, 'green_pepper_is_on': 'table1', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': False, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:07:19,046: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:07:19,048: plan =  -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife
+[rosout][INFO] 2021-09-07 14:07:19,049: length = 4
+[rosout][INFO] 2021-09-07 14:07:19,050: num_of_expand = 625
+[rosout][INFO] 2021-09-07 14:07:19,050: time = 0.376729011536
+[rosout][INFO] 2021-09-07 14:07:19,051: success = True
+[rosout][INFO] 2021-09-07 14:07:19,052: ==================================================
+[rosout][INFO] 2021-09-07 14:07:19,053: [ola=0] ['PickUp', 'onion']
+[rosout][INFO] 2021-09-07 14:07:19,261: move_to: 6
+[rosout][INFO] 2021-09-07 14:07:28,540: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:07:28,571: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:07:35,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:07:35,470: obj_hierarchy = ['onion']
+[rosout][INFO] 2021-09-07 14:07:36,949: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:07:37,050: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:07:44,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:07:44,367: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:07:44,368: planning_time = 0.194724082947
+[rosout][INFO] 2021-09-07 14:07:44,374: execution_time = 1.69949793816
+[rosout][INFO] 2021-09-07 14:07:44,375: success = True
+[rosout][INFO] 2021-09-07 14:07:44,376: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:07:44,377: planning_time = 0.00617694854736
+[rosout][INFO] 2021-09-07 14:07:44,377: execution_time = 1.09207987785
+[rosout][INFO] 2021-09-07 14:07:44,378: success = True
+[rosout][INFO] 2021-09-07 14:07:44,379: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:07:44,380: planning_time = None
+[rosout][INFO] 2021-09-07 14:07:44,381: execution_time = None
+[rosout][INFO] 2021-09-07 14:07:44,382: success = True
+[rosout][INFO] 2021-09-07 14:07:44,382: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:07:44,383: planning_time = 0.0862758159637
+[rosout][INFO] 2021-09-07 14:07:44,384: execution_time = 1.01182079315
+[rosout][INFO] 2021-09-07 14:07:44,385: success = True
+[rosout][INFO] 2021-09-07 14:07:44,386: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:07:44,387: time = 25.3126621246
+[rosout][INFO] 2021-09-07 14:07:44,387: action = ['PickUp', 'onion']
+[rosout][INFO] 2021-09-07 14:07:44,388: length = 4
+[rosout][INFO] 2021-09-07 14:07:44,389: success = True
+[rosout][INFO] 2021-09-07 14:07:44,390: ==================================================
+[rosout][INFO] 2021-09-07 14:07:44,393: [ola=1] ['Place', 'onion', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:07:44,394: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:07:45,390: move_to: 8
+[rosout][INFO] 2021-09-07 14:07:56,230: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:07:56,269: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:08:03,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:03,367: ['onion']
+[rosout][INFO] 2021-09-07 14:08:04,833: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:08:05,402: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:08:08,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:08,446: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:08:15,565: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:15,567: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:15,568: planning_time = 0.224279880524
+[rosout][INFO] 2021-09-07 14:08:15,569: execution_time = 2.0995490551
+[rosout][INFO] 2021-09-07 14:08:15,570: success = True
+[rosout][INFO] 2021-09-07 14:08:15,570: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:15,571: planning_time = 0.00419807434082
+[rosout][INFO] 2021-09-07 14:08:15,572: execution_time = 1.19340085983
+[rosout][INFO] 2021-09-07 14:08:15,572: success = True
+[rosout][INFO] 2021-09-07 14:08:15,576: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:15,577: planning_time = None
+[rosout][INFO] 2021-09-07 14:08:15,582: execution_time = None
+[rosout][INFO] 2021-09-07 14:08:15,583: success = True
+[rosout][INFO] 2021-09-07 14:08:15,584: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:15,584: planning_time = 0.080363035202
+[rosout][INFO] 2021-09-07 14:08:15,585: execution_time = 1.11657595634
+[rosout][INFO] 2021-09-07 14:08:15,586: success = True
+[rosout][INFO] 2021-09-07 14:08:15,587: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:08:15,587: time = 31.1729180813
+[rosout][INFO] 2021-09-07 14:08:15,588: action = ['Place', 'onion', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:08:15,589: length = 4
+[rosout][INFO] 2021-09-07 14:08:15,589: success = True
+[rosout][INFO] 2021-09-07 14:08:15,590: ==================================================
+[rosout][INFO] 2021-09-07 14:08:15,591: [ola=2] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:08:15,809: move_to: 10
+[rosout][INFO] 2021-09-07 14:08:26,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:27,012: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:08:33,965: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:33,966: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:08:35,672: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:08:35,773: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:08:43,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:43,574: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:43,576: planning_time = 0.0683879852295
+[rosout][INFO] 2021-09-07 14:08:43,577: execution_time = 1.79980802536
+[rosout][INFO] 2021-09-07 14:08:43,578: success = True
+[rosout][INFO] 2021-09-07 14:08:43,579: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:43,579: planning_time = 0.0481369495392
+[rosout][INFO] 2021-09-07 14:08:43,580: execution_time = 1.05029606819
+[rosout][INFO] 2021-09-07 14:08:43,581: success = True
+[rosout][INFO] 2021-09-07 14:08:43,582: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:43,583: planning_time = None
+[rosout][INFO] 2021-09-07 14:08:43,584: execution_time = None
+[rosout][INFO] 2021-09-07 14:08:43,584: success = True
+[rosout][INFO] 2021-09-07 14:08:43,585: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:08:43,587: planning_time = 0.00921320915222
+[rosout][INFO] 2021-09-07 14:08:43,588: execution_time = 1.09013199806
+[rosout][INFO] 2021-09-07 14:08:43,589: success = True
+[rosout][INFO] 2021-09-07 14:08:43,590: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:08:43,590: time = 27.9823870659
+[rosout][INFO] 2021-09-07 14:08:43,591: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:08:43,592: length = 4
+[rosout][INFO] 2021-09-07 14:08:43,593: success = True
+[rosout][INFO] 2021-09-07 14:08:43,594: ==================================================
+[rosout][INFO] 2021-09-07 14:08:43,595: [ola=3] ['Chop', 'onion', 'knife']
+[rosout][INFO] 2021-09-07 14:08:43,799: move_to: 2
+[rosout][INFO] 2021-09-07 14:08:49,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:49,317: move_to: 7
+[rosout][INFO] 2021-09-07 14:08:58,794: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:08:58,866: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:09:04,143: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:09:06,794: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:06,866: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:09:12,566: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:09:17,878: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:09:24,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:24,719: move_to: 2
+[rosout][INFO] 2021-09-07 14:09:29,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:29,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,769: planning_time = 0.13445186615
+[rosout][INFO] 2021-09-07 14:09:29,770: execution_time = 0.501013040543
+[rosout][INFO] 2021-09-07 14:09:29,771: success = True
+[rosout][INFO] 2021-09-07 14:09:29,773: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,774: planning_time = 0.0690879821777
+[rosout][INFO] 2021-09-07 14:09:29,775: execution_time = 1.80017089844
+[rosout][INFO] 2021-09-07 14:09:29,776: success = True
+[rosout][INFO] 2021-09-07 14:09:29,777: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,778: planning_time = 0.00249695777893
+[rosout][INFO] 2021-09-07 14:09:29,779: execution_time = 1.19638705254
+[rosout][INFO] 2021-09-07 14:09:29,780: success = True
+[rosout][INFO] 2021-09-07 14:09:29,781: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,782: planning_time = 0.0022668838501
+[rosout][INFO] 2021-09-07 14:09:29,782: execution_time = 0.00142192840576
+[rosout][INFO] 2021-09-07 14:09:29,783: success = True
+[rosout][INFO] 2021-09-07 14:09:29,784: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,785: planning_time = 0.00192713737488
+[rosout][INFO] 2021-09-07 14:09:29,785: execution_time = 0.00182390213013
+[rosout][INFO] 2021-09-07 14:09:29,786: success = True
+[rosout][INFO] 2021-09-07 14:09:29,788: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:09:29,789: planning_time = 0.155419111252
+[rosout][INFO] 2021-09-07 14:09:29,791: execution_time = 0.499692201614
+[rosout][INFO] 2021-09-07 14:09:29,792: success = True
+[rosout][INFO] 2021-09-07 14:09:29,793: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:09:29,793: time = 46.1718680859
+[rosout][INFO] 2021-09-07 14:09:29,794: action = ['Chop', 'onion', 'knife']
+[rosout][INFO] 2021-09-07 14:09:29,795: length = 6
+[rosout][INFO] 2021-09-07 14:09:29,796: success = True
+[rosout][INFO] 2021-09-07 14:09:29,796: ==================================================
+[rosout][INFO] 2021-09-07 14:09:29,799: [task=2]
+[rosout][INFO] 2021-09-07 14:09:29,803: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:09:30,593: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:09:30,595: using_ings: [set(['onion']), {}]
+[rosout][INFO] 2021-09-07 14:09:30,596: using_objects: {'plate': 'plate', 'onion': 'onion', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:09:30,597: goal: {'exist_oregano': True, 'exist_spinach': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_green_pepper': True, 'exist_cheese': True, 'exist_onion': True, 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:09:30,598: goal_diff: {'onion_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:09:30,599: current: {'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'green_pepper_is_on': 'table1', 'onion_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'holding': 'knife', 'bowl_is_on': 'table1', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:09:30,600: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': False, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'table1', 'chopped_salad': False, 'onion_is_on': 'table1', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': False, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'None', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'None', 'exist_tomato': True, 'green_pepper_is_on': 'table1', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:09:30,911: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:09:30,913: plan =  -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_onion/bowl/knife
+[rosout][INFO] 2021-09-07 14:09:30,914: length = 5
+[rosout][INFO] 2021-09-07 14:09:30,915: num_of_expand = 394
+[rosout][INFO] 2021-09-07 14:09:30,916: time = 0.304263114929
+[rosout][INFO] 2021-09-07 14:09:30,917: success = True
+[rosout][INFO] 2021-09-07 14:09:30,918: ==================================================
+[rosout][INFO] 2021-09-07 14:09:30,920: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:09:30,921: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:09:31,902: move_to: 5
+[rosout][INFO] 2021-09-07 14:09:39,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:40,001: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:09:47,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:47,567: ['knife']
+[rosout][INFO] 2021-09-07 14:09:49,103: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:09:49,679: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:09:52,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:09:52,413: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:10:00,815: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:00,817: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:00,818: planning_time = 0.168020963669
+[rosout][INFO] 2021-09-07 14:10:00,818: execution_time = 1.79986095428
+[rosout][INFO] 2021-09-07 14:10:00,819: success = True
+[rosout][INFO] 2021-09-07 14:10:00,820: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:00,821: planning_time = 0.0375130176544
+[rosout][INFO] 2021-09-07 14:10:00,822: execution_time = 1.06127309799
+[rosout][INFO] 2021-09-07 14:10:00,822: success = True
+[rosout][INFO] 2021-09-07 14:10:00,823: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:00,824: planning_time = None
+[rosout][INFO] 2021-09-07 14:10:00,825: execution_time = None
+[rosout][INFO] 2021-09-07 14:10:00,828: success = True
+[rosout][INFO] 2021-09-07 14:10:00,828: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:00,829: planning_time = 0.0490860939026
+[rosout][INFO] 2021-09-07 14:10:00,830: execution_time = 1.14998006821
+[rosout][INFO] 2021-09-07 14:10:00,831: success = True
+[rosout][INFO] 2021-09-07 14:10:00,831: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:10:00,832: time = 29.895442009
+[rosout][INFO] 2021-09-07 14:10:00,833: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:10:00,834: length = 4
+[rosout][INFO] 2021-09-07 14:10:00,834: success = True
+[rosout][INFO] 2021-09-07 14:10:00,835: ==================================================
+[rosout][INFO] 2021-09-07 14:10:00,836: [ola=1] ['PickUp', 'bowl']
+[rosout][INFO] 2021-09-07 14:10:01,071: move_to: 11
+[rosout][INFO] 2021-09-07 14:10:14,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:14,600: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:10:21,979: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:21,980: obj_hierarchy = ['bowl']
+[rosout][INFO] 2021-09-07 14:10:23,483: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:10:23,664: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:10:31,067: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:31,069: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:31,070: planning_time = 0.186342000961
+[rosout][INFO] 2021-09-07 14:10:31,071: execution_time = 2.89939308167
+[rosout][INFO] 2021-09-07 14:10:31,071: success = True
+[rosout][INFO] 2021-09-07 14:10:31,072: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:31,073: planning_time = 0.0358440876007
+[rosout][INFO] 2021-09-07 14:10:31,074: execution_time = 1.1624519825
+[rosout][INFO] 2021-09-07 14:10:31,075: success = True
+[rosout][INFO] 2021-09-07 14:10:31,076: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:31,077: planning_time = None
+[rosout][INFO] 2021-09-07 14:10:31,078: execution_time = None
+[rosout][INFO] 2021-09-07 14:10:31,078: success = True
+[rosout][INFO] 2021-09-07 14:10:31,079: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:10:31,080: planning_time = 0.099828004837
+[rosout][INFO] 2021-09-07 14:10:31,081: execution_time = 1.19530200958
+[rosout][INFO] 2021-09-07 14:10:31,086: success = True
+[rosout][INFO] 2021-09-07 14:10:31,087: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:10:31,088: time = 30.2319800854
+[rosout][INFO] 2021-09-07 14:10:31,088: action = ['PickUp', 'bowl']
+[rosout][INFO] 2021-09-07 14:10:31,090: length = 4
+[rosout][INFO] 2021-09-07 14:10:31,091: success = True
+[rosout][INFO] 2021-09-07 14:10:31,092: ==================================================
+[rosout][INFO] 2021-09-07 14:10:31,093: [ola=2] ['Place', 'bowl', 'near_cutting_board', 'dishware']
+[rosout][INFO] 2021-09-07 14:10:31,094: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:10:32,064: move_to: 6
+[rosout][INFO] 2021-09-07 14:10:41,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:41,261: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:10:47,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:47,866: ['bowl']
+[rosout][INFO] 2021-09-07 14:10:49,573: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:10:50,173: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:10:52,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:10:52,913: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:11:01,294: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:01,296: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:01,297: planning_time = 0.170567989349
+[rosout][INFO] 2021-09-07 14:11:01,298: execution_time = 2.2017390728
+[rosout][INFO] 2021-09-07 14:11:01,299: success = True
+[rosout][INFO] 2021-09-07 14:11:01,300: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:01,302: planning_time = 0.0972180366516
+[rosout][INFO] 2021-09-07 14:11:01,303: execution_time = 1.10184979439
+[rosout][INFO] 2021-09-07 14:11:01,305: success = True
+[rosout][INFO] 2021-09-07 14:11:01,307: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:01,307: planning_time = None
+[rosout][INFO] 2021-09-07 14:11:01,308: execution_time = None
+[rosout][INFO] 2021-09-07 14:11:01,309: success = True
+[rosout][INFO] 2021-09-07 14:11:01,310: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:01,311: planning_time = 0.0487170219421
+[rosout][INFO] 2021-09-07 14:11:01,311: execution_time = 1.14993000031
+[rosout][INFO] 2021-09-07 14:11:01,312: success = True
+[rosout][INFO] 2021-09-07 14:11:01,313: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:11:01,314: time = 30.2018527985
+[rosout][INFO] 2021-09-07 14:11:01,315: action = ['Place', 'bowl', 'near_cutting_board', 'dishware']
+[rosout][INFO] 2021-09-07 14:11:01,316: length = 4
+[rosout][INFO] 2021-09-07 14:11:01,316: success = True
+[rosout][INFO] 2021-09-07 14:11:01,317: ==================================================
+[rosout][INFO] 2021-09-07 14:11:01,318: [ola=3] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:11:01,394: move_to: 7
+[rosout][INFO] 2021-09-07 14:11:10,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:10,530: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:11:18,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:18,266: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:11:19,539: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:11:19,569: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:11:27,165: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:27,167: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:27,168: planning_time = 0.0528929233551
+[rosout][INFO] 2021-09-07 14:11:27,169: execution_time = 1.99916219711
+[rosout][INFO] 2021-09-07 14:11:27,169: success = True
+[rosout][INFO] 2021-09-07 14:11:27,170: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:27,171: planning_time = 0.0639650821686
+[rosout][INFO] 2021-09-07 14:11:27,172: execution_time = 1.03475594521
+[rosout][INFO] 2021-09-07 14:11:27,174: success = True
+[rosout][INFO] 2021-09-07 14:11:27,175: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:27,178: planning_time = None
+[rosout][INFO] 2021-09-07 14:11:27,181: execution_time = None
+[rosout][INFO] 2021-09-07 14:11:27,182: success = True
+[rosout][INFO] 2021-09-07 14:11:27,183: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:11:27,184: planning_time = 0.00281500816345
+[rosout][INFO] 2021-09-07 14:11:27,185: execution_time = 1.09424090385
+[rosout][INFO] 2021-09-07 14:11:27,186: success = True
+[rosout][INFO] 2021-09-07 14:11:27,187: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:11:27,188: time = 25.8475759029
+[rosout][INFO] 2021-09-07 14:11:27,189: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:11:27,193: length = 4
+[rosout][INFO] 2021-09-07 14:11:27,194: success = True
+[rosout][INFO] 2021-09-07 14:11:27,195: ==================================================
+[rosout][INFO] 2021-09-07 14:11:27,196: [ola=4] ['Scrape', 'chopped_onion', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:11:27,435: move_to: 2
+[rosout][INFO] 2021-09-07 14:11:33,567: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:34,028: move_to: 4
+[rosout][INFO] 2021-09-07 14:11:41,166: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:41,317: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:11:46,179: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:11:48,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:11:48,966: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:11:59,019: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:12:01,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:01,568: reassign
+[rosout][INFO] 2021-09-07 14:12:02,269: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:12:03,064: {'plate': [], 'pot': [], 'bowl': ['chopped_onion'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:12:03,402: move_to: 2
+[rosout][INFO] 2021-09-07 14:12:08,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:08,766: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:08,767: planning_time = 0.170821905136
+[rosout][INFO] 2021-09-07 14:12:08,768: execution_time = 0.499323129654
+[rosout][INFO] 2021-09-07 14:12:08,769: success = True
+[rosout][INFO] 2021-09-07 14:12:08,770: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:08,771: planning_time = 0.264485120773
+[rosout][INFO] 2021-09-07 14:12:08,772: execution_time = 1.69959807396
+[rosout][INFO] 2021-09-07 14:12:08,773: success = True
+[rosout][INFO] 2021-09-07 14:12:08,774: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:08,774: planning_time = 0.0528910160065
+[rosout][INFO] 2021-09-07 14:12:08,775: execution_time = 1.1444849968
+[rosout][INFO] 2021-09-07 14:12:08,776: success = True
+[rosout][INFO] 2021-09-07 14:12:08,777: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:08,778: planning_time = 0.00226783752441
+[rosout][INFO] 2021-09-07 14:12:08,779: execution_time = 1.49671196938
+[rosout][INFO] 2021-09-07 14:12:08,780: success = True
+[rosout][INFO] 2021-09-07 14:12:08,781: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:08,782: planning_time = 0.237838029861
+[rosout][INFO] 2021-09-07 14:12:08,782: execution_time = 0.499973058701
+[rosout][INFO] 2021-09-07 14:12:08,783: success = True
+[rosout][INFO] 2021-09-07 14:12:08,784: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:12:08,785: time = 41.5698370934
+[rosout][INFO] 2021-09-07 14:12:08,786: action = ['Scrape', 'chopped_onion', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:12:08,787: length = 5
+[rosout][INFO] 2021-09-07 14:12:08,793: success = True
+[rosout][INFO] 2021-09-07 14:12:08,794: ==================================================
+[rosout][INFO] 2021-09-07 14:12:08,795: [task=3]
+[rosout][INFO] 2021-09-07 14:12:08,796: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:12:09,605: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:12:09,607: using_ings: [set(['green_pepper']), {}]
+[rosout][INFO] 2021-09-07 14:12:09,609: using_objects: {'plate': 'plate', 'near_cutting_board': 'near_cutting_board', 'green_pepper': 'green_pepper', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:12:09,610: goal: {'exist_oregano': True, 'exist_spinach': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_green_pepper': True, 'exist_cheese': True, 'exist_onion': True, 'chopped_green_pepper': True, 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:12:09,611: goal_diff: {'chopped_green_pepper': True}
+[rosout][INFO] 2021-09-07 14:12:09,612: current: {'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'green_pepper_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:12:09,612: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': False, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': False, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'None', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table1', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:12:10,084: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:12:10,086: plan =  -> Place/knife/table/tool -> PickUp/green_pepper -> Place/green_pepper/cutting_board/ingredient -> PickUp/knife -> Chop/green_pepper/knife
+[rosout][INFO] 2021-09-07 14:12:10,087: length = 5
+[rosout][INFO] 2021-09-07 14:12:10,087: num_of_expand = 696
+[rosout][INFO] 2021-09-07 14:12:10,088: time = 0.468542098999
+[rosout][INFO] 2021-09-07 14:12:10,089: success = True
+[rosout][INFO] 2021-09-07 14:12:10,090: ==================================================
+[rosout][INFO] 2021-09-07 14:12:10,091: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:12:10,092: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:12:11,025: move_to: 5
+[rosout][INFO] 2021-09-07 14:12:20,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:20,814: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:12:28,658: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:28,659: ['knife']
+[rosout][INFO] 2021-09-07 14:12:29,914: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:12:30,576: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:12:33,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:33,603: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:12:40,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:40,571: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:40,572: planning_time = 0.15744805336
+[rosout][INFO] 2021-09-07 14:12:40,574: execution_time = 2.2016711235
+[rosout][INFO] 2021-09-07 14:12:40,576: success = True
+[rosout][INFO] 2021-09-07 14:12:40,577: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:40,578: planning_time = 0.0506620407104
+[rosout][INFO] 2021-09-07 14:12:40,578: execution_time = 1.04261994362
+[rosout][INFO] 2021-09-07 14:12:40,579: success = True
+[rosout][INFO] 2021-09-07 14:12:40,580: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:40,581: planning_time = None
+[rosout][INFO] 2021-09-07 14:12:40,582: execution_time = None
+[rosout][INFO] 2021-09-07 14:12:40,582: success = True
+[rosout][INFO] 2021-09-07 14:12:40,583: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:12:40,584: planning_time = 0.0387098789215
+[rosout][INFO] 2021-09-07 14:12:40,585: execution_time = 1.05938005447
+[rosout][INFO] 2021-09-07 14:12:40,586: success = True
+[rosout][INFO] 2021-09-07 14:12:40,587: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:12:40,588: time = 30.478921175
+[rosout][INFO] 2021-09-07 14:12:40,589: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:12:40,590: length = 4
+[rosout][INFO] 2021-09-07 14:12:40,591: success = True
+[rosout][INFO] 2021-09-07 14:12:40,592: ==================================================
+[rosout][INFO] 2021-09-07 14:12:40,593: [ola=1] ['PickUp', 'green_pepper']
+[rosout][INFO] 2021-09-07 14:12:40,818: move_to: 8
+[rosout][INFO] 2021-09-07 14:12:51,366: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:51,509: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:12:58,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:12:58,667: obj_hierarchy = ['green_pepper']
+[rosout][INFO] 2021-09-07 14:12:59,732: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:12:59,778: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:13:07,209: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:07,211: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:07,212: planning_time = 0.109961032867
+[rosout][INFO] 2021-09-07 14:13:07,212: execution_time = 2.5986468792
+[rosout][INFO] 2021-09-07 14:13:07,213: success = True
+[rosout][INFO] 2021-09-07 14:13:07,214: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:07,215: planning_time = 0.0443339347839
+[rosout][INFO] 2021-09-07 14:13:07,216: execution_time = 1.15289902687
+[rosout][INFO] 2021-09-07 14:13:07,217: success = True
+[rosout][INFO] 2021-09-07 14:13:07,218: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:07,219: planning_time = None
+[rosout][INFO] 2021-09-07 14:13:07,220: execution_time = None
+[rosout][INFO] 2021-09-07 14:13:07,224: success = True
+[rosout][INFO] 2021-09-07 14:13:07,226: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:07,226: planning_time = 0.0146400928497
+[rosout][INFO] 2021-09-07 14:13:07,228: execution_time = 1.08573389053
+[rosout][INFO] 2021-09-07 14:13:07,229: success = True
+[rosout][INFO] 2021-09-07 14:13:07,233: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:13:07,234: time = 26.6168830395
+[rosout][INFO] 2021-09-07 14:13:07,235: action = ['PickUp', 'green_pepper']
+[rosout][INFO] 2021-09-07 14:13:07,241: length = 4
+[rosout][INFO] 2021-09-07 14:13:07,242: success = True
+[rosout][INFO] 2021-09-07 14:13:07,243: ==================================================
+[rosout][INFO] 2021-09-07 14:13:07,244: [ola=2] ['Place', 'green_pepper', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:13:07,245: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:13:08,122: move_to: 8
+[rosout][INFO] 2021-09-07 14:13:19,266: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:19,446: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:13:27,166: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:27,168: ['green_pepper']
+[rosout][INFO] 2021-09-07 14:13:28,657: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:13:29,347: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:13:31,965: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:32,125: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:13:39,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:39,567: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:39,568: planning_time = 0.0926358699799
+[rosout][INFO] 2021-09-07 14:13:39,569: execution_time = 2.09974002838
+[rosout][INFO] 2021-09-07 14:13:39,570: success = True
+[rosout][INFO] 2021-09-07 14:13:39,571: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:39,572: planning_time = 0.0818560123444
+[rosout][INFO] 2021-09-07 14:13:39,573: execution_time = 1.11680698395
+[rosout][INFO] 2021-09-07 14:13:39,576: success = True
+[rosout][INFO] 2021-09-07 14:13:39,577: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:39,581: planning_time = None
+[rosout][INFO] 2021-09-07 14:13:39,582: execution_time = None
+[rosout][INFO] 2021-09-07 14:13:39,583: success = True
+[rosout][INFO] 2021-09-07 14:13:39,584: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:13:39,585: planning_time = 0.0615148544312
+[rosout][INFO] 2021-09-07 14:13:39,589: execution_time = 1.03729104996
+[rosout][INFO] 2021-09-07 14:13:39,590: success = True
+[rosout][INFO] 2021-09-07 14:13:39,591: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:13:39,592: time = 32.3217558861
+[rosout][INFO] 2021-09-07 14:13:39,596: action = ['Place', 'green_pepper', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:13:39,597: length = 4
+[rosout][INFO] 2021-09-07 14:13:39,598: success = True
+[rosout][INFO] 2021-09-07 14:13:39,599: ==================================================
+[rosout][INFO] 2021-09-07 14:13:39,600: [ola=3] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:13:39,948: move_to: 9
+[rosout][INFO] 2021-09-07 14:13:50,806: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:50,875: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:13:58,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:13:58,866: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:14:00,427: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:14:00,469: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:14:08,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:08,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:08,769: planning_time = 0.183580160141
+[rosout][INFO] 2021-09-07 14:14:08,770: execution_time = 1.7998650074
+[rosout][INFO] 2021-09-07 14:14:08,770: success = True
+[rosout][INFO] 2021-09-07 14:14:08,771: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:08,772: planning_time = 0.0108151435852
+[rosout][INFO] 2021-09-07 14:14:08,773: execution_time = 1.08833408356
+[rosout][INFO] 2021-09-07 14:14:08,774: success = True
+[rosout][INFO] 2021-09-07 14:14:08,775: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:08,777: planning_time = None
+[rosout][INFO] 2021-09-07 14:14:08,778: execution_time = None
+[rosout][INFO] 2021-09-07 14:14:08,778: success = True
+[rosout][INFO] 2021-09-07 14:14:08,779: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:08,780: planning_time = 0.00241494178772
+[rosout][INFO] 2021-09-07 14:14:08,781: execution_time = 1.09287405014
+[rosout][INFO] 2021-09-07 14:14:08,782: success = True
+[rosout][INFO] 2021-09-07 14:14:08,783: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:14:08,784: time = 29.1664061546
+[rosout][INFO] 2021-09-07 14:14:08,785: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:14:08,787: length = 4
+[rosout][INFO] 2021-09-07 14:14:08,788: success = True
+[rosout][INFO] 2021-09-07 14:14:08,789: ==================================================
+[rosout][INFO] 2021-09-07 14:14:08,790: [ola=4] ['Chop', 'green_pepper', 'knife']
+[rosout][INFO] 2021-09-07 14:14:09,020: move_to: 2
+[rosout][INFO] 2021-09-07 14:14:13,866: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:14,115: move_to: 7
+[rosout][INFO] 2021-09-07 14:14:24,367: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:24,506: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:14:29,865: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:14:32,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:32,512: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:14:36,765: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:14:41,879: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:14:49,022: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:49,238: move_to: 2
+[rosout][INFO] 2021-09-07 14:14:54,900: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:14:54,902: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,903: planning_time = 0.155483007431
+[rosout][INFO] 2021-09-07 14:14:54,904: execution_time = 0.500211954117
+[rosout][INFO] 2021-09-07 14:14:54,905: success = True
+[rosout][INFO] 2021-09-07 14:14:54,906: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,907: planning_time = 0.0878968238831
+[rosout][INFO] 2021-09-07 14:14:54,908: execution_time = 1.89975786209
+[rosout][INFO] 2021-09-07 14:14:54,909: success = True
+[rosout][INFO] 2021-09-07 14:14:54,910: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,911: planning_time = 0.0420849323273
+[rosout][INFO] 2021-09-07 14:14:54,913: execution_time = 1.15668201447
+[rosout][INFO] 2021-09-07 14:14:54,914: success = True
+[rosout][INFO] 2021-09-07 14:14:54,915: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,916: planning_time = 0.0487420558929
+[rosout][INFO] 2021-09-07 14:14:54,917: execution_time = 0.00207185745239
+[rosout][INFO] 2021-09-07 14:14:54,919: success = True
+[rosout][INFO] 2021-09-07 14:14:54,920: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,921: planning_time = 0.00132489204407
+[rosout][INFO] 2021-09-07 14:14:54,922: execution_time = 0.00103497505188
+[rosout][INFO] 2021-09-07 14:14:54,923: success = True
+[rosout][INFO] 2021-09-07 14:14:54,924: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:14:54,925: planning_time = 0.173712968826
+[rosout][INFO] 2021-09-07 14:14:54,926: execution_time = 0.500108003616
+[rosout][INFO] 2021-09-07 14:14:54,927: success = True
+[rosout][INFO] 2021-09-07 14:14:54,928: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:14:54,929: time = 46.1111199856
+[rosout][INFO] 2021-09-07 14:14:54,930: action = ['Chop', 'green_pepper', 'knife']
+[rosout][INFO] 2021-09-07 14:14:54,930: length = 6
+[rosout][INFO] 2021-09-07 14:14:54,931: success = True
+[rosout][INFO] 2021-09-07 14:14:54,932: ==================================================
+[rosout][INFO] 2021-09-07 14:14:54,935: [task=4]
+[rosout][INFO] 2021-09-07 14:14:54,936: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:14:55,740: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:14:55,744: using_ings: [set(['cheese']), {}]
+[rosout][INFO] 2021-09-07 14:14:55,745: using_objects: {'plate': 'plate', 'cheese': 'cheese', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:14:55,746: goal: {'exist_spinach': True, 'exist_green_pepper': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:14:55,746: goal_diff: {'chopped_cheese': True}
+[rosout][INFO] 2021-09-07 14:14:55,747: current: {'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'green_pepper_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:14:55,748: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': False, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'None', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table1', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:14:56,271: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:14:56,272: plan =  -> Place/knife/table/tool -> PickUp/cheese -> Place/cheese/cutting_board/ingredient -> PickUp/knife -> Chop/cheese/knife
+[rosout][INFO] 2021-09-07 14:14:56,273: length = 5
+[rosout][INFO] 2021-09-07 14:14:56,274: num_of_expand = 724
+[rosout][INFO] 2021-09-07 14:14:56,275: time = 0.51309800148
+[rosout][INFO] 2021-09-07 14:14:56,276: success = True
+[rosout][INFO] 2021-09-07 14:14:56,277: ==================================================
+[rosout][INFO] 2021-09-07 14:14:56,277: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:14:56,278: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:14:57,199: move_to: 5
+[rosout][INFO] 2021-09-07 14:15:05,108: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:05,185: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:15:12,768: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:12,775: ['knife']
+[rosout][INFO] 2021-09-07 14:15:14,194: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:15:14,719: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:15:17,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:17,396: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:15:26,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:26,066: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:26,067: planning_time = 0.0987000465393
+[rosout][INFO] 2021-09-07 14:15:26,068: execution_time = 1.79916715622
+[rosout][INFO] 2021-09-07 14:15:26,069: success = True
+[rosout][INFO] 2021-09-07 14:15:26,071: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:26,073: planning_time = 0.020938873291
+[rosout][INFO] 2021-09-07 14:15:26,074: execution_time = 1.07754206657
+[rosout][INFO] 2021-09-07 14:15:26,075: success = True
+[rosout][INFO] 2021-09-07 14:15:26,076: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:26,077: planning_time = None
+[rosout][INFO] 2021-09-07 14:15:26,078: execution_time = None
+[rosout][INFO] 2021-09-07 14:15:26,080: success = True
+[rosout][INFO] 2021-09-07 14:15:26,082: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:26,082: planning_time = 0.0315179824829
+[rosout][INFO] 2021-09-07 14:15:26,083: execution_time = 1.06701302528
+[rosout][INFO] 2021-09-07 14:15:26,084: success = True
+[rosout][INFO] 2021-09-07 14:15:26,085: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:15:26,089: time = 29.7882740498
+[rosout][INFO] 2021-09-07 14:15:26,090: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:15:26,091: length = 4
+[rosout][INFO] 2021-09-07 14:15:26,097: success = True
+[rosout][INFO] 2021-09-07 14:15:26,099: ==================================================
+[rosout][INFO] 2021-09-07 14:15:26,100: [ola=1] ['PickUp', 'cheese']
+[rosout][INFO] 2021-09-07 14:15:26,314: move_to: 9
+[rosout][INFO] 2021-09-07 14:15:38,551: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:38,572: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:15:45,768: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:45,770: obj_hierarchy = ['cheese']
+[rosout][INFO] 2021-09-07 14:15:46,864: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:15:46,966: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:15:54,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:15:54,873: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:54,874: planning_time = 0.0582301616669
+[rosout][INFO] 2021-09-07 14:15:54,876: execution_time = 2.79907798767
+[rosout][INFO] 2021-09-07 14:15:54,877: success = True
+[rosout][INFO] 2021-09-07 14:15:54,878: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:54,879: planning_time = 0.00767588615417
+[rosout][INFO] 2021-09-07 14:15:54,880: execution_time = 1.09094619751
+[rosout][INFO] 2021-09-07 14:15:54,881: success = True
+[rosout][INFO] 2021-09-07 14:15:54,881: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:54,884: planning_time = None
+[rosout][INFO] 2021-09-07 14:15:54,885: execution_time = None
+[rosout][INFO] 2021-09-07 14:15:54,886: success = True
+[rosout][INFO] 2021-09-07 14:15:54,887: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:15:54,887: planning_time = 0.00235915184021
+[rosout][INFO] 2021-09-07 14:15:54,888: execution_time = 1.09602403641
+[rosout][INFO] 2021-09-07 14:15:54,889: success = True
+[rosout][INFO] 2021-09-07 14:15:54,890: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:15:54,892: time = 28.7719078064
+[rosout][INFO] 2021-09-07 14:15:54,893: action = ['PickUp', 'cheese']
+[rosout][INFO] 2021-09-07 14:15:54,901: length = 4
+[rosout][INFO] 2021-09-07 14:15:54,902: success = True
+[rosout][INFO] 2021-09-07 14:15:54,903: ==================================================
+[rosout][INFO] 2021-09-07 14:15:54,904: [ola=2] ['Place', 'cheese', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:15:54,905: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:15:55,825: move_to: 10
+[rosout][INFO] 2021-09-07 14:16:08,565: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:08,780: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:16:15,976: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:15,981: ['cheese']
+[rosout][INFO] 2021-09-07 14:16:17,015: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:16:17,590: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:16:20,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:20,209: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:16:28,766: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:28,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:28,768: planning_time = 0.152523994446
+[rosout][INFO] 2021-09-07 14:16:28,769: execution_time = 2.49951887131
+[rosout][INFO] 2021-09-07 14:16:28,770: success = True
+[rosout][INFO] 2021-09-07 14:16:28,771: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:28,772: planning_time = 0.115728139877
+[rosout][INFO] 2021-09-07 14:16:28,772: execution_time = 0.983150005341
+[rosout][INFO] 2021-09-07 14:16:28,773: success = True
+[rosout][INFO] 2021-09-07 14:16:28,774: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:28,775: planning_time = None
+[rosout][INFO] 2021-09-07 14:16:28,776: execution_time = None
+[rosout][INFO] 2021-09-07 14:16:28,777: success = True
+[rosout][INFO] 2021-09-07 14:16:28,778: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:28,779: planning_time = 0.045089006424
+[rosout][INFO] 2021-09-07 14:16:28,780: execution_time = 1.15305709839
+[rosout][INFO] 2021-09-07 14:16:28,781: success = True
+[rosout][INFO] 2021-09-07 14:16:28,782: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:16:28,783: time = 33.8621029854
+[rosout][INFO] 2021-09-07 14:16:28,784: action = ['Place', 'cheese', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:16:28,785: length = 4
+[rosout][INFO] 2021-09-07 14:16:28,786: success = True
+[rosout][INFO] 2021-09-07 14:16:28,787: ==================================================
+[rosout][INFO] 2021-09-07 14:16:28,788: [ola=3] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:16:29,016: move_to: 9
+[rosout][INFO] 2021-09-07 14:16:38,866: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:39,026: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:16:46,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:46,667: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:16:48,772: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:16:48,867: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:16:56,066: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:16:56,079: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:56,080: planning_time = 0.068500995636
+[rosout][INFO] 2021-09-07 14:16:56,080: execution_time = 1.69974780083
+[rosout][INFO] 2021-09-07 14:16:56,081: success = True
+[rosout][INFO] 2021-09-07 14:16:56,082: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:56,083: planning_time = 0.0620911121368
+[rosout][INFO] 2021-09-07 14:16:56,083: execution_time = 1.1367521286
+[rosout][INFO] 2021-09-07 14:16:56,084: success = True
+[rosout][INFO] 2021-09-07 14:16:56,085: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:56,085: planning_time = None
+[rosout][INFO] 2021-09-07 14:16:56,086: execution_time = None
+[rosout][INFO] 2021-09-07 14:16:56,087: success = True
+[rosout][INFO] 2021-09-07 14:16:56,088: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:16:56,089: planning_time = 0.0027289390564
+[rosout][INFO] 2021-09-07 14:16:56,089: execution_time = 1.09590387344
+[rosout][INFO] 2021-09-07 14:16:56,090: success = True
+[rosout][INFO] 2021-09-07 14:16:56,091: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:16:56,092: time = 27.2900109291
+[rosout][INFO] 2021-09-07 14:16:56,092: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:16:56,093: length = 4
+[rosout][INFO] 2021-09-07 14:16:56,094: success = True
+[rosout][INFO] 2021-09-07 14:16:56,095: ==================================================
+[rosout][INFO] 2021-09-07 14:16:56,096: [ola=4] ['Chop', 'cheese', 'knife']
+[rosout][INFO] 2021-09-07 14:16:56,334: move_to: 2
+[rosout][INFO] 2021-09-07 14:17:02,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:02,296: move_to: 5
+[rosout][INFO] 2021-09-07 14:17:11,044: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:11,145: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:17:15,847: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:17:18,366: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:18,528: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:17:22,173: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:17:25,446: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:17:28,967: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:29,228: move_to: 2
+[rosout][INFO] 2021-09-07 14:17:34,674: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:34,675: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,676: planning_time = 0.169533014297
+[rosout][INFO] 2021-09-07 14:17:34,677: execution_time = 0.501877069473
+[rosout][INFO] 2021-09-07 14:17:34,678: success = True
+[rosout][INFO] 2021-09-07 14:17:34,678: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,679: planning_time = 0.172788858414
+[rosout][INFO] 2021-09-07 14:17:34,680: execution_time = 1.59960699081
+[rosout][INFO] 2021-09-07 14:17:34,681: success = True
+[rosout][INFO] 2021-09-07 14:17:34,682: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,683: planning_time = 0.0812637805939
+[rosout][INFO] 2021-09-07 14:17:34,684: execution_time = 1.01814699173
+[rosout][INFO] 2021-09-07 14:17:34,685: success = True
+[rosout][INFO] 2021-09-07 14:17:34,686: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,687: planning_time = 0.0643360614777
+[rosout][INFO] 2021-09-07 14:17:34,688: execution_time = 0.0014488697052
+[rosout][INFO] 2021-09-07 14:17:34,689: success = True
+[rosout][INFO] 2021-09-07 14:17:34,690: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,690: planning_time = 0.00921893119812
+[rosout][INFO] 2021-09-07 14:17:34,691: execution_time = 0.00150799751282
+[rosout][INFO] 2021-09-07 14:17:34,692: success = True
+[rosout][INFO] 2021-09-07 14:17:34,693: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:17:34,694: planning_time = 0.164196014404
+[rosout][INFO] 2021-09-07 14:17:34,695: execution_time = 0.500741004944
+[rosout][INFO] 2021-09-07 14:17:34,696: success = True
+[rosout][INFO] 2021-09-07 14:17:34,697: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:17:34,697: time = 38.578567028
+[rosout][INFO] 2021-09-07 14:17:34,698: action = ['Chop', 'cheese', 'knife']
+[rosout][INFO] 2021-09-07 14:17:34,699: length = 6
+[rosout][INFO] 2021-09-07 14:17:34,700: success = True
+[rosout][INFO] 2021-09-07 14:17:34,701: ==================================================
+[rosout][INFO] 2021-09-07 14:17:34,702: [task=5]
+[rosout][INFO] 2021-09-07 14:17:34,703: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:17:35,536: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:17:35,543: using_ings: [set(['green_pepper']), {}]
+[rosout][INFO] 2021-09-07 14:17:35,544: using_objects: {'plate': 'plate', 'near_cutting_board': 'near_cutting_board', 'green_pepper': 'green_pepper', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:17:35,545: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:17:35,546: goal_diff: {'green_pepper_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:17:35,548: current: {'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'green_pepper_is_on': 'cheese', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:17:35,549: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'None', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'cheese', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:17:35,560: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:17:35,565: plan =  -> Scrape/chopped_green_pepper/bowl/knife
+[rosout][INFO] 2021-09-07 14:17:35,566: length = 1
+[rosout][INFO] 2021-09-07 14:17:35,567: num_of_expand = 3
+[rosout][INFO] 2021-09-07 14:17:35,569: time = 0.00232911109924
+[rosout][INFO] 2021-09-07 14:17:35,577: success = True
+[rosout][INFO] 2021-09-07 14:17:35,578: ==================================================
+[rosout][INFO] 2021-09-07 14:17:35,582: [ola=0] ['Scrape', 'chopped_green_pepper', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:17:35,906: move_to: 2
+[rosout][INFO] 2021-09-07 14:17:41,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:41,836: move_to: 2
+[rosout][INFO] 2021-09-07 14:17:48,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:48,273: linear_motion: 0.666666666667
+[rosout][INFO] 2021-09-07 14:17:52,325: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:17:55,268: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:17:55,367: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:18:05,614: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:18:08,166: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:08,168: reassign
+[rosout][INFO] 2021-09-07 14:18:08,870: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:18:09,675: {'plate': [], 'pot': [], 'bowl': ['chopped_onion', 'chopped_green_pepper'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:18:09,955: move_to: 2
+[rosout][INFO] 2021-09-07 14:18:14,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:14,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:18:14,768: planning_time = 0.241633892059
+[rosout][INFO] 2021-09-07 14:18:14,773: execution_time = 0.49995803833
+[rosout][INFO] 2021-09-07 14:18:14,774: success = True
+[rosout][INFO] 2021-09-07 14:18:14,776: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:18:14,777: planning_time = 0.272580862045
+[rosout][INFO] 2021-09-07 14:18:14,778: execution_time = 0.9998960495
+[rosout][INFO] 2021-09-07 14:18:14,779: success = True
+[rosout][INFO] 2021-09-07 14:18:14,780: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:18:14,780: planning_time = 0.108407020569
+[rosout][INFO] 2021-09-07 14:18:14,782: execution_time = 1.09065198898
+[rosout][INFO] 2021-09-07 14:18:14,783: success = True
+[rosout][INFO] 2021-09-07 14:18:14,784: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:18:14,786: planning_time = 0.00285506248474
+[rosout][INFO] 2021-09-07 14:18:14,788: execution_time = 1.59677410126
+[rosout][INFO] 2021-09-07 14:18:14,789: success = True
+[rosout][INFO] 2021-09-07 14:18:14,790: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:18:14,791: planning_time = 0.190670013428
+[rosout][INFO] 2021-09-07 14:18:14,792: execution_time = 0.500572919846
+[rosout][INFO] 2021-09-07 14:18:14,793: success = True
+[rosout][INFO] 2021-09-07 14:18:14,794: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:18:14,795: time = 39.1844267845
+[rosout][INFO] 2021-09-07 14:18:14,796: action = ['Scrape', 'chopped_green_pepper', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:18:14,797: length = 5
+[rosout][INFO] 2021-09-07 14:18:14,797: success = True
+[rosout][INFO] 2021-09-07 14:18:14,798: ==================================================
+[rosout][INFO] 2021-09-07 14:18:14,799: [task=6]
+[rosout][INFO] 2021-09-07 14:18:14,800: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:18:15,595: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:18:15,596: using_ings: [set(['cheese']), {}]
+[rosout][INFO] 2021-09-07 14:18:15,597: using_objects: {'plate': 'plate', 'cheese': 'cheese', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:18:15,598: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True}
+[rosout][INFO] 2021-09-07 14:18:15,599: goal_diff: {'cheese_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:18:15,600: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'cheese_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:18:15,601: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table1', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'None', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:18:15,602: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:18:15,603: plan =  -> Scrape/chopped_cheese/bowl/knife
+[rosout][INFO] 2021-09-07 14:18:15,604: length = 1
+[rosout][INFO] 2021-09-07 14:18:15,604: num_of_expand = 2
+[rosout][INFO] 2021-09-07 14:18:15,605: time = 0.000433921813965
+[rosout][INFO] 2021-09-07 14:18:15,606: success = True
+[rosout][INFO] 2021-09-07 14:18:15,606: ==================================================
+[rosout][INFO] 2021-09-07 14:18:15,607: [ola=0] ['Scrape', 'chopped_cheese', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:18:15,920: move_to: 2
+[rosout][INFO] 2021-09-07 14:18:21,466: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:22,073: move_to: 4
+[rosout][INFO] 2021-09-07 14:18:30,820: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:30,868: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:18:35,701: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:18:38,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:38,466: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:18:52,524: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:18:55,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:18:55,267: reassign
+[rosout][INFO] 2021-09-07 14:18:55,968: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:18:56,737: {'plate': [], 'pot': [], 'bowl': ['chopped_onion', 'chopped_green_pepper', 'chopped_cheese'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:18:56,997: move_to: 2
+[rosout][INFO] 2021-09-07 14:19:02,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:02,067: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,068: planning_time = 0.256139039993
+[rosout][INFO] 2021-09-07 14:19:02,069: execution_time = 0.500658035278
+[rosout][INFO] 2021-09-07 14:19:02,070: success = True
+[rosout][INFO] 2021-09-07 14:19:02,071: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,072: planning_time = 0.409651994705
+[rosout][INFO] 2021-09-07 14:19:02,073: execution_time = 1.69960594177
+[rosout][INFO] 2021-09-07 14:19:02,074: success = True
+[rosout][INFO] 2021-09-07 14:19:02,077: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,078: planning_time = 0.00356602668762
+[rosout][INFO] 2021-09-07 14:19:02,079: execution_time = 1.09529280663
+[rosout][INFO] 2021-09-07 14:19:02,080: success = True
+[rosout][INFO] 2021-09-07 14:19:02,081: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,082: planning_time = 0.00275206565857
+[rosout][INFO] 2021-09-07 14:19:02,083: execution_time = 1.99637103081
+[rosout][INFO] 2021-09-07 14:19:02,084: success = True
+[rosout][INFO] 2021-09-07 14:19:02,085: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,088: planning_time = 0.231559991837
+[rosout][INFO] 2021-09-07 14:19:02,089: execution_time = 0.501185894012
+[rosout][INFO] 2021-09-07 14:19:02,091: success = True
+[rosout][INFO] 2021-09-07 14:19:02,092: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:19:02,093: time = 46.4593179226
+[rosout][INFO] 2021-09-07 14:19:02,094: action = ['Scrape', 'chopped_cheese', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:19:02,095: length = 5
+[rosout][INFO] 2021-09-07 14:19:02,095: success = True
+[rosout][INFO] 2021-09-07 14:19:02,096: ==================================================
+[rosout][INFO] 2021-09-07 14:19:02,097: [task=7]
+[rosout][INFO] 2021-09-07 14:19:02,099: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:19:02,891: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:19:02,896: using_ings: [set(['black_olive']), {}]
+[rosout][INFO] 2021-09-07 14:19:02,898: using_objects: {'plate': 'plate', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'black_olive': 'black_olive', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:19:02,899: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True, 'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:19:02,900: goal_diff: {'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:19:02,901: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'black_olive_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:19:02,902: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table1', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'None', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:19:02,935: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:19:02,937: plan =  -> Place/knife/table/tool -> PickUp/black_olive -> PutOn/black_olive/bowl/None
+[rosout][INFO] 2021-09-07 14:19:02,938: length = 3
+[rosout][INFO] 2021-09-07 14:19:02,939: num_of_expand = 29
+[rosout][INFO] 2021-09-07 14:19:02,940: time = 0.0318729877472
+[rosout][INFO] 2021-09-07 14:19:02,941: success = True
+[rosout][INFO] 2021-09-07 14:19:02,942: ==================================================
+[rosout][INFO] 2021-09-07 14:19:02,943: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:19:02,944: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:19:03,891: move_to: 5
+[rosout][INFO] 2021-09-07 14:19:12,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:12,222: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:19:19,467: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:19,468: ['knife']
+[rosout][INFO] 2021-09-07 14:19:20,969: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:19:21,614: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:19:24,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:24,713: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:19:32,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:32,667: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:32,668: planning_time = 0.145437002182
+[rosout][INFO] 2021-09-07 14:19:32,668: execution_time = 2.09966897964
+[rosout][INFO] 2021-09-07 14:19:32,669: success = True
+[rosout][INFO] 2021-09-07 14:19:32,670: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:32,671: planning_time = 0.0574960708618
+[rosout][INFO] 2021-09-07 14:19:32,673: execution_time = 1.04188299179
+[rosout][INFO] 2021-09-07 14:19:32,673: success = True
+[rosout][INFO] 2021-09-07 14:19:32,674: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:32,675: planning_time = None
+[rosout][INFO] 2021-09-07 14:19:32,676: execution_time = None
+[rosout][INFO] 2021-09-07 14:19:32,677: success = True
+[rosout][INFO] 2021-09-07 14:19:32,678: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:19:32,679: planning_time = 0.0485119819641
+[rosout][INFO] 2021-09-07 14:19:32,679: execution_time = 1.049877882
+[rosout][INFO] 2021-09-07 14:19:32,680: success = True
+[rosout][INFO] 2021-09-07 14:19:32,681: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:19:32,682: time = 29.7229580879
+[rosout][INFO] 2021-09-07 14:19:32,683: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:19:32,683: length = 4
+[rosout][INFO] 2021-09-07 14:19:32,684: success = True
+[rosout][INFO] 2021-09-07 14:19:32,688: ==================================================
+[rosout][INFO] 2021-09-07 14:19:32,689: [ola=1] ['PickUp', 'black_olive']
+[rosout][INFO] 2021-09-07 14:19:32,914: move_to: 21
+[rosout][INFO] 2021-09-07 14:19:51,165: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:51,349: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:19:58,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:19:58,766: obj_hierarchy = ['black_olive']
+[rosout][INFO] 2021-09-07 14:20:00,284: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:20:00,462: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:20:07,766: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:07,774: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:07,776: planning_time = 0.0760540962219
+[rosout][INFO] 2021-09-07 14:20:07,781: execution_time = 2.89816904068
+[rosout][INFO] 2021-09-07 14:20:07,782: success = True
+[rosout][INFO] 2021-09-07 14:20:07,783: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:07,784: planning_time = 0.0843830108643
+[rosout][INFO] 2021-09-07 14:20:07,786: execution_time = 1.11425495148
+[rosout][INFO] 2021-09-07 14:20:07,787: success = True
+[rosout][INFO] 2021-09-07 14:20:07,788: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:07,789: planning_time = None
+[rosout][INFO] 2021-09-07 14:20:07,790: execution_time = None
+[rosout][INFO] 2021-09-07 14:20:07,791: success = True
+[rosout][INFO] 2021-09-07 14:20:07,792: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:07,793: planning_time = 0.0988380908966
+[rosout][INFO] 2021-09-07 14:20:07,794: execution_time = 1.20028090477
+[rosout][INFO] 2021-09-07 14:20:07,801: success = True
+[rosout][INFO] 2021-09-07 14:20:07,802: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:20:07,803: time = 35.0843040943
+[rosout][INFO] 2021-09-07 14:20:07,804: action = ['PickUp', 'black_olive']
+[rosout][INFO] 2021-09-07 14:20:07,805: length = 4
+[rosout][INFO] 2021-09-07 14:20:07,806: success = True
+[rosout][INFO] 2021-09-07 14:20:07,807: ==================================================
+[rosout][INFO] 2021-09-07 14:20:07,808: [ola=2] ['PutOn', 'black_olive', 'bowl', 'None']
+[rosout][INFO] 2021-09-07 14:20:08,238: move_to: 27
+[rosout][INFO] 2021-09-07 14:20:29,965: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:30,136: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:20:36,165: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:37,652: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:20:38,287: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:20:41,467: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:41,471: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:20:42,311: {'plate': [], 'pot': [], 'bowl': ['chopped_onion', 'chopped_green_pepper', 'chopped_cheese', 'black_olive'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:20:42,367: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:20:48,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:48,367: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:48,368: planning_time = 0.26686501503
+[rosout][INFO] 2021-09-07 14:20:48,368: execution_time = 2.49943494797
+[rosout][INFO] 2021-09-07 14:20:48,369: success = True
+[rosout][INFO] 2021-09-07 14:20:48,370: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:48,371: planning_time = 0.0724790096283
+[rosout][INFO] 2021-09-07 14:20:48,372: execution_time = 0.826132059097
+[rosout][INFO] 2021-09-07 14:20:48,373: success = True
+[rosout][INFO] 2021-09-07 14:20:48,374: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:48,375: planning_time = None
+[rosout][INFO] 2021-09-07 14:20:48,376: execution_time = None
+[rosout][INFO] 2021-09-07 14:20:48,377: success = True
+[rosout][INFO] 2021-09-07 14:20:48,378: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:20:48,378: planning_time = 0.00242900848389
+[rosout][INFO] 2021-09-07 14:20:48,379: execution_time = 0.998944997787
+[rosout][INFO] 2021-09-07 14:20:48,380: success = True
+[rosout][INFO] 2021-09-07 14:20:48,382: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:20:48,383: time = 40.5570690632
+[rosout][INFO] 2021-09-07 14:20:48,385: action = ['PutOn', 'black_olive', 'bowl', 'None']
+[rosout][INFO] 2021-09-07 14:20:48,386: length = 4
+[rosout][INFO] 2021-09-07 14:20:48,387: success = True
+[rosout][INFO] 2021-09-07 14:20:48,387: ==================================================
+[rosout][INFO] 2021-09-07 14:20:48,389: [task=8]
+[rosout][INFO] 2021-09-07 14:20:48,393: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:20:49,189: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:20:49,191: using_ings: [set(['tomato']), {}]
+[rosout][INFO] 2021-09-07 14:20:49,192: using_objects: {'tomato': 'tomato', 'plate': 'plate', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:20:49,193: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'chopped_tomato': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True, 'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:20:49,194: goal_diff: {'chopped_tomato': True}
+[rosout][INFO] 2021-09-07 14:20:49,195: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'black_olive_is_in': 'bowl', 'oregano_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'pot_is_on': 'table1', 'knife_is_on': 'table1', 'onion_is_in': 'bowl', 'pan_is_on': 'table1', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'tomato_is_on': 'table1', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:20:49,196: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table', 'knife_is_on': 'table1', 'spread_on_oregano': 'None', 'holding': 'None', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'bowl', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': False, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:20:49,369: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:20:49,370: plan =  -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife
+[rosout][INFO] 2021-09-07 14:20:49,371: length = 4
+[rosout][INFO] 2021-09-07 14:20:49,372: num_of_expand = 312
+[rosout][INFO] 2021-09-07 14:20:49,373: time = 0.171277999878
+[rosout][INFO] 2021-09-07 14:20:49,374: success = True
+[rosout][INFO] 2021-09-07 14:20:49,375: ==================================================
+[rosout][INFO] 2021-09-07 14:20:49,376: [ola=0] ['PickUp', 'tomato']
+[rosout][INFO] 2021-09-07 14:20:49,614: move_to: 4
+[rosout][INFO] 2021-09-07 14:20:57,366: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:20:57,501: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:21:06,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:06,667: obj_hierarchy = ['tomato']
+[rosout][INFO] 2021-09-07 14:21:07,620: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:21:07,668: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:21:15,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:15,369: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:15,374: planning_time = 0.234488010406
+[rosout][INFO] 2021-09-07 14:21:15,375: execution_time = 1.5997030735
+[rosout][INFO] 2021-09-07 14:21:15,376: success = True
+[rosout][INFO] 2021-09-07 14:21:15,377: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:15,378: planning_time = 0.0368058681488
+[rosout][INFO] 2021-09-07 14:21:15,378: execution_time = 1.06198310852
+[rosout][INFO] 2021-09-07 14:21:15,379: success = True
+[rosout][INFO] 2021-09-07 14:21:15,380: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:15,381: planning_time = None
+[rosout][INFO] 2021-09-07 14:21:15,381: execution_time = None
+[rosout][INFO] 2021-09-07 14:21:15,382: success = True
+[rosout][INFO] 2021-09-07 14:21:15,383: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:15,384: planning_time = 0.00373101234436
+[rosout][INFO] 2021-09-07 14:21:15,385: execution_time = 1.09498286247
+[rosout][INFO] 2021-09-07 14:21:15,385: success = True
+[rosout][INFO] 2021-09-07 14:21:15,386: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:21:15,387: time = 25.9926261902
+[rosout][INFO] 2021-09-07 14:21:15,388: action = ['PickUp', 'tomato']
+[rosout][INFO] 2021-09-07 14:21:15,389: length = 4
+[rosout][INFO] 2021-09-07 14:21:15,389: success = True
+[rosout][INFO] 2021-09-07 14:21:15,390: ==================================================
+[rosout][INFO] 2021-09-07 14:21:15,391: [ola=1] ['Place', 'tomato', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:21:15,392: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:21:16,360: move_to: 9
+[rosout][INFO] 2021-09-07 14:21:26,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:26,599: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:21:33,866: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:33,869: ['tomato']
+[rosout][INFO] 2021-09-07 14:21:35,196: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:21:35,888: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:21:38,866: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:38,967: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:21:46,266: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:46,267: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:46,268: planning_time = 0.158328056335
+[rosout][INFO] 2021-09-07 14:21:46,271: execution_time = 2.10037899017
+[rosout][INFO] 2021-09-07 14:21:46,272: success = True
+[rosout][INFO] 2021-09-07 14:21:46,273: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:46,274: planning_time = 0.0348818302155
+[rosout][INFO] 2021-09-07 14:21:46,279: execution_time = 1.16362905502
+[rosout][INFO] 2021-09-07 14:21:46,280: success = True
+[rosout][INFO] 2021-09-07 14:21:46,282: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:46,283: planning_time = None
+[rosout][INFO] 2021-09-07 14:21:46,284: execution_time = None
+[rosout][INFO] 2021-09-07 14:21:46,285: success = True
+[rosout][INFO] 2021-09-07 14:21:46,286: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:21:46,287: planning_time = 0.00233006477356
+[rosout][INFO] 2021-09-07 14:21:46,288: execution_time = 1.19633722305
+[rosout][INFO] 2021-09-07 14:21:46,288: success = True
+[rosout][INFO] 2021-09-07 14:21:46,289: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:21:46,290: time = 30.8751409054
+[rosout][INFO] 2021-09-07 14:21:46,291: action = ['Place', 'tomato', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:21:46,292: length = 4
+[rosout][INFO] 2021-09-07 14:21:46,293: success = True
+[rosout][INFO] 2021-09-07 14:21:46,294: ==================================================
+[rosout][INFO] 2021-09-07 14:21:46,294: [ola=2] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:21:46,511: move_to: 9
+[rosout][INFO] 2021-09-07 14:21:58,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:21:58,625: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:22:05,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:05,866: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:22:07,326: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:22:07,366: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:22:14,766: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:14,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:14,768: planning_time = 0.0723481178284
+[rosout][INFO] 2021-09-07 14:22:14,769: execution_time = 1.80094504356
+[rosout][INFO] 2021-09-07 14:22:14,770: success = True
+[rosout][INFO] 2021-09-07 14:22:14,770: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:14,771: planning_time = 0.0611469745636
+[rosout][INFO] 2021-09-07 14:22:14,772: execution_time = 1.0376188755
+[rosout][INFO] 2021-09-07 14:22:14,773: success = True
+[rosout][INFO] 2021-09-07 14:22:14,774: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:14,775: planning_time = None
+[rosout][INFO] 2021-09-07 14:22:14,776: execution_time = None
+[rosout][INFO] 2021-09-07 14:22:14,777: success = True
+[rosout][INFO] 2021-09-07 14:22:14,778: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:14,779: planning_time = 0.00232410430908
+[rosout][INFO] 2021-09-07 14:22:14,780: execution_time = 1.19651508331
+[rosout][INFO] 2021-09-07 14:22:14,781: success = True
+[rosout][INFO] 2021-09-07 14:22:14,781: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:22:14,782: time = 28.471626997
+[rosout][INFO] 2021-09-07 14:22:14,783: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:22:14,784: length = 4
+[rosout][INFO] 2021-09-07 14:22:14,785: success = True
+[rosout][INFO] 2021-09-07 14:22:14,785: ==================================================
+[rosout][INFO] 2021-09-07 14:22:14,786: [ola=3] ['Chop', 'tomato', 'knife']
+[rosout][INFO] 2021-09-07 14:22:15,013: move_to: 2
+[rosout][INFO] 2021-09-07 14:22:20,472: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:20,769: move_to: 6
+[rosout][INFO] 2021-09-07 14:22:29,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:29,265: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:22:34,756: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:22:38,138: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:38,176: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:22:42,473: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:22:47,177: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:22:53,985: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:54,223: move_to: 2
+[rosout][INFO] 2021-09-07 14:22:59,834: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:22:59,836: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,838: planning_time = 0.149166107178
+[rosout][INFO] 2021-09-07 14:22:59,838: execution_time = 0.499246120453
+[rosout][INFO] 2021-09-07 14:22:59,839: success = True
+[rosout][INFO] 2021-09-07 14:22:59,840: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,841: planning_time = 0.205884933472
+[rosout][INFO] 2021-09-07 14:22:59,841: execution_time = 1.50095915794
+[rosout][INFO] 2021-09-07 14:22:59,842: success = True
+[rosout][INFO] 2021-09-07 14:22:59,843: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,844: planning_time = 0.100918054581
+[rosout][INFO] 2021-09-07 14:22:59,844: execution_time = 1.09608697891
+[rosout][INFO] 2021-09-07 14:22:59,845: success = True
+[rosout][INFO] 2021-09-07 14:22:59,846: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,847: planning_time = 0.0123598575592
+[rosout][INFO] 2021-09-07 14:22:59,847: execution_time = 0.00153183937073
+[rosout][INFO] 2021-09-07 14:22:59,848: success = True
+[rosout][INFO] 2021-09-07 14:22:59,849: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,850: planning_time = 0.00856995582581
+[rosout][INFO] 2021-09-07 14:22:59,851: execution_time = 0.00242304801941
+[rosout][INFO] 2021-09-07 14:22:59,852: success = True
+[rosout][INFO] 2021-09-07 14:22:59,853: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:22:59,854: planning_time = 0.158303022385
+[rosout][INFO] 2021-09-07 14:22:59,854: execution_time = 0.500785827637
+[rosout][INFO] 2021-09-07 14:22:59,855: success = True
+[rosout][INFO] 2021-09-07 14:22:59,856: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:22:59,857: time = 45.0493450165
+[rosout][INFO] 2021-09-07 14:22:59,858: action = ['Chop', 'tomato', 'knife']
+[rosout][INFO] 2021-09-07 14:22:59,858: length = 6
+[rosout][INFO] 2021-09-07 14:22:59,859: success = True
+[rosout][INFO] 2021-09-07 14:22:59,860: ==================================================
+[rosout][INFO] 2021-09-07 14:22:59,861: [task=9]
+[rosout][INFO] 2021-09-07 14:22:59,862: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:23:00,649: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:23:00,650: using_ings: [set(['tomato']), {}]
+[rosout][INFO] 2021-09-07 14:23:00,651: using_objects: {'tomato': 'tomato', 'plate': 'plate', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:23:00,652: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'chopped_tomato': True, 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True, 'tomato_is_in': 'bowl', 'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:23:00,653: goal_diff: {'tomato_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:23:00,654: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'black_olive_is_in': 'bowl', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:23:00,655: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'bowl', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table1', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'None', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:23:00,661: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:23:00,662: plan =  -> Scrape/chopped_tomato/bowl/knife
+[rosout][INFO] 2021-09-07 14:23:00,663: length = 1
+[rosout][INFO] 2021-09-07 14:23:00,664: num_of_expand = 3
+[rosout][INFO] 2021-09-07 14:23:00,665: time = 0.00156283378601
+[rosout][INFO] 2021-09-07 14:23:00,666: success = True
+[rosout][INFO] 2021-09-07 14:23:00,667: ==================================================
+[rosout][INFO] 2021-09-07 14:23:00,668: [ola=0] ['Scrape', 'chopped_tomato', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:23:00,980: move_to: 2
+[rosout][INFO] 2021-09-07 14:23:06,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:06,673: move_to: 2
+[rosout][INFO] 2021-09-07 14:23:12,666: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:12,834: linear_motion: 0.666666666667
+[rosout][INFO] 2021-09-07 14:23:17,266: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:23:19,766: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:19,967: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:23:33,902: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:23:36,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:36,467: reassign
+[rosout][INFO] 2021-09-07 14:23:37,168: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:23:37,946: {'plate': [], 'pot': [], 'bowl': ['chopped_onion', 'chopped_cheese', 'chopped_green_pepper', 'black_olive', 'chopped_tomato'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:23:38,126: move_to: 2
+[rosout][INFO] 2021-09-07 14:23:43,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:43,667: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:23:43,674: planning_time = 0.214697122574
+[rosout][INFO] 2021-09-07 14:23:43,675: execution_time = 0.501740217209
+[rosout][INFO] 2021-09-07 14:23:43,676: success = True
+[rosout][INFO] 2021-09-07 14:23:43,676: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:23:43,677: planning_time = 0.209610939026
+[rosout][INFO] 2021-09-07 14:23:43,678: execution_time = 0.800213098526
+[rosout][INFO] 2021-09-07 14:23:43,679: success = True
+[rosout][INFO] 2021-09-07 14:23:43,680: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:23:43,681: planning_time = 0.0701680183411
+[rosout][INFO] 2021-09-07 14:23:43,682: execution_time = 1.02872610092
+[rosout][INFO] 2021-09-07 14:23:43,683: success = True
+[rosout][INFO] 2021-09-07 14:23:43,684: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:23:43,685: planning_time = 0.00292611122131
+[rosout][INFO] 2021-09-07 14:23:43,686: execution_time = 1.79819703102
+[rosout][INFO] 2021-09-07 14:23:43,687: success = True
+[rosout][INFO] 2021-09-07 14:23:43,688: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:23:43,689: planning_time = 0.162262916565
+[rosout][INFO] 2021-09-07 14:23:43,690: execution_time = 0.497117996216
+[rosout][INFO] 2021-09-07 14:23:43,691: success = True
+[rosout][INFO] 2021-09-07 14:23:43,692: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:23:43,693: time = 42.9986829758
+[rosout][INFO] 2021-09-07 14:23:43,694: action = ['Scrape', 'chopped_tomato', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:23:43,695: length = 5
+[rosout][INFO] 2021-09-07 14:23:43,696: success = True
+[rosout][INFO] 2021-09-07 14:23:43,702: ==================================================
+[rosout][INFO] 2021-09-07 14:23:43,703: [task=10]
+[rosout][INFO] 2021-09-07 14:23:43,704: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:23:44,502: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:23:44,503: using_ings: [set(['spinach']), {}]
+[rosout][INFO] 2021-09-07 14:23:44,503: using_objects: {'plate': 'plate', 'spinach': 'spinach', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:23:44,504: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'bowl', 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True, 'chopped_spinach': True, 'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:23:44,505: goal_diff: {'chopped_spinach': True}
+[rosout][INFO] 2021-09-07 14:23:44,506: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'black_olive_is_in': 'bowl', 'tomato_is_in': 'bowl', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:23:44,506: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'bowl', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'bowl', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': False, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:23:44,921: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:23:44,925: plan =  -> Place/knife/table/tool -> PickUp/spinach -> Place/spinach/cutting_board/ingredient -> PickUp/knife -> Chop/spinach/knife
+[rosout][INFO] 2021-09-07 14:23:44,926: length = 5
+[rosout][INFO] 2021-09-07 14:23:44,927: num_of_expand = 673
+[rosout][INFO] 2021-09-07 14:23:44,933: time = 0.414010047913
+[rosout][INFO] 2021-09-07 14:23:44,934: success = True
+[rosout][INFO] 2021-09-07 14:23:44,935: ==================================================
+[rosout][INFO] 2021-09-07 14:23:44,936: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:23:44,937: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:23:45,829: move_to: 6
+[rosout][INFO] 2021-09-07 14:23:55,566: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:23:55,740: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:24:02,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:02,868: ['knife']
+[rosout][INFO] 2021-09-07 14:24:04,670: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:24:05,251: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:24:07,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:07,911: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:24:15,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:15,067: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:15,068: planning_time = 0.1216340065
+[rosout][INFO] 2021-09-07 14:24:15,069: execution_time = 2.09938406944
+[rosout][INFO] 2021-09-07 14:24:15,070: success = True
+[rosout][INFO] 2021-09-07 14:24:15,071: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:15,072: planning_time = 0.0766291618347
+[rosout][INFO] 2021-09-07 14:24:15,073: execution_time = 1.12187099457
+[rosout][INFO] 2021-09-07 14:24:15,078: success = True
+[rosout][INFO] 2021-09-07 14:24:15,079: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:15,079: planning_time = None
+[rosout][INFO] 2021-09-07 14:24:15,080: execution_time = None
+[rosout][INFO] 2021-09-07 14:24:15,081: success = True
+[rosout][INFO] 2021-09-07 14:24:15,082: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:15,083: planning_time = 0.0463738441467
+[rosout][INFO] 2021-09-07 14:24:15,084: execution_time = 1.15246796608
+[rosout][INFO] 2021-09-07 14:24:15,084: success = True
+[rosout][INFO] 2021-09-07 14:24:15,085: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:24:15,086: time = 30.129912138
+[rosout][INFO] 2021-09-07 14:24:15,087: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:24:15,088: length = 4
+[rosout][INFO] 2021-09-07 14:24:15,088: success = True
+[rosout][INFO] 2021-09-07 14:24:15,089: ==================================================
+[rosout][INFO] 2021-09-07 14:24:15,090: [ola=1] ['PickUp', 'spinach']
+[rosout][INFO] 2021-09-07 14:24:15,305: move_to: 11
+[rosout][INFO] 2021-09-07 14:24:28,665: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:28,865: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:24:37,066: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:37,078: obj_hierarchy = ['spinach']
+[rosout][INFO] 2021-09-07 14:24:38,529: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:24:38,644: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:24:45,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:45,873: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:45,875: planning_time = 0.0647609233856
+[rosout][INFO] 2021-09-07 14:24:45,876: execution_time = 2.89925718307
+[rosout][INFO] 2021-09-07 14:24:45,877: success = True
+[rosout][INFO] 2021-09-07 14:24:45,878: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:45,879: planning_time = 0.100905895233
+[rosout][INFO] 2021-09-07 14:24:45,883: execution_time = 0.997802019119
+[rosout][INFO] 2021-09-07 14:24:45,884: success = True
+[rosout][INFO] 2021-09-07 14:24:45,885: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:45,885: planning_time = None
+[rosout][INFO] 2021-09-07 14:24:45,886: execution_time = None
+[rosout][INFO] 2021-09-07 14:24:45,887: success = True
+[rosout][INFO] 2021-09-07 14:24:45,888: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:24:45,888: planning_time = 0.0802330970764
+[rosout][INFO] 2021-09-07 14:24:45,889: execution_time = 1.01824998856
+[rosout][INFO] 2021-09-07 14:24:45,890: success = True
+[rosout][INFO] 2021-09-07 14:24:45,891: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:24:45,892: time = 30.7827689648
+[rosout][INFO] 2021-09-07 14:24:45,892: action = ['PickUp', 'spinach']
+[rosout][INFO] 2021-09-07 14:24:45,893: length = 4
+[rosout][INFO] 2021-09-07 14:24:45,894: success = True
+[rosout][INFO] 2021-09-07 14:24:45,895: ==================================================
+[rosout][INFO] 2021-09-07 14:24:45,896: [ola=2] ['Place', 'spinach', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:24:45,896: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:24:46,805: move_to: 8
+[rosout][INFO] 2021-09-07 14:24:57,965: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:24:58,195: linear_motion: 0.75
+[rosout][INFO] 2021-09-07 14:25:04,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:04,766: ['spinach']
+[rosout][INFO] 2021-09-07 14:25:06,161: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:25:06,861: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:25:10,122: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:10,169: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:25:17,466: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:17,468: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:17,468: planning_time = 0.108773946762
+[rosout][INFO] 2021-09-07 14:25:17,469: execution_time = 2.49913311005
+[rosout][INFO] 2021-09-07 14:25:17,470: success = True
+[rosout][INFO] 2021-09-07 14:25:17,471: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:17,472: planning_time = 0.131625890732
+[rosout][INFO] 2021-09-07 14:25:17,473: execution_time = 1.06734108925
+[rosout][INFO] 2021-09-07 14:25:17,473: success = True
+[rosout][INFO] 2021-09-07 14:25:17,474: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:17,475: planning_time = None
+[rosout][INFO] 2021-09-07 14:25:17,476: execution_time = None
+[rosout][INFO] 2021-09-07 14:25:17,477: success = True
+[rosout][INFO] 2021-09-07 14:25:17,478: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:17,479: planning_time = 0.0045599937439
+[rosout][INFO] 2021-09-07 14:25:17,479: execution_time = 1.19390511513
+[rosout][INFO] 2021-09-07 14:25:17,480: success = True
+[rosout][INFO] 2021-09-07 14:25:17,481: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:25:17,482: time = 31.5711259842
+[rosout][INFO] 2021-09-07 14:25:17,483: action = ['Place', 'spinach', 'cutting_board', 'ingredient']
+[rosout][INFO] 2021-09-07 14:25:17,484: length = 4
+[rosout][INFO] 2021-09-07 14:25:17,485: success = True
+[rosout][INFO] 2021-09-07 14:25:17,485: ==================================================
+[rosout][INFO] 2021-09-07 14:25:17,486: [ola=3] ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:25:17,709: move_to: 8
+[rosout][INFO] 2021-09-07 14:25:27,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:27,903: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:25:35,166: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:35,167: obj_hierarchy = ['knife']
+[rosout][INFO] 2021-09-07 14:25:36,585: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:25:36,666: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:25:43,966: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:43,967: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:43,968: planning_time = 0.0888459682465
+[rosout][INFO] 2021-09-07 14:25:43,969: execution_time = 1.69974994659
+[rosout][INFO] 2021-09-07 14:25:43,970: success = True
+[rosout][INFO] 2021-09-07 14:25:43,971: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:43,971: planning_time = 0.0387480258942
+[rosout][INFO] 2021-09-07 14:25:43,972: execution_time = 0.959703922272
+[rosout][INFO] 2021-09-07 14:25:43,978: success = True
+[rosout][INFO] 2021-09-07 14:25:43,980: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:43,981: planning_time = None
+[rosout][INFO] 2021-09-07 14:25:43,982: execution_time = None
+[rosout][INFO] 2021-09-07 14:25:43,982: success = True
+[rosout][INFO] 2021-09-07 14:25:43,983: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:25:43,984: planning_time = 0.00229620933533
+[rosout][INFO] 2021-09-07 14:25:43,985: execution_time = 0.996450901031
+[rosout][INFO] 2021-09-07 14:25:43,986: success = True
+[rosout][INFO] 2021-09-07 14:25:43,987: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:25:43,987: time = 26.4787831306
+[rosout][INFO] 2021-09-07 14:25:43,988: action = ['PickUp', 'knife']
+[rosout][INFO] 2021-09-07 14:25:43,989: length = 4
+[rosout][INFO] 2021-09-07 14:25:43,990: success = True
+[rosout][INFO] 2021-09-07 14:25:43,991: ==================================================
+[rosout][INFO] 2021-09-07 14:25:43,997: [ola=4] ['Chop', 'spinach', 'knife']
+[rosout][INFO] 2021-09-07 14:25:44,230: move_to: 2
+[rosout][INFO] 2021-09-07 14:25:49,165: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:49,411: move_to: 5
+[rosout][INFO] 2021-09-07 14:25:58,166: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:25:58,314: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:26:04,622: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:26:07,955: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:08,035: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:26:10,967: reciprocating_motion: 1.0
+[rosout][INFO] 2021-09-07 14:26:14,853: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:26:17,367: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:17,614: move_to: 2
+[rosout][INFO] 2021-09-07 14:26:24,066: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:24,068: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,069: planning_time = 0.165475845337
+[rosout][INFO] 2021-09-07 14:26:24,070: execution_time = 0.500642061234
+[rosout][INFO] 2021-09-07 14:26:24,071: success = True
+[rosout][INFO] 2021-09-07 14:26:24,072: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,073: planning_time = 0.0608870983124
+[rosout][INFO] 2021-09-07 14:26:24,074: execution_time = 1.50031113625
+[rosout][INFO] 2021-09-07 14:26:24,075: success = True
+[rosout][INFO] 2021-09-07 14:26:24,076: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,077: planning_time = 0.0505061149597
+[rosout][INFO] 2021-09-07 14:26:24,078: execution_time = 1.04782795906
+[rosout][INFO] 2021-09-07 14:26:24,079: success = True
+[rosout][INFO] 2021-09-07 14:26:24,080: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,081: planning_time = 0.071671962738
+[rosout][INFO] 2021-09-07 14:26:24,082: execution_time = 0.00118589401245
+[rosout][INFO] 2021-09-07 14:26:24,083: success = True
+[rosout][INFO] 2021-09-07 14:26:24,085: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,086: planning_time = 0.00263690948486
+[rosout][INFO] 2021-09-07 14:26:24,087: execution_time = 0.00115585327148
+[rosout][INFO] 2021-09-07 14:26:24,088: success = True
+[rosout][INFO] 2021-09-07 14:26:24,089: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,090: planning_time = 0.148727893829
+[rosout][INFO] 2021-09-07 14:26:24,091: execution_time = 0.499873876572
+[rosout][INFO] 2021-09-07 14:26:24,092: success = True
+[rosout][INFO] 2021-09-07 14:26:24,093: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:26:24,093: time = 40.0696461201
+[rosout][INFO] 2021-09-07 14:26:24,094: action = ['Chop', 'spinach', 'knife']
+[rosout][INFO] 2021-09-07 14:26:24,095: length = 6
+[rosout][INFO] 2021-09-07 14:26:24,096: success = True
+[rosout][INFO] 2021-09-07 14:26:24,097: ==================================================
+[rosout][INFO] 2021-09-07 14:26:24,098: [task=11]
+[rosout][INFO] 2021-09-07 14:26:24,099: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:26:24,879: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:26:24,881: using_ings: [set(['spinach']), {}]
+[rosout][INFO] 2021-09-07 14:26:24,882: using_objects: {'plate': 'plate', 'spinach': 'spinach', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:26:24,883: goal: {'green_pepper_is_in': 'bowl', 'exist_green_pepper': True, 'exist_spinach': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'bowl', 'exist_oregano': True, 'onion_is_in': 'bowl', 'exist_black_olive': True, 'exist_tomato': True, 'exist_cheese': True, 'cheese_is_in': 'bowl', 'chopped_onion': True, 'chopped_spinach': True, 'spinach_is_in': 'bowl', 'black_olive_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:26:24,884: goal_diff: {'spinach_is_in': 'bowl'}
+[rosout][INFO] 2021-09-07 14:26:24,885: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'black_olive_is_in': 'bowl', 'tomato_is_in': 'bowl', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:26:24,886: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table1', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'bowl', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'None', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'bowl', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': True, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:26:24,894: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:26:24,895: plan =  -> Scrape/chopped_spinach/bowl/knife
+[rosout][INFO] 2021-09-07 14:26:24,896: length = 1
+[rosout][INFO] 2021-09-07 14:26:24,897: num_of_expand = 3
+[rosout][INFO] 2021-09-07 14:26:24,900: time = 0.00084400177002
+[rosout][INFO] 2021-09-07 14:26:24,901: success = True
+[rosout][INFO] 2021-09-07 14:26:24,902: ==================================================
+[rosout][INFO] 2021-09-07 14:26:24,903: [ola=0] ['Scrape', 'chopped_spinach', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:26:25,129: move_to: 2
+[rosout][INFO] 2021-09-07 14:26:30,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:31,055: move_to: 2
+[rosout][INFO] 2021-09-07 14:26:36,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:36,984: linear_motion: 0.666666666667
+[rosout][INFO] 2021-09-07 14:26:41,289: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:26:43,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:26:44,239: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:26:58,398: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:27:01,065: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:01,066: reassign
+[rosout][INFO] 2021-09-07 14:27:01,768: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:27:02,547: {'plate': [], 'pot': [], 'bowl': ['chopped_onion', 'chopped_cheese', 'black_olive', 'chopped_green_pepper', 'chopped_tomato', 'chopped_spinach'], 'pan': []}
+[rosout][INFO] 2021-09-07 14:27:02,735: move_to: 2
+[rosout][INFO] 2021-09-07 14:27:07,965: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:07,967: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:07,967: planning_time = 0.165381193161
+[rosout][INFO] 2021-09-07 14:27:07,968: execution_time = 0.499004840851
+[rosout][INFO] 2021-09-07 14:27:07,969: success = True
+[rosout][INFO] 2021-09-07 14:27:07,970: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:07,971: planning_time = 0.491246938705
+[rosout][INFO] 2021-09-07 14:27:07,972: execution_time = 0.999596834183
+[rosout][INFO] 2021-09-07 14:27:07,973: success = True
+[rosout][INFO] 2021-09-07 14:27:07,973: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:07,974: planning_time = 0.119676113129
+[rosout][INFO] 2021-09-07 14:27:07,975: execution_time = 0.978991031647
+[rosout][INFO] 2021-09-07 14:27:07,976: success = True
+[rosout][INFO] 2021-09-07 14:27:07,977: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:07,978: planning_time = 0.0746440887451
+[rosout][INFO] 2021-09-07 14:27:07,978: execution_time = 1.82394599915
+[rosout][INFO] 2021-09-07 14:27:07,979: success = True
+[rosout][INFO] 2021-09-07 14:27:07,980: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:07,981: planning_time = 0.171159029007
+[rosout][INFO] 2021-09-07 14:27:07,982: execution_time = 0.504378080368
+[rosout][INFO] 2021-09-07 14:27:07,983: success = True
+[rosout][INFO] 2021-09-07 14:27:07,984: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:27:07,984: time = 43.0630328655
+[rosout][INFO] 2021-09-07 14:27:07,985: action = ['Scrape', 'chopped_spinach', 'bowl', 'knife']
+[rosout][INFO] 2021-09-07 14:27:07,986: length = 5
+[rosout][INFO] 2021-09-07 14:27:07,990: success = True
+[rosout][INFO] 2021-09-07 14:27:07,990: ==================================================
+[rosout][INFO] 2021-09-07 14:27:07,991: [task=12]
+[rosout][INFO] 2021-09-07 14:27:07,992: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:27:08,783: ####### generate problem #######
+[rosout][INFO] 2021-09-07 14:27:08,785: using_ings: [set(['salad']), {}]
+[rosout][INFO] 2021-09-07 14:27:08,786: using_objects: {'plate': 'plate', 'salad': 'salad', 'near_cutting_board': 'near_cutting_board', 'pot': 'pot', 'bowl': 'bowl', 'cutting_board': 'cutting_board', 'spatula': 'spatula', 'spreader': 'spreader', 'scooper': 'scooper', 'table': 'table', 'stove': 'stove', 'pan': 'pan', 'knife': 'knife'}
+[rosout][INFO] 2021-09-07 14:27:08,787: goal: {'exist_salad': True, 'chopped_green_pepper': True, 'chopped_cheese': True, 'chopped_tomato': True, 'exist_oregano': True, 'chopped_onion': True, 'chopped_spinach': True}
+[rosout][INFO] 2021-09-07 14:27:08,788: goal_diff: {'exist_salad': True}
+[rosout][INFO] 2021-09-07 14:27:08,788: current: {'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'pan_is_on': 'table1', 'spatula_is_on': 'table1', 'pot_is_on': 'table1', 'oregano_is_on': 'table1', 'onion_is_in': 'bowl', 'holding': 'knife', 'bowl_is_on': 'near_cutting_board', 'cheese_is_in': 'bowl', 'scooper_is_on': 'table1', 'black_olive_is_in': 'bowl', 'tomato_is_in': 'bowl', 'spinach_is_in': 'bowl', 'spreader_is_on': 'table1'}
+[rosout][INFO] 2021-09-07 14:27:08,789: initial: {'exist_cheese': True, 'exist_spinach': True, 'oregano_is_in': 'None', 'exist_green_pepper': True, 'spinach_is_on': 'table', 'spatula_is_on': 'table1', 'chopped_cheese': True, 'cooked_spinach': False, 'cooked_oregano': False, 'cooked_black_olive': False, 'exist_oregano': True, 'oregano_is_on': 'table1', 'salad_is_in': 'None', 'bowl_is_on': 'near_cutting_board', 'chopped_salad': False, 'onion_is_on': 'table', 'cooked_tomato': False, 'salad_is_on': 'table', 'cooked_cheese': False, 'spread_on_salad': 'None', 'exist_salad': False, 'black_olive_is_on': 'table', 'knife_is_on': 'table', 'spread_on_oregano': 'None', 'holding': 'knife', 'spread_on_cheese': 'None', 'spread_on_onion': 'None', 'black_olive_is_in': 'bowl', 'spread_on_tomato': 'None', 'spread_on_black_olive': 'None', 'cooked_salad': False, 'cheese_is_on': 'table', 'pot_is_on': 'table1', 'cooked_onion': False, 'chopped_green_pepper': True, 'spinach_is_in': 'bowl', 'exist_black_olive': True, 'cheese_is_in': 'bowl', 'spread_on_green_pepper': 'None', 'chopped_oregano': False, 'cooked_green_pepper': False, 'green_pepper_is_in': 'bowl', 'plate_is_on': 'near_cutting_board', 'tomato_is_on': 'table', 'chopped_black_olive': False, 'exist_onion': True, 'chopped_tomato': True, 'tomato_is_in': 'bowl', 'pan_is_on': 'table1', 'onion_is_in': 'bowl', 'exist_tomato': True, 'green_pepper_is_on': 'table', 'scooper_is_on': 'table1', 'spreader_is_on': 'table1', 'chopped_onion': True, 'chopped_spinach': True, 'spread_on_spinach': 'None'}
+[rosout][INFO] 2021-09-07 14:27:08,805: ####### task plan info #######
+[rosout][INFO] 2021-09-07 14:27:08,806: plan =  -> Place/knife/table/tool -> PickUp/spatula -> Stir/bowl/salad/spatula
+[rosout][INFO] 2021-09-07 14:27:08,807: length = 3
+[rosout][INFO] 2021-09-07 14:27:08,808: num_of_expand = 26
+[rosout][INFO] 2021-09-07 14:27:08,809: time = 0.0146679878235
+[rosout][INFO] 2021-09-07 14:27:08,809: success = True
+[rosout][INFO] 2021-09-07 14:27:08,810: ==================================================
+[rosout][INFO] 2021-09-07 14:27:08,811: [ola=0] ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:27:08,812: wait for update_place_pose_state
+[rosout][INFO] 2021-09-07 14:27:09,799: move_to: 5
+[rosout][INFO] 2021-09-07 14:27:18,365: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:18,501: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:27:27,349: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:27,354: ['knife']
+[rosout][INFO] 2021-09-07 14:27:28,822: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:27:29,344: Motion Type Interaction Completed
+[rosout][INFO] 2021-09-07 14:27:31,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:32,004: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:27:39,765: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:39,767: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:39,768: planning_time = 0.214573144913
+[rosout][INFO] 2021-09-07 14:27:39,769: execution_time = 2.10032582283
+[rosout][INFO] 2021-09-07 14:27:39,770: success = True
+[rosout][INFO] 2021-09-07 14:27:39,770: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:39,771: planning_time = 0.0374569892883
+[rosout][INFO] 2021-09-07 14:27:39,772: execution_time = 0.961349010468
+[rosout][INFO] 2021-09-07 14:27:39,773: success = True
+[rosout][INFO] 2021-09-07 14:27:39,773: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:39,774: planning_time = None
+[rosout][INFO] 2021-09-07 14:27:39,777: execution_time = None
+[rosout][INFO] 2021-09-07 14:27:39,779: success = True
+[rosout][INFO] 2021-09-07 14:27:39,780: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:27:39,781: planning_time = 0.0396327972412
+[rosout][INFO] 2021-09-07 14:27:39,782: execution_time = 0.95895409584
+[rosout][INFO] 2021-09-07 14:27:39,783: success = True
+[rosout][INFO] 2021-09-07 14:27:39,784: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:27:39,784: time = 30.9551360607
+[rosout][INFO] 2021-09-07 14:27:39,785: action = ['Place', 'knife', 'table', 'tool']
+[rosout][INFO] 2021-09-07 14:27:39,786: length = 4
+[rosout][INFO] 2021-09-07 14:27:39,787: success = True
+[rosout][INFO] 2021-09-07 14:27:39,788: ==================================================
+[rosout][INFO] 2021-09-07 14:27:39,788: [ola=1] ['PickUp', 'spatula']
+[rosout][INFO] 2021-09-07 14:27:39,913: move_to: 3
+[rosout][INFO] 2021-09-07 14:27:47,465: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:47,614: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:27:54,766: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:27:54,768: obj_hierarchy = ['spatula']
+[rosout][INFO] 2021-09-07 14:27:56,369: Hand Sync Completed
+[rosout][INFO] 2021-09-07 14:27:56,469: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:28:03,265: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:28:03,267: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:28:03,267: planning_time = 0.0670189857483
+[rosout][INFO] 2021-09-07 14:28:03,268: execution_time = 1.5978000164
+[rosout][INFO] 2021-09-07 14:28:03,269: success = True
+[rosout][INFO] 2021-09-07 14:28:03,270: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:28:03,271: planning_time = 0.050281047821
+[rosout][INFO] 2021-09-07 14:28:03,272: execution_time = 0.948354005814
+[rosout][INFO] 2021-09-07 14:28:03,273: success = True
+[rosout][INFO] 2021-09-07 14:28:03,274: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:28:03,275: planning_time = None
+[rosout][INFO] 2021-09-07 14:28:03,276: execution_time = None
+[rosout][INFO] 2021-09-07 14:28:03,277: success = True
+[rosout][INFO] 2021-09-07 14:28:03,278: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:28:03,279: planning_time = 0.00507807731628
+[rosout][INFO] 2021-09-07 14:28:03,280: execution_time = 0.993607997894
+[rosout][INFO] 2021-09-07 14:28:03,281: success = True
+[rosout][INFO] 2021-09-07 14:28:03,282: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:28:03,283: time = 23.477230072
+[rosout][INFO] 2021-09-07 14:28:03,284: action = ['PickUp', 'spatula']
+[rosout][INFO] 2021-09-07 14:28:03,289: length = 4
+[rosout][INFO] 2021-09-07 14:28:03,290: success = True
+[rosout][INFO] 2021-09-07 14:28:03,291: ==================================================
+[rosout][INFO] 2021-09-07 14:28:03,292: [ola=2] ['Stir', 'bowl', 'salad', 'spatula']
+[rosout][INFO] 2021-09-07 14:28:03,514: move_to: 16
+[rosout][INFO] 2021-09-07 14:28:18,272: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:28:18,635: move_to: 8
+[rosout][INFO] 2021-09-07 14:28:29,095: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:28:29,174: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:28:35,966: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:28:36,108: circular_motion: 1.0
+[rosout][INFO] 2021-09-07 14:29:19,673: circular_motion: 1.0
+[rosout][INFO] 2021-09-07 14:30:02,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:30:02,989: linear_motion: 1.0
+[rosout][INFO] 2021-09-07 14:30:09,865: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:30:10,196: move_to: 49
+[rosout][INFO] 2021-09-07 14:30:48,565: Scene Sync Completed
+[rosout][INFO] 2021-09-07 14:30:48,567: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,568: planning_time = 0.150186777115
+[rosout][INFO] 2021-09-07 14:30:48,569: execution_time = 1.99948191643
+[rosout][INFO] 2021-09-07 14:30:48,572: success = True
+[rosout][INFO] 2021-09-07 14:30:48,573: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,574: planning_time = 0.2718501091
+[rosout][INFO] 2021-09-07 14:30:48,575: execution_time = 2.49953913689
+[rosout][INFO] 2021-09-07 14:30:48,575: success = True
+[rosout][INFO] 2021-09-07 14:30:48,576: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,577: planning_time = 0.00950694084167
+[rosout][INFO] 2021-09-07 14:30:48,578: execution_time = 0.789278030396
+[rosout][INFO] 2021-09-07 14:30:48,579: success = True
+[rosout][INFO] 2021-09-07 14:30:48,580: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,580: planning_time = 0.0411298274994
+[rosout][INFO] 2021-09-07 14:30:48,581: execution_time = 3.05397605896
+[rosout][INFO] 2021-09-07 14:30:48,582: success = True
+[rosout][INFO] 2021-09-07 14:30:48,583: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,584: planning_time = 0.00609993934631
+[rosout][INFO] 2021-09-07 14:30:48,585: execution_time = 3.08884310722
+[rosout][INFO] 2021-09-07 14:30:48,585: success = True
+[rosout][INFO] 2021-09-07 14:30:48,586: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,587: planning_time = 0.0251660346985
+[rosout][INFO] 2021-09-07 14:30:48,588: execution_time = 0.773679971695
+[rosout][INFO] 2021-09-07 14:30:48,589: success = True
+[rosout][INFO] 2021-09-07 14:30:48,590: ####### motion plan info #######
+[rosout][INFO] 2021-09-07 14:30:48,593: planning_time = 0.23238992691
+[rosout][INFO] 2021-09-07 14:30:48,594: execution_time = 4.59802103043
+[rosout][INFO] 2021-09-07 14:30:48,595: success = True
+[rosout][INFO] 2021-09-07 14:30:48,596: ####### object-level action info #######
+[rosout][INFO] 2021-09-07 14:30:48,596: time = 165.274520159
+[rosout][INFO] 2021-09-07 14:30:48,597: action = ['Stir', 'bowl', 'salad', 'spatula']
+[rosout][INFO] 2021-09-07 14:30:48,598: length = 7
+[rosout][INFO] 2021-09-07 14:30:48,599: success = True
+[rospy.core][INFO] 2021-09-07 14:30:48,616: signal_shutdown [atexit]
+[rospy.internal][INFO] 2021-09-07 14:30:48,620: topic[/collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2021-09-07 14:30:48,620: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-09-07 14:30:48,620: topic[/tf_static] removing connection to /rviz_wng_26438_1310312606729041644
+[rospy.internal][INFO] 2021-09-07 14:30:48,620: topic[/tf_static] removing connection to /move_group
+[rospy.internal][INFO] 2021-09-07 14:30:48,620: topic[/tf_static] removing connection to /move_group_commander_wrappers_1630991201663322304
+[rospy.internal][INFO] 2021-09-07 14:30:48,621: topic[/attached_collision_object] removing connection to /move_group
+[rospy.internal][INFO] 2021-09-07 14:30:48,621: topic[/action] removing connection to /rviz_wng_26438_1310312606729041644
+[rospy.impl.masterslave][INFO] 2021-09-07 14:30:48,621: atexit

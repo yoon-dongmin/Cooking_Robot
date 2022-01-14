@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="panda">
+    <xacro:include filename="$(find franka_description)/robots/panda_arm_rail.xacro"/>
+    <xacro:include filename="$(find franka_description)/robots/hand_rail.xacro"/>
+    <xacro:panda_arm connected_to="world" safety_distance="0.005"/>
+    <xacro:hand ns="panda" rpy="0 0 ${-pi/4}" connected_to="panda_link8" safety_distance="0.00"/>
+
+    
+    <!-- table -->
+    <xacro:property name="table_w" value="0.5"/>
+    <xacro:property name="table_l" value="3.0"/>
+    <xacro:property name="table_h" value="0.4"/>
+    <xacro:property name="table_dx" value="0.5"/>
+    
+    <link name="world"/>
+    <joint name="world_to_table1" type="fixed">
+        <parent link="world" />
+        <child link="table1" />
+        <origin xyz="${table_dx} 0 ${table_h}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="table1">
+        <visual>
+            <origin xyz="0 0 -${table_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${table_w} ${table_l} ${table_h}"/>
+            </geometry>
+            <material name="table">
+                <color rgba="0.4 0.2 0.0 1.0"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 -${table_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${table_w} ${table_l} ${table_h}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- sauce shelf -->
+    <xacro:property name="shelf_w" value="0.2"/>
+    <xacro:property name="shelf_l" value="0.8"/>
+    <xacro:property name="shelf_h" value="0.02"/>    
+    <xacro:property name="shelf_dh" value="0.1"/>
+
+    <joint name="table1_to_sauce_shelf" type="fixed">
+        <parent link="table1" />
+        <child link="table1_sauce_shelf" />
+        <origin xyz="${(table_w-shelf_w)/2} ${-(table_l-shelf_l)/2} ${shelf_dh}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="table1_sauce_shelf">
+        <visual>
+            <origin xyz="0 0 -${shelf_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${shelf_w} ${shelf_l} ${shelf_h}"/>
+            </geometry>
+            <material name="table">
+                <color rgba="0.4 0.2 0.0 1.0"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 -${shelf_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${shelf_w} ${shelf_l} ${shelf_h}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- stove -->
+    <xacro:property name="stove_w" value="0.5"/>
+    <xacro:property name="stove_l" value="0.5"/>
+    <xacro:property name="stove_h" value="0.4"/>
+    <xacro:property name="stove_dx" value="0.5"/>
+    <xacro:property name="stove_dy" value="2"/>
+
+    <joint name="world_to_stove" type="fixed">
+        <parent link="world" />
+        <child link="stove" />
+        <origin xyz="${stove_dx} ${stove_dy} ${stove_h}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="stove">
+        <visual>
+            <origin xyz="0 0 -${stove_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${stove_w} ${stove_l} ${stove_h}"/>
+            </geometry>
+            <material name="stove">
+                <color rgba="0.15 0.15 0.15 1.0"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 -${stove_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${stove_w} ${stove_l} ${stove_h}"/>
+            </geometry>
+        </collision>
+    </link>
+
+    <!-- cutting_board -->
+    <xacro:property name="cuttingboard_w" value="0.3"/>
+    <xacro:property name="cuttingboard_l" value="0.4"/>
+    <xacro:property name="cuttingboard_h" value="0.07"/>
+    <xacro:property name="cuttingboard_dx" value="0.5"/>
+    <xacro:property name="cuttingboard_dy" value="-0.49"/>
+    <xacro:property name="cuttingboard_dh" value="0.47"/>
+
+    <joint name="world_to_cuttingboard" type="fixed">
+        <parent link="world" />
+        <child link="cuttingboard" />
+        <origin xyz="${cuttingboard_dx} ${cuttingboard_dy} ${cuttingboard_dh}" rpy="0 0 0"/>
+    </joint>
+
+    <link name="cuttingboard">
+        <visual>
+            <origin xyz="0 0 -${cuttingboard_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${cuttingboard_w} ${cuttingboard_l} ${cuttingboard_h}"/>
+            </geometry>
+            <material name="cuttingboard">
+                <color rgba="0.4 0.2 0.0 1.0"/>
+            </material>
+        </visual>
+
+        <collision>
+            <origin xyz="0 0 -${cuttingboard_h/2}" rpy="0 0 0"/>
+            <geometry>
+                <box size="${cuttingboard_w} ${cuttingboard_l} ${cuttingboard_h}"/>
+            </geometry>
+        </collision>
+    </link>
+
+
+</robot>

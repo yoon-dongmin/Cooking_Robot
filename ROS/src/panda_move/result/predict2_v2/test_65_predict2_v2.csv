@@ -1,0 +1,13 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'cooked_bacon': True},5, -> PickUp/bacon -> PutOn/bacon/pan/None -> PickUp/pan -> Place/pan/stove/cookware -> Activate/stove/bacon,True,1.0737171173095703,1882
+2,{'chopped_tomato': True},4, -> PickUp/tomato -> Place/tomato/cutting_board/ingredient -> PickUp/knife -> Chop/tomato/knife,True,0.5091838836669922,732
+3,{'spread_on_bread1': 'hot_sauce'},3, -> Place/knife/table/tool -> PickUp/hot_sauce_bottle -> Pour/hot_sauce_bottle/bread1/hot_sauce,True,0.02734088897705078,38
+4,{'ham_is_on': 'bread1'},3, -> Place/hot_sauce_bottle/table/ing_bottle -> PickUp/ham -> PutOn/ham/bread1/None,True,0.04996800422668457,60
+5,{'turkey_is_on': 'ham'},2, -> PickUp/turkey -> PutOn/turkey/ham/None,True,0.04523110389709473,51
+6,{'cheese_is_on': 'turkey'},2, -> PickUp/cheese -> PutOn/cheese/turkey/None,True,0.015166997909545898,19
+7,{'spread_on_bread2': 'hot_sauce'},2, -> PickUp/hot_sauce_bottle -> Pour/hot_sauce_bottle/bread2/hot_sauce,True,0.031941890716552734,30
+8,{'bread2_is_on': 'cheese'},3, -> Place/hot_sauce_bottle/table/ing_bottle -> PickUp/bread2 -> PutOn/bread2/cheese/None,True,0.060717105865478516,84
+9,{'bacon_is_on': 'bread2'},2, -> PickUp/bacon -> PutOn/bacon/bread2/None,True,0.033564090728759766,33
+10,{'spinach_is_on': 'bacon'},2, -> PickUp/spinach -> PutOn/spinach/bacon/None,True,0.037973880767822266,44
+11,{'tomato_is_on': 'spinach'},2, -> PickUp/scooper -> Scoop/chopped_tomato/spinach/scooper,True,0.022949934005737305,27
+12,{'exist_sandwich': True},3, -> Place/scooper/table/tool -> PickUp/bread3 -> PutOn/bread3/chopped_tomato/sandwich,True,0.050640106201171875,63

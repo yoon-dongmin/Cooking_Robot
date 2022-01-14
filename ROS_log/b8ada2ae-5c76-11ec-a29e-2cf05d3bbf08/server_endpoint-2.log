@@ -1,0 +1,30 @@
+[rospy.client][INFO] 2021-12-14 09:42:33,248: init_node, name[/server_endpoint], pid[8742]
+[xmlrpc][INFO] 2021-12-14 09:42:33,248: XML-RPC server binding to 0.0.0.0:0
+[xmlrpc][INFO] 2021-12-14 09:42:33,249: Started XML-RPC server [http://wng:39529/]
+[rospy.init][INFO] 2021-12-14 09:42:33,249: ROS Slave URI: [http://wng:39529/]
+[rospy.impl.masterslave][INFO] 2021-12-14 09:42:33,249: _ready: http://wng:39529/
+[xmlrpc][INFO] 2021-12-14 09:42:33,249: xml rpc node: starting XML-RPC server
+[rospy.registration][INFO] 2021-12-14 09:42:33,249: Registering with master node http://localhost:11311
+[rospy.init][INFO] 2021-12-14 09:42:33,349: registered with master
+[rospy.rosout][INFO] 2021-12-14 09:42:33,349: initializing /rosout core topic
+[rospy.rosout][INFO] 2021-12-14 09:42:33,350: connected to core topic /rosout
+[rospy.simtime][INFO] 2021-12-14 09:42:33,351: /use_sim_time is not set, will not subscribe to simulated time [/clock] topic
+[rosout][INFO] 2021-12-14 09:42:33,357: Starting server on 192.168.0.8:10000
+[rospy.internal][INFO] 2021-12-14 09:42:33,644: topic[/rosout] adding connection to [/rosout], count 0
+[rosout][INFO] 2021-12-14 09:42:43,169: Connection from 192.168.0.8
+[rosout][INFO] 2021-12-14 09:42:43,173: RegisterPublisher(execution_check, <class 'panda_move.msg._ExecutionCheck.ExecutionCheck'>) OK
+[rospy.internal][INFO] 2021-12-14 09:42:43,281: topic[/execution_check] adding connection to [http://wng:39529/], count 0
+[rospy.internal][INFO] 2021-12-14 09:42:43,282: topic[/execution_check] adding connection to [/server_endpoint], count 0
+[rosout][ERROR] 2021-12-14 09:44:50,384: Exception: No more data available
+[rosout][INFO] 2021-12-14 09:44:50,386: Disconnected from 192.168.0.8
+[rospy.core][INFO] 2021-12-14 09:44:51,691: signal_shutdown [signal-2]
+[rospy.internal][INFO] 2021-12-14 09:44:51,699: topic[/execution_check] removing connection to /server_endpoint
+[rospy.internal][INFO] 2021-12-14 09:44:51,700: topic[/rosout] removing connection to /rosout
+[rospy.internal][INFO] 2021-12-14 09:44:51,700: topic[/execution_check] removing connection to http://wng:39529/
+[rospy.impl.masterslave][INFO] 2021-12-14 09:44:51,700: signal-2
+[rospy.internal][WARNING] 2021-12-14 09:44:51,701: Unknown error initiating TCP/IP socket to wng:37471 (http://wng:39529/): Traceback (most recent call last):
+  File "/opt/ros/melodic/lib/python2.7/dist-packages/rospy/impl/tcpros_base.py", line 563, in connect
+    self.local_endpoint = self.socket.getsockname()
+AttributeError: 'NoneType' object has no attribute 'getsockname'
+
+[rospy.core][INFO] 2021-12-14 09:44:51,833: signal_shutdown [atexit]

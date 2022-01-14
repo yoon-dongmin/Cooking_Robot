@@ -1,0 +1,16 @@
+task,subgoal,length,plan,success,time,num_of_expand
+1,{'chopped_tuna': True},4, -> PickUp/tuna -> Place/tuna/cutting_board/ingredient -> PickUp/knife -> Chop/tuna/knife,True,1.3038427829742432,1597
+2,{'tuna_is_in': 'bowl'},5, -> Place/knife/table/tool -> PickUp/bowl -> Place/bowl/near_cutting_board/dishware -> PickUp/knife -> Scrape/chopped_tuna/bowl/knife,True,0.7275919914245605,934
+3,{'mayonnaise_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/mayonnaise_bottle -> Pour/mayonnaise_bottle/bowl/mayonnaise,True,0.02315807342529297,37
+4,{'chopped_onion': True},5, -> Place/mayonnaise_bottle/table/ing_bottle -> PickUp/onion -> Place/onion/cutting_board/ingredient -> PickUp/knife -> Chop/onion/knife,True,4.9127819538116455,5776
+5,{'onion_is_in': 'bowl'},1, -> Scrape/chopped_onion/bowl/knife,True,0.003754138946533203,4
+6,{'pepper_is_in': 'bowl'},3, -> Place/knife/table/tool -> PickUp/pepper_bottle -> Pour/pepper_bottle/bowl/pepper,True,0.007018089294433594,15
+7,{'exist_tuna_spread': True},3, -> Place/pepper_bottle/table/ing_bottle -> PickUp/spatula -> Stir/bowl/tuna_spread/spatula,True,0.1149439811706543,144
+8,{'spread_on_garlic_bread1': 'butter'},3, -> Place/spatula/table/tool -> PickUp/spreader -> Spread/butter/garlic_bread1/spreader,True,0.03644704818725586,33
+9,{'spread_on_garlic_bread2': 'butter'},1, -> Spread/butter/garlic_bread2/spreader,True,0.005239963531494141,6
+10,{'tuna_spread_is_on': 'garlic_bread1'},3, -> Place/spreader/table/tool -> PickUp/scooper -> Scoop/tuna_spread/garlic_bread1/scooper,True,0.017786026000976562,20
+11,{'chopped_broccoli': True},5, -> Place/scooper/table/tool -> PickUp/broccoli -> Place/broccoli/cutting_board/ingredient -> PickUp/knife -> Chop/broccoli/knife,True,1.7493789196014404,1969
+12,{'broccoli_is_on': 'tuna_spread'},3, -> Place/knife/table/tool -> PickUp/scooper -> Scoop/chopped_broccoli/tuna_spread/scooper,True,0.1390690803527832,91
+13,{'spread_on_broccoli': 'salt'},3, -> Place/scooper/table/tool -> PickUp/salt_bottle -> Pour/salt_bottle/chopped_broccoli/salt,True,0.038240909576416016,48
+14,{'exist_sandwich': True},3, -> Place/salt_bottle/table/ing_bottle -> PickUp/garlic_bread2 -> PutOn/garlic_bread2/chopped_broccoli/sandwich,True,0.1907649040222168,167
+15,{'chopped_sandwich': True},4, -> PickUp/sandwich -> Place/sandwich/cutting_board/ingredient -> PickUp/knife -> Chop/sandwich/knife,True,2.6512041091918945,2103
